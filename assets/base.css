@@ -3325,4 +3325,7 @@ details-disclosure > details {
     --easter-egg: none;
     --sparkle: url('./sparkle.gif');
   }
+footer.footer {
+  background: url('./wood.png') no-repeat center center;
+  background: red !important;
 }

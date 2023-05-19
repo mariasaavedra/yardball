@@ -447,6 +447,10 @@
   color: #fff;
   text-align: center;
 }
+.card__information:hover {
+  background: #F6494B;
+  transition: all .25s cubic-bezier(.17,.67,.83,.67);
+}
 .card__information h3 {
   color: #fff;
 }

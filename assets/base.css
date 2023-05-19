@@ -3279,6 +3279,9 @@ header.header {
   border-radius: 24px;
   overflow: hidden;
   margin: 0 1rem;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
   transition: all .25s cubic-bezier(.17,.67,.83,.67);
 }
 

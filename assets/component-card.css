@@ -443,4 +443,6 @@
   background: #181818;
   transition: all .25s cubic-bezier(.17,.67,.83,.67);
   cursor: pointer;
+  text: #fff;
+  text-align: center;
 }

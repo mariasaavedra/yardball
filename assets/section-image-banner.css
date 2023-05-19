@@ -482,7 +482,6 @@ h2.banner__heading.inline-richtext.h1 {
 
 .button--primary {
   position: relative;
-
 }
 .button--primary:after {
   content: '';
@@ -494,4 +493,16 @@ h2.banner__heading.inline-richtext.h1 {
   background-repeat: no-repeat;
   width: 28px;
   height: 35px;
+}
+
+.banner__content.banner__content--middle-left:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/Group_228.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 45%;
+  height: 100%;
 }

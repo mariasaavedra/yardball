@@ -4,6 +4,7 @@
   --alpha-button-border: 1;
   --alpha-link: 0.85;
   --alpha-badge-border: 0.1;
+  --font-family-header: 'bobby_jones_softregular', sans-serif;
 }
 
 @font-face {
@@ -875,7 +876,10 @@ summary::-webkit-details-marker {
   line-height: calc(1 + 0.8 / var(--font-body-scale));
   letter-spacing: 0.06rem;
   color: rgba(var(--color-foreground), 0.7);
-  font-family: var(--font-family-header) !important;
+}
+
+.subtitle > p {
+  font-family: var(--font-family-header);
 }
 
 .subtitle--small {

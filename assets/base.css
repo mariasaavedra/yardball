@@ -3370,9 +3370,14 @@ header.header {
   background: #EEE7D6;
   border-radius: 24px;
   overflow: hidden;
+  margin: 0 1rem;
+  transition: all .25s cubic-bezier(.17,.67,.83,.67);
 }
 
-
+.card.card--standard.card--media.card--shape:hover {
+  transition: all .25s cubic-bezier(.17,.67,.83,.67);
+  box-shadow: 0px 96px 38px rgba(31, 30, 20, 0.01), 0px 54px 32px rgba(31, 30, 20, 0.05), 0px 24px 24px rgba(31, 30, 20, 0.09), 0px 6px 13px rgba(31, 30, 20, 0.1), 0px 0px 0px rgba(31, 30, 20, 0.1);
+}
 
 .card__information,
 .card__information h3, 
@@ -3384,6 +3389,12 @@ header.header {
 }
 .card__information {
   background: #181818;
+  transition: all .25s cubic-bezier(.17,.67,.83,.67);
+  cursor: pointer;
+}
+.card__information:hover {
+  background: #F6494B;
+  transition: all .25s cubic-bezier(.17,.67,.83,.67);
 }
 .card__information h3 {
   margin: 0;
@@ -3400,6 +3411,7 @@ header.header {
   font-size: 42px;
   line-height: 180%;
   text-transform: uppercase;
+  margin-bottom: 4rem;
 }
 .list-menu__item {
   font-family: var(--font-family-header);

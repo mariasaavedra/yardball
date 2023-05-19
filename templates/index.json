@@ -36,7 +36,7 @@
       ],
       "custom_css": [
         "h2,p {color: #000;}",
-        ".banner {max-height: 100px;}"
+        ".banner {max-height: 100px !important; overflow: hidden !important;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hero-bg_608c799f-a9ca-4cce-9262-58fd7f486fb7.png",

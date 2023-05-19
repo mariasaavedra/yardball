@@ -35,12 +35,13 @@
         "button"
       ],
       "custom_css": [
-        "h2,p {color: #000;}"
+        "h2,p {color: #000;}",
+        ".banner {max-height: 100px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hero-bg_608c799f-a9ca-4cce-9262-58fd7f486fb7.png",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "large",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",

@@ -3388,3 +3388,16 @@ header.header {
 .card__information h3 {
   margin: 0;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.collection__title h2 {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 180%;
+  text-transform: uppercase;
+}

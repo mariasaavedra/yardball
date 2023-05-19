@@ -1,5 +1,6 @@
 .multicolumn .title {
   margin: 0;
+  margin: 0 auto;
 }
 
 .multicolumn.no-heading .title {
@@ -133,6 +134,7 @@
 
 .multicolumn-card__info {
   padding: 2.5rem;
+  text-align: center;
 }
 
 .background-none .multicolumn-card__info {

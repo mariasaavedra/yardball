@@ -3295,7 +3295,7 @@ header.header {
   color: #fff;
   font-size: 24px;
 }
-.card--standard>.card__content .card__information,
+
 .card__information {
   background: #181818;
   transition: all .25s cubic-bezier(.17,.67,.83,.67);

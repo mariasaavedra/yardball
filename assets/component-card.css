@@ -366,15 +366,6 @@
   padding-top: 0;
 }
 
-.card--shape.card--standard:not(.card--text) .card__inner {
-  border: 0; /* Border is not currently compatible with image shapes for standard cards. */
-  background-color: transparent;
-  filter: drop-shadow(
-    var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius)
-      rgba(var(--color-shadow), var(--shadow-opacity))
-  );
-}
-
 .card--shape.card--standard:not(.card--text) .card__inner:after {
   display: none;
 }
@@ -445,4 +436,11 @@
   .grid__item:nth-child(8n) .product-card-wrapper:hover .shape--blob {
     clip-path: polygon(var(--shape--blob-5));
   }
+}
+
+.card--standard>.card__content .card__information,
+.card__information {
+  background: #181818;
+  transition: all .25s cubic-bezier(.17,.67,.83,.67);
+  cursor: pointer;
 }

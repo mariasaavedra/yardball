@@ -14,7 +14,7 @@
           "type": "text",
           "settings": {
             "text": "THE PERFECT SOFTNESS LOVED BY ALL.",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         },
         "button": {
@@ -35,7 +35,7 @@
         "button"
       ],
       "custom_css": [
-        "h2, p {color: #000;}"
+        "h2,p {color: #000;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/hero-bg_608c799f-a9ca-4cce-9262-58fd7f486fb7.png",
@@ -43,7 +43,7 @@
         "image_height": "small",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",

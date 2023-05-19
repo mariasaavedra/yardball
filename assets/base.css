@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
@@ -3356,7 +3356,7 @@ details-disclosure > details {
 }
 
 header.header {
-  height: 115px;
+  height: 110px;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -3364,4 +3364,27 @@ header.header {
 .header__icon {
   width: 32px;
   margin: 0 0.5rem;
+}
+
+.card.card--standard.card--media.card--shape {
+  background: #EEE7D6;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+
+
+.card__information,
+.card__information h3, 
+.card__information a,
+.price__container {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+.card__information {
+  background: #181818;
+}
+.card__information h3 {
+  margin: 0;
 }

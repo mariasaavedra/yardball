@@ -494,7 +494,7 @@ h2.banner__heading.inline-richtext.h1 {
   width: 28px;
   height: 35px;
 }
-
+.banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in:after,
 .banner__content.banner__content--bottom-left.page-width.scroll-trigger.animate--slide-in:after {
   display: block;
   content: '';

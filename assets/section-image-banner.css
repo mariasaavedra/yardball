@@ -495,7 +495,8 @@ h2.banner__heading.inline-richtext.h1 {
   height: 35px;
 }
 
-.banner__content.banner__content--middle-left:after {
+.banner__content.banner__content--bottom-left.page-width.scroll-trigger.animate--slide-in:after {
+  display: block;
   content: '';
   position: absolute;
   right: 0;

@@ -5,6 +5,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
+  max-width: 300px;
 }
 
 .multicolumn.no-heading .title {
@@ -95,7 +96,11 @@
 
 .multicolumn-list__item.center .media--adapt,
 .multicolumn-list__item .media--adapt .multicolumn-card__image {
-  width: auto;
+  width: 100%;
+  max-width: 80px;
+  object-fit: contain;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .multicolumn-list__item.center .media--adapt img {

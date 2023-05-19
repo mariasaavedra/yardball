@@ -3360,3 +3360,8 @@ header.header {
   padding-top: 0;
   padding-bottom: 0;
 }
+
+.header__icon {
+  width: 32px;
+  margin: 0 0.5rem;
+}

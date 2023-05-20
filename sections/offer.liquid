@@ -2,43 +2,34 @@
   This is an offer
 </h1>
 {% schema %}
-  {
-    "name": "Offer",
-    "tag": "section",
-    "class": "offer",
-    "templates": [
-      "index", "page", "product"
-    ],
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Title",
-        "default": "Offer"
-      },
-      {
-        "type": "text",
-        "id": "description",
-        "label": "Description",
-        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      {
-        "type": "text",
-        "id": "button",
-        "label": "Button",
-        "default": "Buy now"
-      },
-      {
-        "type": "text",
-        "id": "url",
-        "label": "URL",
-        "default": "#"
-      }, {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Image"
-      }
-
-    ]
-  }
+{
+  "name": "Triple Offer",
+  "presets": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "offer-title",
+      "label": "Title",
+      "default": "Offer"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "type": "text",
+      "id": "offer-button",
+      "label": "Button",
+      "default": "Buy now"
+    },
+    {
+      "type": "text",
+      "id": "offer-url",
+      "label": "URL",
+      "default": "#"
+    }
+  ]
+}
 {% endschema %}

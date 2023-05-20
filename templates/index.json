@@ -100,69 +100,70 @@
         "padding_bottom": 36
       }
     },
-    "de83b044-c207-4343-b6d1-8672c79a857b": {
-      "type": "multicolumn",
+    "cee87141-1f44-4c29-a66a-f1af0333d1e8": {
+      "type": "reviews",
       "blocks": {
-        "template--18972124250397__de83b044-c207-4343-b6d1-8672c79a857b-16842145112605f292-0": {
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-0": {
           "type": "column",
           "settings": {
-            "title": "Yardball is a fun  way to bring the family together.",
-            "text": "<p>\"Received mine today, really great quality, heft is perfect yet soft enough to catch barehanded. Really impressed by this project!\"<\/p><p>Stephen B.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "We love our Yardball!",
+            "text": "Received mine today, really great quality, heft is perfect yet soft enough to catch barehanded. Really impressed by this project!",
+            "columns_desktop": 4,
+            "columns_mobile": "1",
+            "review-rating": 4,
+            "review-author": "Author"
           }
         },
-        "template--18972124250397__de83b044-c207-4343-b6d1-8672c79a857b-16842145112605f292-1": {
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-1": {
           "type": "column",
           "settings": {
-            "title": "All in all, the Yardball makes for an amazing throwing ball .",
-            "text": "<p>\"Got mine today, team! Really nice job on it! Good balance of weight and softness.”<\/p><p>Chris H.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Yardball is a fun way to bring the family together.",
+            "text": "Received mine today, really great quality, heft is perfect yet soft enough to catch barehanded. Really impressed by this project!",
+            "columns_desktop": 4,
+            "columns_mobile": "1",
+            "review-rating": 5,
+            "review-author": "Author"
           }
         },
-        "template--18972124250397__de83b044-c207-4343-b6d1-8672c79a857b-16842145112605f292-2": {
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-2": {
           "type": "column",
           "settings": {
-            "title": "\"WE LOVE THE YARDBALL!\"",
-            "text": "<p>“Throwing it felt more like a baseball, yet when My kid got bonked in the face a couple times, it didn’t phase him. The stitching of the leather is top notch. Thank you for your efforts!\"<\/p><p><\/p><p>Mike C.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "All in all, the Yardball makes for an amazing throwing ball .",
+            "text": "Got mine today, team! Really nice job on it! Good balance of weight and softness",
+            "columns_desktop": 4,
+            "columns_mobile": "1",
+            "review-rating": 5,
+            "review-author": "Author"
           }
         },
-        "04156d79-1490-41bb-85a2-50ce1e4329a9": {
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-3": {
           "type": "column",
           "settings": {
-            "title": "No glove needed. So cool.",
-            "text": "<p>“Yardball is the perfect shape, weight, &amp; size to toss around anywhere\"<\/p><p><\/p><p>Richard B.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Perfect fit for the hand, and the weight is just right.",
+            "text": "Yardball is the perfect shape, weight, & size to toss around anywhere",
+            "columns_desktop": 4,
+            "columns_mobile": "1",
+            "review-rating": 5,
+            "review-author": "Author"
           }
         }
       },
       "block_order": [
-        "template--18972124250397__de83b044-c207-4343-b6d1-8672c79a857b-16842145112605f292-0",
-        "template--18972124250397__de83b044-c207-4343-b6d1-8672c79a857b-16842145112605f292-1",
-        "template--18972124250397__de83b044-c207-4343-b6d1-8672c79a857b-16842145112605f292-2",
-        "04156d79-1490-41bb-85a2-50ce1e4329a9"
-      ],
-      "custom_css": [
-        ".title {text-align: center;}"
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-0",
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-1",
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-2",
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-3"
       ],
       "settings": {
         "title": "100,000+ <br> Reviews From Yardballers",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
         "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "column_alignment": "left",
+        "background_style": "none",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 52,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -221,81 +222,13 @@
         "padding_top": 0,
         "padding_bottom": 52
       }
-    },
-    "cee87141-1f44-4c29-a66a-f1af0333d1e8": {
-      "type": "reviews",
-      "blocks": {
-        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-0": {
-          "type": "column",
-          "settings": {
-            "title": "We love our Yardball!",
-            "text": "Received mine today, really great quality, heft is perfect yet soft enough to catch barehanded. Really impressed by this project!",
-            "columns_desktop": 4,
-            "columns_mobile": "1",
-            "review-rating": 5,
-            "review-author": "Author"
-          }
-        },
-        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-1": {
-          "type": "column",
-          "settings": {
-            "title": "Yardball is a fun way to bring the family together.",
-            "text": "Received mine today, really great quality, heft is perfect yet soft enough to catch barehanded. Really impressed by this project!",
-            "columns_desktop": 4,
-            "columns_mobile": "1",
-            "review-rating": 5,
-            "review-author": "Author"
-          }
-        },
-        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-2": {
-          "type": "column",
-          "settings": {
-            "title": "All in all, the Yardball makes for an amazing throwing ball .",
-            "text": "Got mine today, team! Really nice job on it! Good balance of weight and softness",
-            "columns_desktop": 4,
-            "columns_mobile": "1",
-            "review-rating": 5,
-            "review-author": "Author"
-          }
-        },
-        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-3": {
-          "type": "column",
-          "settings": {
-            "title": "Perfect fit for the hand, and the weight is just right.",
-            "text": "Yardball is the perfect shape, weight, & size to toss around anywhere",
-            "columns_desktop": 4,
-            "columns_mobile": "1",
-            "review-rating": 5,
-            "review-author": "Author"
-          }
-        }
-      },
-      "block_order": [
-        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-0",
-        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-1",
-        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-2",
-        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-3"
-      ],
-      "settings": {
-        "title": "100,000+ <br> Reviews From Yardballers",
-        "heading_size": "h1",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "none",
-        "color_scheme": "background-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
     "7e66afec-905e-4dcb-83b2-eba7f5d4ceca",
     "featured_collection",
-    "de83b044-c207-4343-b6d1-8672c79a857b",
-    "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007",
-    "cee87141-1f44-4c29-a66a-f1af0333d1e8"
+    "cee87141-1f44-4c29-a66a-f1af0333d1e8",
+    "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007"
   ]
 }

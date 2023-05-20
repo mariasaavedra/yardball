@@ -134,7 +134,7 @@
           "type": "column",
           "settings": {
             "title": "No glove needed. So cool.",
-            "text": "<p>“Yardball is the perfect shape, weight, & size to toss around anywhere\"<\/p><p><\/p><p>Richard B.<\/p>",
+            "text": "<p>“Yardball is the perfect shape, weight, &amp; size to toss around anywhere\"<\/p><p><\/p><p>Richard B.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -221,6 +221,73 @@
         "padding_top": 0,
         "padding_bottom": 52
       }
+    },
+    "cee87141-1f44-4c29-a66a-f1af0333d1e8": {
+      "type": "reviews",
+      "blocks": {
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-0": {
+          "type": "column",
+          "settings": {
+            "title": "We love our Yardball!",
+            "text": "Received mine today, really great quality, heft is perfect yet soft enough to catch barehanded. Really impressed by this project!",
+            "columns_desktop": 4,
+            "columns_mobile": "1",
+            "review-rating": 5,
+            "review-author": "Author"
+          }
+        },
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-1": {
+          "type": "column",
+          "settings": {
+            "title": "Yardball is a fun way to bring the family together.",
+            "text": "Received mine today, really great quality, heft is perfect yet soft enough to catch barehanded. Really impressed by this project!",
+            "columns_desktop": 4,
+            "columns_mobile": "1",
+            "review-rating": 5,
+            "review-author": "Author"
+          }
+        },
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-2": {
+          "type": "column",
+          "settings": {
+            "title": "All in all, the Yardball makes for an amazing throwing ball .",
+            "text": "Got mine today, team! Really nice job on it! Good balance of weight and softness",
+            "columns_desktop": 4,
+            "columns_mobile": "1",
+            "review-rating": 5,
+            "review-author": "Author"
+          }
+        },
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-3": {
+          "type": "column",
+          "settings": {
+            "title": "Perfect fit for the hand, and the weight is just right.",
+            "text": "Yardball is the perfect shape, weight, & size to toss around anywhere",
+            "columns_desktop": 4,
+            "columns_mobile": "1",
+            "review-rating": 5,
+            "review-author": "Author"
+          }
+        }
+      },
+      "block_order": [
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-0",
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-1",
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-2",
+        "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -228,6 +295,7 @@
     "7e66afec-905e-4dcb-83b2-eba7f5d4ceca",
     "featured_collection",
     "de83b044-c207-4343-b6d1-8672c79a857b",
-    "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007"
+    "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007",
+    "cee87141-1f44-4c29-a66a-f1af0333d1e8"
   ]
 }

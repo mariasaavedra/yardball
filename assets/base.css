@@ -3337,3 +3337,12 @@ header.header {
   margin-right: 10rem;
   color: #F6494B;
 }
+.announcement-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  gap: 10px;
+  font-family: 'QuickSand', sans-serif;
+}

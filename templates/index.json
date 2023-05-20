@@ -51,6 +51,27 @@
         "show_text_below": false
       }
     },
+    "7e66afec-905e-4dcb-83b2-eba7f5d4ceca": {
+      "type": "announcement-bar",
+      "blocks": {
+        "template--18971860042013__7e66afec-905e-4dcb-83b2-eba7f5d4ceca-168456846466356ece-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚      BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚      BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18971860042013__7e66afec-905e-4dcb-83b2-eba7f5d4ceca-168456846466356ece-0"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "show_line_separator": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -74,7 +95,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 36
       }
@@ -125,20 +146,23 @@
         "template--18972124250397__de83b044-c207-4343-b6d1-8672c79a857b-16842145112605f292-2",
         "04156d79-1490-41bb-85a2-50ce1e4329a9"
       ],
+      "custom_css": [
+        ".title {text-align: center;}"
+      ],
       "settings": {
-        "title": "100,000+ Reviews From Yardballers",
+        "title": "100,000+ <br> Reviews From Yardballers",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 52,
         "padding_bottom": 36
       }
     },
@@ -201,6 +225,7 @@
   },
   "order": [
     "image_banner",
+    "7e66afec-905e-4dcb-83b2-eba7f5d4ceca",
     "featured_collection",
     "de83b044-c207-4343-b6d1-8672c79a857b",
     "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007"

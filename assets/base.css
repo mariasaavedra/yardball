@@ -3326,9 +3326,6 @@ header.header {
   margin-bottom: 4rem;
 }
 
-.banner__box.content-container {
-  /* padding-right: 17rem; */
-}
 
 .list-menu__item {
   font-family: var(--font-family-header);
@@ -3339,7 +3336,4 @@ header.header {
 .list-menu li:first-child a {
   margin-right: 10rem;
   color: #F6494B;
-}
-.announcement-bar {
-  display: none;
 }

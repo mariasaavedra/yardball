@@ -1,8 +1,14 @@
+<h1>
+  This is an offer
+</h1>
 {% schema %}
   {
     "name": "Offer",
     "tag": "section",
     "class": "offer",
+    "templates": [
+      "index", "page", "product"
+    ],
     "settings": [
       {
         "type": "text",
@@ -32,6 +38,7 @@
         "id": "image",
         "label": "Image"
       }
+
     ]
   }
 {% endschema %}

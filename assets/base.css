@@ -3343,7 +3343,3 @@ header.header {
 .announcement-bar {
   display: none;
 }
-
-h2.banner__heading.inline-richtext.h1 {
-  max-width: 400px;
-}

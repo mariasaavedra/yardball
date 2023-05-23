@@ -8,3 +8,6 @@
 ehthumbs.db
 Thumbs.db
 .vscode
+node_modules
+package.json
+yarn.lock

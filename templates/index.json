@@ -154,11 +154,14 @@
         "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-2",
         "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-3"
       ],
+      "custom_css": [
+        ".title {text-align: center;}"
+      ],
       "settings": {
         "title": "100,000+ <br> Reviews From Yardballers",
         "heading_size": "h1",
         "columns_desktop": 4,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "background-2",
         "columns_mobile": "1",
@@ -222,6 +225,19 @@
         "padding_top": 0,
         "padding_bottom": 52
       }
+    },
+    "447eb8bb-f5fa-4634-8fc4-96f94d3b76ff": {
+      "type": "video-slider",
+      "disabled": true,
+      "settings": {
+        "title": "Video Slider",
+        "description": "",
+        "video1": "shopify:\/\/files\/videos\/sample-5s.mp4",
+        "video2": "shopify:\/\/files\/videos\/sample-5s.mp4",
+        "video3": "shopify:\/\/files\/videos\/sample-5s.mp4",
+        "video4": "shopify:\/\/files\/videos\/sample-5s.mp4",
+        "video5": "shopify:\/\/files\/videos\/sample-5s.mp4"
+      }
     }
   },
   "order": [
@@ -229,6 +245,7 @@
     "7e66afec-905e-4dcb-83b2-eba7f5d4ceca",
     "featured_collection",
     "cee87141-1f44-4c29-a66a-f1af0333d1e8",
-    "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007"
+    "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007",
+    "447eb8bb-f5fa-4634-8fc4-96f94d3b76ff"
   ]
 }

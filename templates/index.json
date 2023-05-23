@@ -246,6 +246,13 @@
         "offer-button": "Buy now",
         "offer-url": "#"
       }
+    },
+    "a120c528-d443-47ba-b640-d01792931d3f": {
+      "type": "promo",
+      "settings": {
+        "promo-title": "Learn why everone everywhere are loving yardball!",
+        "promo-btn-title": "Find out more"
+      }
     }
   },
   "order": [
@@ -255,6 +262,7 @@
     "cee87141-1f44-4c29-a66a-f1af0333d1e8",
     "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007",
     "447eb8bb-f5fa-4634-8fc4-96f94d3b76ff",
-    "c92af774-788d-4d9f-a3bd-ddb8528c4042"
+    "c92af774-788d-4d9f-a3bd-ddb8528c4042",
+    "a120c528-d443-47ba-b640-d01792931d3f"
   ]
 }

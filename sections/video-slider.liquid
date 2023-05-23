@@ -1,28 +1,8 @@
-// create liquid based from schema below
-
-{% comment %}
-  {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
-  {{ 'component-slider.css' | asset_url | stylesheet_tag }}
-{% endcomment %}
-
-{% comment %}
-  {% javascript %}
-  {% endjavascript %}
-{% endcomment %}
-
-{% assign video1 = section.settings.video1 %}
-{% assign video2 = section.settings.video2 %}
-{% assign video3 = section.settings.video3 %}
-{% assign video4 = section.settings.video4 %}
-{% assign video5 = section.settings.video5 %}
-{% assign title = section.settings.title %}
-{% assign description = section.settings.description %}
-
 <p>{{ title }}</p>
 <p>{{ description }}</p>
 
-
-<div class="video-slider">
+{% comment %}
+  <div class="video-slider">
   <div class="video-slides">
     <div class="video-slide">
       <video autoplay muted loop>
@@ -50,6 +30,7 @@
       </video>
     </div>
   </div>
+{% endcomment %}
 
 {% schema %}
 {

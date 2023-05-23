@@ -1,0 +1,38 @@
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+
+<p>Promo</p>
+
+{% schema %}
+{
+  "name": "Promo",
+  "presets": [
+    {
+      "name": "Promo",
+      "category": "Promo"
+    }
+  ],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "promo-img",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "promo-title",
+      "label": "Title",
+      "default": "Learn why everone everywhere are loving yardball!"
+    },
+    {
+      "type": "text",
+      "id": "promo-btn-title",
+      "label": "Button Text",
+      "default": "Find out more"
+    }
+  ]
+}
+{% endschema %}

@@ -566,6 +566,11 @@ video {
   margin-right: auto;
 }
 
+.tw-my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .tw-flex {
   display: flex;
 }
@@ -591,11 +596,15 @@ video {
 }
 
 .tw-rounded-lg {
-  border-radius: 0.5rem;
+  border-radius: 17px;
 }
 
 .tw-border-2 {
   border-width: 2px;
+}
+
+.tw-border-4 {
+  border-width: 4px;
 }
 
 .tw-border-\[\#000\] {
@@ -617,8 +626,16 @@ video {
   padding: 1rem;
 }
 
+.tw-p-8 {
+  padding: 2rem;
+}
+
 .tw-text-center {
   text-align: center;
+}
+
+.tw-font-body {
+  font-family: Quicksand, sans-serif;
 }
 
 .tw-text-5xl {

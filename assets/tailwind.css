@@ -769,6 +769,11 @@ video {
          columns: 3;
   }
 
+  .md\:tw-columns-6 {
+    -moz-columns: 6;
+         columns: 6;
+  }
+
   .md\:tw-bg-cream {
     --tw-bg-opacity: 1;
     background-color: rgb(223 222 207 / var(--tw-bg-opacity));

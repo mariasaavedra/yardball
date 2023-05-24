@@ -228,6 +228,7 @@
     },
     "447eb8bb-f5fa-4634-8fc4-96f94d3b76ff": {
       "type": "video-slider",
+      "disabled": true,
       "settings": {
         "title": "Video Slider",
         "description": "",

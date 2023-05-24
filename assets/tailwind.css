@@ -576,6 +576,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.tw-my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .tw-flex {
   display: flex;
 }
@@ -675,6 +680,10 @@ video {
   padding: 2rem;
 }
 
+.tw-p-16 {
+  padding: 4rem;
+}
+
 .tw-py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -698,6 +707,31 @@ video {
 
 .tw-text-5xl {
   font-size: 3rem;
+  line-height: 1;
+}
+
+.tw-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.tw-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.tw-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.tw-text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.tw-text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 

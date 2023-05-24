@@ -556,6 +556,10 @@ video {
   }
 }
 
+.tw-m-8 {
+  margin: 2rem;
+}
+
 .tw-mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -576,8 +580,22 @@ video {
   margin-bottom: 2rem;
 }
 
+.tw-mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.tw-mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .tw-flex {
   display: flex;
+}
+
+.tw-h-\[500px\] {
+  height: 500px;
 }
 
 .tw-min-h-\[300px\] {
@@ -598,6 +616,22 @@ video {
 
 .tw-w-full {
   width: 100%;
+}
+
+.tw-w-\[300px\] {
+  width: 300px;
+}
+
+.tw-w-\[400px\] {
+  width: 400px;
+}
+
+.tw-w-\[00px\] {
+  width: 00px;
+}
+
+.tw-min-w-\[300px\] {
+  min-width: 300px;
 }
 
 .tw-max-w-\[300px\] {
@@ -627,6 +661,10 @@ video {
        columns: 1;
 }
 
+.tw-flex-row {
+  flex-direction: row;
+}
+
 .tw-flex-col {
   flex-direction: column;
 }
@@ -641,6 +679,18 @@ video {
 
 .tw-gap-5 {
   gap: 1.25rem;
+}
+
+.tw-overflow-scroll {
+  overflow: scroll;
+}
+
+.tw-overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+.tw-whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .tw-rounded-lg {
@@ -688,6 +738,16 @@ video {
 .tw-bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#777\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(119 119 119 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#333\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
 }
 
 .tw-p-4 {

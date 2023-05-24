@@ -3333,6 +3333,13 @@ header.header {
   font-size: 32px;
   color: #000;
 }
+footer .list-menu__item {
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+}
 .list-menu li:first-child a {
   margin-right: 10rem;
   color: #F6494B;

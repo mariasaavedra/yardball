@@ -718,6 +718,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:tw-w-1\/2 {
+    width: 50%;
+  }
+
   .md\:tw-columns-3 {
     -moz-columns: 3;
          columns: 3;

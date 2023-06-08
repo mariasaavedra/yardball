@@ -3234,8 +3234,8 @@ details-disclosure > details {
     --sparkle: url('./sparkle.gif');
   }
   footer.footer {
-  background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/wood.png')  !important;
-  background-size: cover !important;
+  /* background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/wood.png')  !important;
+  background-size: cover !important; */
 }
 .media {
   background-color: transparent !important

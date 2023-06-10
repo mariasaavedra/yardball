@@ -1,0 +1,89 @@
+<section class="tw-text-center tw-bg-white tw-mx-auto">
+  <section class="tw-mx-auto tw-text-center tw-container ">
+    <h1 class="tw-bg-white tw-text-center tw-mx-auto">{{ section.settings.masonry_title }}</h1>
+    <div class="md:tw-columns-3 tw-mx-auto">
+      <div class="tw-p-8 tw-mx-auto tw-rounded-lg md:tw-bg-cream tw-border-4 tw-max-w-[400px] tw-min-h-[300px] tw-border-brown">
+        <h1>1 Ball</h1>
+        <img
+          class="tw-mx-auto"
+          loading="lazy"
+          height="auto"
+          width="125"
+          src="{{ 'midnight-bb.png' | asset_url }}"
+          alt="1 Ball"
+        >
+        <h3 class="tw-text-5xl tw-my-4">$39.99</h3>
+        <h4 class="tw-uppercase tw-font-bold tw-font-heading">Per Ball</h4>
+      </div>
+      <div class="tw-p-8 tw-mx-auto tw-rounded-lg tw-bg-cream tw-border-4 tw-max-w-[400px] tw-min-h-[300px] tw-border-brown">
+        <h1>2 Ball</h1>
+        <img
+          class="tw-mx-auto"
+          loading="lazy"
+          height="auto"
+          width="125"
+          src="{{ 'midnight-bb.png' | asset_url }}"
+          alt="1 Ball"
+        >
+        <h3 class="tw-text-5xl tw-my-4">$36.97</h3>
+        <h4 class="tw-uppercase tw-font-bold tw-font-heading">Per Ball</h4>
+      </div>
+      <div class="tw-p-8 tw-mx-auto tw-rounded-lg tw-bg-cream tw-border-4 tw-max-w-[400px] tw-min-h-[300px] tw-border-brown">
+        <h1>3 Ball</h1>
+        <img
+          class="tw-mx-auto"
+          loading="lazy"
+          height="auto"
+          width="125"
+          src="{{ 'midnight-bb.png' | asset_url }}"
+          alt="1 Ball"
+        >
+        <h3 class="tw-text-5xl tw-my-4">$33.29</h3>
+        <h4 class="tw-uppercase tw-font-bold tw-font-heading">Per Ball</h4>
+      </div>
+    </div>
+    <div class="tw-w-full tw-p-16"><button class="tw-my-8 button bg-blue-500 tw-w-full">BUY NOW</button></div>
+  </section>
+</section>
+{% schema %}
+{
+  "name": "Masonry",
+  "presets": [
+    {
+      "name": "Triple Offer",
+      "category": "Offers"
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "masonry_title",
+      "label": "Title",
+      "default": "Offer"
+    },
+    {
+      "type": "image_picker",
+      "id": "masonry_image",
+      "label": "Offer Image"
+    },
+    {
+      "type": "text",
+      "id": "masonry_description",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "type": "text",
+      "id": "masonry_button",
+      "label": "Button",
+      "default": "Buy now"
+    },
+    {
+      "type": "text",
+      "id": "masonry_url",
+      "label": "URL",
+      "default": "#"
+    }
+  ]
+}
+{% endschema %}

@@ -3248,7 +3248,6 @@ details-disclosure > details {
   font-family: var(--font-family-header);
   font-size: 36px;
   padding: 16px 24px;
-  background: #F6494B !important;
   gap: 10px;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08) !important;
 }
@@ -3258,7 +3257,6 @@ details-disclosure > details {
   box-shadow: none !important;
 }
 .button--primary {
-  background: #F6494B;
   color: #fff;
   border: 0 !important;
 }
@@ -3353,3 +3351,4 @@ footer .list-menu__item {
   gap: 10px;
   font-family: 'QuickSand', sans-serif;
 }
+

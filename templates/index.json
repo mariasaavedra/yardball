@@ -75,10 +75,13 @@
     "c92af774-788d-4d9f-a3bd-ddb8528c4042": {
       "type": "offer",
       "settings": {
-        "offer-title": "Offer",
-        "offer-description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "offer-button": "Buy now",
-        "offer-url": "#"
+        "offer_title": "SHOP \"GLOVE TAN\"",
+        "offer_image_1": "shopify:\/\/shop_images\/bb1.png",
+        "offer_image_2": "shopify:\/\/shop_images\/bb2.png",
+        "offer_image_3": "shopify:\/\/shop_images\/bb3_f1d0c0ad-2966-4243-9c53-881dcaf3a235.png",
+        "offer_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "offer_button": "Buy now",
+        "offer_url": "#"
       }
     },
     "cee87141-1f44-4c29-a66a-f1af0333d1e8": {

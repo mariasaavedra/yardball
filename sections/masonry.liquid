@@ -12,7 +12,7 @@
       <li>
         <a href="#" class="tw-relative tw-block tw-group">
           {{
-            section.settings.masonry_image
+            section.settings.masonry_image_r1
             | image_url: width: 1100
             | image_tag:
               class: 'tw-object-cover tw-w-full tw-transition tw-duration-500 tw-aspect-square tw-group-hover:opacity-90"',
@@ -21,11 +21,10 @@
           <div
             class=" tw-absolute tw-inset-0 tw-flex tw-flex-col tw-items-start tw-justify-end tw-p-6"
           >
-            <h3 class="tw-text-xl tw-font-medium tw-text-white">{{ section.settings.masonry_image_title_r1 }}</h3>
-
             <span
-              class="tw-mt-1.5 tw-inline-block tw-bg-black tw-px-5 tw-py-3 tw-text-xs tw-font-medium tw-uppercase tw-tracking-wide tw-text-white"
+              class="tw-mt-1.5 tw-inline-block tw-bg-cyan tw-px-5 tw-py-3  tw-font-bold tw-uppercase tw-tracking-wide tw-text-black"
             >
+              {{ section.settings.masonry_image_title_r1 }}
             </span>
           </div>
         </a>
@@ -44,12 +43,10 @@
           <div
             class="tw-absolute tw-inset-0 tw-flex tw-flex-col tw-items-start tw-justify-end tw-p-6"
           >
-            <h3 class="tw-text-xl tw-font-medium tw-text-white">{{ section.settings.masonry_image_title_r2 }}</h3>
-
             <span
-              class="tw-mt-1.5 tw-inline-block tw-bg-black tw-px-5 tw-py-3 tw-text-xs tw-font-medium tw-uppercase tw-tracking-wide tw-text-white"
+              class="tw-mt-1.5 tw-inline-block tw-bg-cyan tw-px-5 tw-py-3  tw-font-bold tw-uppercase tw-tracking-wide tw-text-black"
             >
-              Shop Now
+              {{ section.settings.masonry_image_title_r2 }}
             </span>
           </div>
         </a>
@@ -67,12 +64,10 @@
           <div
             class="tw-absolute tw-inset-0 tw-flex tw-flex-col tw-items-start tw-justify-end tw-p-6"
           >
-            <h3 class="tw-text-xl tw-font-medium tw-text-white">{{ section.settings.masonry_image_title }}</h3>
-
             <span
-              class="tw-mt-1.5 tw-inline-block tw-bg-black tw-px-5 tw-py-3 tw-text-xs tw-font-medium tw-uppercase tw-tracking-wide tw-text-white"
+              class="tw-mt-1.5 tw-inline-block tw-bg-cyan  tw-text-black tw-px-5 tw-py-3  tw-font-bold tw-uppercase tw-tracking-wide "
             >
-              Shop Now
+              {{ section.settings.masonry_image_title }}
             </span>
           </div>
         </a>
@@ -107,7 +102,7 @@
       "type": "text",
       "id": "masonry_image_title_r1",
       "label": "Title",
-      "default": "Goes where you go!"
+      "default": "Goes where you go"
     },
     {
       "type": "text",

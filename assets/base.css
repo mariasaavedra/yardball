@@ -3352,3 +3352,6 @@ footer .list-menu__item {
   font-family: 'QuickSand', sans-serif;
 }
 
+.rtl {
+  direction: rtl !important;
+}

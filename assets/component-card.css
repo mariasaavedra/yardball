@@ -450,6 +450,7 @@
 .card--standard > .card__content .card__information:hover,
 .card__information:hover {
   background: #f6494b !important;
+  cursor: pointer;
   transition: all 0.25s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 .card__information h3 {
@@ -458,4 +459,6 @@
 .card.card--standard.card--media.card--shape {
   border-radius: 24px;
   overflow: hidden;
+  cursor: pointer;
+  
 }

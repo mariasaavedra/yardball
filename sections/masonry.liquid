@@ -11,16 +11,40 @@
     <ul class="tw-grid rtl tw-grid-cols-1 tw-gap-4 mt-8 lg:tw-grid-cols-3">
       <li>
         <a href="#" class="tw-relative tw-block tw-group">
-          <img
-            src="https://images.unsplash.com/photo-1618898909019-010e4e234c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-            alt=""
-            class="tw-object-cover tw-w-full tw-transition tw-duration-500 tw-aspect-square tw-group-hover:opacity-90"
-          >
-
+          {{
+            section.settings.masonry_image
+            | image_url: width: 1100
+            | image_tag:
+              class: 'tw-object-cover tw-w-full tw-transition tw-duration-500 tw-aspect-square tw-group-hover:opacity-90"',
+              loading: 'lazy'
+          }}
           <div
             class=" tw-absolute tw-inset-0 tw-flex tw-flex-col tw-items-start tw-justify-end tw-p-6"
           >
-            <h3 class="tw-text-xl tw-font-medium tw-text-white">Casual Trainers</h3>
+            <h3 class="tw-text-xl tw-font-medium tw-text-white">{{ section.settings.masonry_image_title_r1 }}</h3>
+
+            <span
+              class="tw-mt-1.5 tw-inline-block tw-bg-black tw-px-5 tw-py-3 tw-text-xs tw-font-medium tw-uppercase tw-tracking-wide tw-text-white"
+            >
+            </span>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="tw-relative tw-block tw-group">
+          {{
+            section.settings.masonry_image_r2
+            | image_url: width: 1100
+            | image_tag:
+              class: 'tw-object-cover tw-w-full tw-transition tw-duration-500 tw-aspect-square tw-group-hover:opacity-90"',
+              loading: 'lazy'
+          }}
+
+          <div
+            class="tw-absolute tw-inset-0 tw-flex tw-flex-col tw-items-start tw-justify-end tw-p-6"
+          >
+            <h3 class="tw-text-xl tw-font-medium tw-text-white">{{ section.settings.masonry_image_title_r2 }}</h3>
 
             <span
               class="tw-mt-1.5 tw-inline-block tw-bg-black tw-px-5 tw-py-3 tw-text-xs tw-font-medium tw-uppercase tw-tracking-wide tw-text-white"
@@ -31,40 +55,19 @@
         </a>
       </li>
 
-      <li>
-        <a href="#" class="tw-relative tw-block tw-group">
-          <img
-            src="https://images.unsplash.com/photo-1624623278313-a930126a11c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-            alt=""
-            class="tw-object-cover tw-w-full tw-transition tw-duration-500 tw-aspect-square tw-group-hover:opacity-90"
-          >
-
-          <div
-            class="tw-absolute tw-inset-0 tw-flex tw-flex-col tw-items-start tw-justify-end tw-p-6"
-          >
-            <h3 class="tw-text-xl tw-font-medium tw-text-white">Winter Jumpers</h3>
-
-            <span
-              class="mt-1.5 tw-inline-block tw-bg-black tw-px-5 tw-py-3 text-xs font-medium tw-uppercase tw-tracking-wide tw-text-white"
-            >
-              Shop Now
-            </span>
-          </div>
-        </a>
-      </li>
-
       <li class="lg:tw-col-span-2 lg:tw-col-start-2 lg:tw-row-span-2 lg:tw-row-start-1">
-        <a href="#" class="relative block group">
-          <img
-            src="https://images.unsplash.com/photo-1593795899768-947c4929449d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80"
-            alt=""
-            class="tw-object-cover tw-w-full tw-transition tw-duration-500 tw-aspect-square group-hover:opacity-90"
-          >
-
+        <a href="#" class="tw-relative tw-block tw-group">
+          {{
+            section.settings.masonry_image
+            | image_url: width: 1100
+            | image_tag:
+              class: 'tw-object-cover tw-w-full tw-transition tw-duration-500 tw-aspect-square tw-group-hover:opacity-90"',
+              loading: 'lazy'
+          }}
           <div
             class="tw-absolute tw-inset-0 tw-flex tw-flex-col tw-items-start tw-justify-end tw-p-6"
           >
-            <h3 class="tw-text-xl tw-font-medium tw-tw-text-white">Skinny Jeans Blue</h3>
+            <h3 class="tw-text-xl tw-font-medium tw-text-white">{{ section.settings.masonry_image_title }}</h3>
 
             <span
               class="tw-mt-1.5 tw-inline-block tw-bg-black tw-px-5 tw-py-3 tw-text-xs tw-font-medium tw-uppercase tw-tracking-wide tw-text-white"
@@ -93,6 +96,30 @@
       "id": "masonry_title",
       "label": "Title",
       "default": "THE BALL FOR ALL!"
+    },
+    {
+      "type": "text",
+      "id": "masonry_image_title",
+      "label": "Title",
+      "default": "The Perfect Ball"
+    },
+    {
+      "type": "text",
+      "id": "masonry_image_title_r1",
+      "label": "Title",
+      "default": "Goes where you go!"
+    },
+    {
+      "type": "text",
+      "id": "masonry_image_title_r2",
+      "label": "Title",
+      "default": "SPONTANEOUS FUN"
+    },
+    {
+      "type": "text",
+      "id": "masonry_image_title_r3",
+      "label": "Title",
+      "default": "VARIETY OF COLORS"
     },
     {
       "type": "image_picker",

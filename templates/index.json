@@ -88,6 +88,10 @@
       "type": "masonry",
       "settings": {
         "masonry_title": "THE BALL FOR ALL!",
+        "masonry_image_title": "The Perfect Ball",
+        "masonry_image_title_r1": "Goes where you go",
+        "masonry_image_title_r2": "SPONTANEOUS FUN",
+        "masonry_image_title_r3": "VARIETY OF COLORS",
         "masonry_image": "shopify:\/\/shop_images\/promo1.png",
         "masonry_image_r1": "shopify:\/\/shop_images\/promo2.png",
         "masonry_image_r2": "shopify:\/\/shop_images\/bb1.png",
@@ -95,6 +99,12 @@
         "masonry_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "masonry_button": "Buy now",
         "masonry_url": "#"
+      }
+    },
+    "cb498cdb-4607-45de-a2bf-33276f5bac2f": {
+      "type": "tiktok",
+      "settings": {
+        "tiktok_title": "THE BALL FOR ALL!"
       }
     },
     "cee87141-1f44-4c29-a66a-f1af0333d1e8": {
@@ -279,6 +289,7 @@
     "7e66afec-905e-4dcb-83b2-eba7f5d4ceca",
     "c92af774-788d-4d9f-a3bd-ddb8528c4042",
     "4af2dd9a-9832-4c7a-8408-1078dc639a4a",
+    "cb498cdb-4607-45de-a2bf-33276f5bac2f",
     "cee87141-1f44-4c29-a66a-f1af0333d1e8",
     "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007",
     "447eb8bb-f5fa-4634-8fc4-96f94d3b76ff",

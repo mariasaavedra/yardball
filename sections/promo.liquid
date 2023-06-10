@@ -5,19 +5,35 @@
 {% javascript %}
 {% endjavascript %}
 
+<style>
+  #box1 {
+  background-image: url({{ section.settings.promo_img_1 | image_url }});
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  #box2 {
+    background-image: url({{ section.settings.promo_img_2 | image_url }});
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+</style>
+
 <section class="tw-flex tw-p-4 tw-container tw-mx-auto">
   <div
-    style="background-image: url(https://cdn.shopify.com/s/files/1/0756/7432/1181/files/guy.png); background-size: cover"
+    id="box2"
     class="md:tw-w-1/2 w-full tw-min-h-[50vh] tw-rounded-lg tw-p-4"
   >
     <div></div>
   </div>
-  <div class="w-full tw-flex tw-flex-col tw-justify-center tw-mx-2 md:tw-w-1/2 tw-text-center tw-rounded-lg tw-border-4 tw-border-[#000] tw-bg-[#E99E69]">
+  <div
+    id="box1"
+    class="w-full tw-flex tw-flex-col tw-justify-center tw-mx-2 md:tw-w-1/2 tw-text-center tw-rounded-lg tw-border-4 tw-border-[#000] tw-bg-[#E99E69]"
+  >
     <h3 class="tw-font-body tw-p-8 tw-my-16 uppercase tw-font-thin tw-text-center tw-text-5xl">
-      Learn why everyone everywhere are loving Yardball!
+      {{ section.settings.promo_title }}
     </h3>
     <button class="button tw-text-center tw-shadow-lg tw-mx-auto tw-max-w-[300px] tw-bg-scarlet">
-      <span class="tw-text-md">Find out more!</span>
+      <span class="tw-text-md"> {{ section.settings.promo_btn_title }}</span>
     </button>
   </div>
 </section>
@@ -34,18 +50,23 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "promo-img",
+      "id": "promo_img_1",
+      "label": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "promo_img_2",
       "label": "Image"
     },
     {
       "type": "text",
-      "id": "promo-title",
+      "id": "promo_title",
       "label": "Title",
       "default": "Learn why everone everywhere are loving yardball!"
     },
     {
       "type": "text",
-      "id": "promo-btn-title",
+      "id": "promo_btn_title",
       "label": "Button Text",
       "default": "Find out more"
     }

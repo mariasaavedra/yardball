@@ -254,8 +254,10 @@
     "a120c528-d443-47ba-b640-d01792931d3f": {
       "type": "promo",
       "settings": {
-        "promo-title": "Learn why everone everywhere are loving yardball!",
-        "promo-btn-title": "Find out more"
+        "promo_img_1": "shopify:\/\/shop_images\/guy.png",
+        "promo_img_2": "shopify:\/\/shop_images\/Frame_247.png",
+        "promo_title": "Learn why everone everywhere are loving yardball!",
+        "promo_btn_title": "Shop Now"
       }
     }
   },

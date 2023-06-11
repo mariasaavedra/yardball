@@ -674,6 +674,26 @@ video {
   width: 100%;
 }
 
+.tw-w-\[500px\] {
+  width: 500px;
+}
+
+.tw-w-\[400px\] {
+  width: 400px;
+}
+
+.tw-w-\[600px\] {
+  width: 600px;
+}
+
+.tw-min-w-\[400px\] {
+  min-width: 400px;
+}
+
+.tw-min-w-\[300px\] {
+  min-width: 300px;
+}
+
 .tw-max-w-\[300px\] {
   max-width: 300px;
 }
@@ -733,6 +753,10 @@ video {
 
 .tw-gap-8 {
   gap: 2rem;
+}
+
+.tw-gap-1 {
+  gap: 0.25rem;
 }
 
 .tw-overflow-hidden {
@@ -838,6 +862,10 @@ video {
 .tw-py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.tw-pr-0 {
+  padding-right: 0px;
 }
 
 .tw-text-left {

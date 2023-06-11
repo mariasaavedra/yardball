@@ -602,6 +602,11 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.tw-mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .tw-mt-1 {
   margin-top: 0.25rem;
 }
@@ -759,6 +764,10 @@ video {
   gap: 0.25rem;
 }
 
+.tw-gap-16 {
+  gap: 4rem;
+}
+
 .tw-overflow-hidden {
   overflow: hidden;
 }
@@ -837,6 +846,10 @@ video {
 
 .tw-p-3 {
   padding: 0.75rem;
+}
+
+.tw-p-2 {
+  padding: 0.5rem;
 }
 
 .tw-px-4 {
@@ -1024,6 +1037,11 @@ video {
   .md\:tw-py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .md\:tw-px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
 }
 

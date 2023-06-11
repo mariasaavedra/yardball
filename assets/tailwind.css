@@ -894,6 +894,14 @@ video {
     --tw-bg-opacity: 1;
     background-color: rgb(223 222 207 / var(--tw-bg-opacity));
   }
+
+  .md\:tw-p-16 {
+    padding: 4rem;
+  }
+
+  .md\:tw-p-32 {
+    padding: 8rem;
+  }
 }
 
 @media (min-width: 1024px) {

@@ -597,12 +597,29 @@ video {
   margin-bottom: 2rem;
 }
 
+.tw-my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .tw-mt-1 {
   margin-top: 0.25rem;
 }
 
 .tw-mt-1\.5 {
   margin-top: 0.375rem;
+}
+
+.tw-mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.tw-mb-4 {
+  margin-bottom: 1rem;
+}
+
+.tw-mb-8 {
+  margin-bottom: 2rem;
 }
 
 .tw-block {
@@ -651,6 +668,22 @@ video {
 
 .tw-max-w-screen-xl {
   max-width: 1280px;
+}
+
+.tw-max-w-screen-lg {
+  max-width: 1024px;
+}
+
+.tw-max-w-screen-md {
+  max-width: 768px;
+}
+
+.tw-max-w-screen-sm {
+  max-width: 640px;
+}
+
+.tw-max-w-sm {
+  max-width: 24rem;
 }
 
 .tw-columns-3 {
@@ -821,6 +854,11 @@ video {
 .tw-text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.tw-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .tw-font-bold {

@@ -646,6 +646,18 @@ video {
   height: 350px;
 }
 
+.tw-max-h-\[100px\] {
+  max-height: 100px;
+}
+
+.tw-max-h-\[800px\] {
+  max-height: 800px;
+}
+
+.tw-max-h-\[600px\] {
+  max-height: 600px;
+}
+
 .tw-min-h-\[500px\] {
   min-height: 500px;
 }
@@ -721,6 +733,10 @@ video {
 
 .tw-gap-8 {
   gap: 2rem;
+}
+
+.tw-overflow-hidden {
+  overflow: hidden;
 }
 
 .tw-overflow-x-scroll {
@@ -921,11 +937,20 @@ video {
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
+
+  .sm\:tw-py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
   .md\:tw-w-1\/2 {
     width: 50%;
+  }
+
+  .md\:tw-w-full {
+    width: 100%;
   }
 
   .md\:tw-bg-cream {
@@ -940,11 +965,30 @@ video {
   .md\:tw-p-32 {
     padding: 8rem;
   }
+
+  .md\:tw-px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .md\:tw-py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .md\:tw-py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
 }
 
 @media (min-width: 1024px) {
   .lg\:tw-col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:tw-col-span-1 {
+    grid-column: span 1 / span 1;
   }
 
   .lg\:tw-col-start-2 {
@@ -955,12 +999,20 @@ video {
     grid-row: span 2 / span 2;
   }
 
+  .lg\:tw-row-span-1 {
+    grid-row: span 1 / span 1;
+  }
+
   .lg\:tw-row-start-1 {
     grid-row-start: 1;
   }
 
   .lg\:tw-grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:tw-grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .lg\:tw-px-8 {

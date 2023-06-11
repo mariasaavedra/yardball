@@ -51,8 +51,15 @@
         "show_text_below": false
       }
     },
+    "8a11d917-e2fd-4a06-aadc-4dc2fdcbf522": {
+      "type": "animated-marquee",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
     "7e66afec-905e-4dcb-83b2-eba7f5d4ceca": {
       "type": "announcement-bar",
+      "disabled": true,
       "blocks": {
         "template--18971860042013__7e66afec-905e-4dcb-83b2-eba7f5d4ceca-168456846466356ece-0": {
           "type": "announcement",
@@ -289,6 +296,7 @@
   },
   "order": [
     "image_banner",
+    "8a11d917-e2fd-4a06-aadc-4dc2fdcbf522",
     "7e66afec-905e-4dcb-83b2-eba7f5d4ceca",
     "d8b847d0-73e8-4067-811b-693642b48cd7",
     "cee87141-1f44-4c29-a66a-f1af0333d1e8",

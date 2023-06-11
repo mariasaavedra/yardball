@@ -785,6 +785,11 @@ video {
   background-color: rgb(246 73 75 / var(--tw-bg-opacity));
 }
 
+.tw-bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .tw-object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -804,6 +809,10 @@ video {
 
 .tw-p-8 {
   padding: 2rem;
+}
+
+.tw-p-3 {
+  padding: 0.75rem;
 }
 
 .tw-px-4 {
@@ -885,8 +894,16 @@ video {
   font-weight: 100;
 }
 
+.tw-font-semibold {
+  font-weight: 600;
+}
+
 .tw-uppercase {
   text-transform: uppercase;
+}
+
+.tw-leading-loose {
+  line-height: 2;
 }
 
 .tw-tracking-wide {

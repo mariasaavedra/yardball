@@ -1,0 +1,62 @@
+<style>
+  .marquee {
+    --gap: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+  }
+
+  .marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+    animation: scroll 10s linear infinite;
+  }
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+</style>
+
+<section class="tw-bg-white tw-p-4 tw-font-bold tw-font-heading">
+  <div class="marquee">
+    <ul class="marquee__content">
+      <li class="tw-mx-2 tw-leading-loose">BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚</li>
+      <li class="tw-mx-2 tw-leading-loose">BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚</li>
+      <li class="tw-mx-2 tw-leading-loose">BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚</li>
+    </ul>
+    <!-- Mirrors the content above -->
+    <ul class="marquee__content" aria-hidden="true">
+      <li class="tw-mx-2 tw-leading-loose">BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚</li>
+      <li class="tw-mx-2 tw-leading-loose">BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚</li>
+      <li class="tw-mx-2 tw-leading-loose">BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚</li>
+    </ul>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Animated Marquee",
+  "class": "animated-marquee-section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "marquee-section",
+      "default": "accent-1"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Animated Marquee"
+    }
+  ]
+}
+{% endschema %}

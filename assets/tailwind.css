@@ -1003,12 +1003,22 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:tw-my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .md\:tw-w-1\/2 {
     width: 50%;
   }
 
   .md\:tw-w-full {
     width: 100%;
+  }
+
+  .md\:tw-columns-3 {
+    -moz-columns: 3;
+         columns: 3;
   }
 
   .md\:tw-bg-cream {

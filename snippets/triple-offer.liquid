@@ -1,11 +1,44 @@
+{% comment %} set hasFreeShipping flag if package = 2 or 3 {% endcomment %}
+{% assign hasFreeShipping = false %}
+{% if package == 2 or package == 3 %}
+  {% assign hasFreeShipping = true %}
+{% endif %}
+
+{% comment %} set isPopular flag if package = 2 {% endcomment %}
+{% assign isPopular = false %}
+{% if package == 2 %}
+  {% assign isPopular = true %}
+{% endif %}
+
+{% comment %}  set bestValue flag if package = 3 {% endcomment %}
+{% assign isBestValue = false %}
+{% if package == 3 %}
+  {% assign isBestValue = true %}
+{% endif %}
+
 <div class="tw-rounded-[4px] tw-relative  md:tw-bg-cream tw-border-4 tw-py-0 tw-px-16 tw-border-brown">
-  <div class="tw-absolute  tw-left-0 tw-w-2/3 tw-mx-auto tw-right-0 tw-top-[-20px]  tw-overflow-visible tw-rounded-lg tw-p-2 tw-bg-brown">
-    <span class="tw-font-bold  tw-text-[14px]">MOST POPULAR</span>
-  </div>
+  {% if isPopular %}
+    <div class="tw-absolute tw-left-0 tw-right-0 tw-bottom-0 tw-w-full  tw-z-50 tw-bg-brown">
+      <span class="tw-font-bold">MOST POPULAR</span>
+    </div>
+  {% endif %}
 
-  {{ template.package }}
+  {% if isBestValue %}
+    <div class="tw-absolute tw-left-0 tw-right-0 tw-bottom-0 tw-w-full  tw-z-50 tw-bg-brown">
+      <span class="tw-font-bold">BEST VALUE</span>
+    </div>
+  {% endif %}
 
-  <h1 class="tw-my-4">1 Ball</h1>
+  <h1 class="tw-my-4">
+    {{ package }}
+    {% if package == 1 %}
+      Ball
+    {% endif %}
+
+    {% unless package == 1 %}
+      Balls
+    {% endunless %}
+  </h1>
   {{
     section.settings.offer_image_1
     | image_url: width: 180
@@ -14,7 +47,10 @@
   {% comment %} <img loading="lazy" width="auto" height="200" src="{{ section.settings.offer_image_1 | image_url }}"> {% endcomment %}
   <h3 class="tw-text-5xl tw-my-4 tw-mt-0">$39.99</h3>
   <h4 class="tw-uppercase tw-font-bold tw-font-heading tw-my-2">Per Ball</h4>
-  <div class="tw-absolute tw-left-0 tw-right-0 tw-bottom-0 tw-w-full  tw-z-50 tw-bg-brown">
-    <span class="tw-font-bold">FREE SHIPPING</span>
-  </div>
+
+  {% if hasFreeShipping %}
+    <div class="tw-absolute tw-left-0 tw-right-0 tw-bottom-0 tw-w-full  tw-z-50 tw-bg-brown">
+      <span class="tw-font-bold">FREE SHIPPING</span>
+    </div>
+  {% endif %}
 </div>

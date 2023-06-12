@@ -4,6 +4,9 @@
   "sections": {
     "header": {
       "type": "header",
+      "custom_css": [
+        "h2 {}"
+      ],
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu",

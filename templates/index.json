@@ -159,8 +159,8 @@
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "padding_top": 44,
+        "padding_bottom": 84
       }
     },
     "4af2dd9a-9832-4c7a-8408-1078dc639a4a": {
@@ -180,69 +180,16 @@
         "masonry_url": "#"
       }
     },
+    "74308c5d-e1c6-4216-a259-116b462c689f": {
+      "type": "static-banner",
+      "settings": {
+        "color_scheme": ""
+      }
+    },
     "cb498cdb-4607-45de-a2bf-33276f5bac2f": {
       "type": "tiktok",
       "settings": {
         "tiktok_title": "THE BALL FOR ALL!"
-      }
-    },
-    "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--18972124250397__9ca6eba5-c0cd-4e13-adb2-eb5c09fde007-16842145112605f292-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-24_at_8.54_2.png",
-            "title": "American Classic, Reimagined",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--18972124250397__9ca6eba5-c0cd-4e13-adb2-eb5c09fde007-16842145112605f292-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_258.png",
-            "title": "Perfect Weight, Perfectly Soft",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--18972124250397__9ca6eba5-c0cd-4e13-adb2-eb5c09fde007-16842145112605f292-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-24_at_8.54_1.png",
-            "title": "Always there, Always Ready",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18972124250397__9ca6eba5-c0cd-4e13-adb2-eb5c09fde007-16842145112605f292-0",
-        "template--18972124250397__9ca6eba5-c0cd-4e13-adb2-eb5c09fde007-16842145112605f292-1",
-        "template--18972124250397__9ca6eba5-c0cd-4e13-adb2-eb5c09fde007-16842145112605f292-2"
-      ],
-      "custom_css": [
-        "h1,h2,h3 {text-decoration: uppercase;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 20,
-        "padding_bottom": 68
       }
     },
     "447eb8bb-f5fa-4634-8fc4-96f94d3b76ff": {
@@ -303,8 +250,8 @@
     "d8b847d0-73e8-4067-811b-693642b48cd7",
     "cee87141-1f44-4c29-a66a-f1af0333d1e8",
     "4af2dd9a-9832-4c7a-8408-1078dc639a4a",
+    "74308c5d-e1c6-4216-a259-116b462c689f",
     "cb498cdb-4607-45de-a2bf-33276f5bac2f",
-    "9ca6eba5-c0cd-4e13-adb2-eb5c09fde007",
     "447eb8bb-f5fa-4634-8fc4-96f94d3b76ff",
     "featured_collection",
     "a120c528-d443-47ba-b640-d01792931d3f"

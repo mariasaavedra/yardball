@@ -3,13 +3,13 @@
     margin: 0 auto;
   }
 </style>
-<section class="tw-text-center tw-bg-cream  my-8 tw-py-16 tw-mx-auto">
+<section class="tw-text-center tw-bg-cream  my-8  tw-mx-auto">
   <section class="tw-mx-auto tw-text-center tw-max-w-7xl ">
     <h1 class=" tw-text-center tw-mx-auto tw-text-[39px] tw-mb-8">{{ section.settings.offer_title }}</h1>
-    <div class=" tw-columns-3 ">
-      {% render 'triple-offer', package: 1 %}
-      {% render 'triple-offer', package: 2 %}
-      {% render 'triple-offer', package: 3 %}
+    <div class=" tw-grid-cols-3 tw-gap-8 tw-grid ">
+      {% render 'triple-offer', package: 1, image: section.settings.offer_image_1 %}
+      {% render 'triple-offer', package: 2, image: section.settings.offer_image_2 %}
+      {% render 'triple-offer', package: 3, image: section.settings.offer_image_3 %}
     </div>
     <div class="tw-w-full tw-my-4">
       <button class="tw-bg-cyan tw-hover:bg-blue-700 tw-text-5xl tw-p-8 tw-text-white tw-font-bold tw-w-full tw-rounded-lg tw-shadow ">

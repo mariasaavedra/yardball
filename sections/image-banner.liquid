@@ -1,5 +1,11 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .banner__content.banner__content--middle-left.page-width {
+    max-width: 1200px;
+  }
+</style>
+
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
     @media screen and (max-width: 749px) {

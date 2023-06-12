@@ -499,12 +499,17 @@ h2.banner__heading.inline-richtext.h1 {
   display: block;
   content: '';
   position: absolute;
-  right: 0;
+  right: -50px;
   top: 0;
   background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/Group_228_6ffeb1d4-a07a-47c0-9ae6-8fa1693c21a8.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 45%;
+  width: 65%;
+  max-width: 705px;
   height: 100%;
+}
+
+.banner__content.banner__content--middle-left.page-width {
+  max-width:  1200px
 }

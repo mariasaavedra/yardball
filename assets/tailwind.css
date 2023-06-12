@@ -651,6 +651,10 @@ video {
   display: inline-block;
 }
 
+.tw-inline {
+  display: inline;
+}
+
 .tw-flex {
   display: flex;
 }
@@ -718,6 +722,10 @@ video {
 
 .tw-items-start {
   align-items: flex-start;
+}
+
+.tw-items-center {
+  align-items: center;
 }
 
 .tw-justify-end {
@@ -877,6 +885,10 @@ video {
   text-align: center;
 }
 
+.tw-text-right {
+  text-align: right;
+}
+
 .tw-font-body {
   font-family: Quicksand, sans-serif;
 }
@@ -901,6 +913,11 @@ video {
 
 .tw-text-\[39px\] {
   font-size: 39px;
+}
+
+.tw-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .tw-font-bold {
@@ -931,6 +948,15 @@ video {
 .tw-text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.tw-text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.tw-line-through {
+  text-decoration-line: line-through;
 }
 
 .tw-shadow {

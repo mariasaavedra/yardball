@@ -1,41 +1,49 @@
 <style>
   .video-cover {
     background-image: url({{'iPhone_8_1.png'|file_url}});
-    background-size: cover;
+    background-size: 100%;
+    background-position: center center;
+    cursor: pointer;
+  }
+  .video-cover::hover {
+    background-size: 150%;
   }
 
   .video-cover:nth-child(1) {
     background-image: url({{'iPhone_8_1.png'|file_url}});
-    background-size: cover;
+    background-size: 100%;
+    &::hover {
+      background-size: 350%;
+    }
   }
   .video-cover:nth-child(2) {
     background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/iPhone_8_-_2.png');
-    background-size: cover;
+    background-size: 100%;
   }
   .video-cover:nth-child(3) {
     background-image: url({{'iPhone_8_-_5.png'|file_url}});
-    background-size: cover;
+    background-size: 100%;
   }
   .video-cover:nth-child(4) {
     background-image: url({{'iPhone_8_-_4.png'|file_url}});
-    background-size: cover;
+    background-size: 100%;
   }
   .video-cover:nth-child(5) {
-    background-image: url({{'iPhone_8_-_1.png'|file_url}});
-    background-size: cover;
+    background-image: url({{'iPhone_8_-_3.png'|file_url}});
+    background-size: 100%;
   }
   .video-cover:nth-child(6) {
-    background-image: url({{'iPhone_8_-_3.png'|file_url}});
-    background-size: cover;
+    background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/iPhone_8_-_2.png');
+    background-size: 100%;
   }
   .video-cover:nth-child(7) {
     background-image: url({{'iPhone_8_-_3.png'|file_url}});
-    background-size: cover;
+    background-size: 100%;
   }
 </style>
 
 <section class="tw-container tw-mx-auto tw-text-left tw-p-16 tw-pr-0">
-  <p class="tw-mx-auto tw-text-left tw-font-body tw-font-bold  tw-my-8 tw-text-md">WATCH YARDBALL</p>
+  <p class="tw-mx-auto tw-text-left tw-font-body tw-font-bold  tw-my-8 tw-text-md">SEE IT IN ACTION</p>
   <div class="tw-whitespace-nowrap tw-flex tw-gap-8 tw-overflow-x-scroll">
     <div class="video-cover tw-shadow-lg tw-rounded-lg tw-min-h-[500px] tw-min-w-[300px] tw-flex">
       <div></div>

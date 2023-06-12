@@ -676,6 +676,14 @@ video {
   aspect-ratio: 1 / 1;
 }
 
+.tw-max-h-\[30vh\] {
+  max-height: 30vh;
+}
+
+.tw-max-h-\[10vh\] {
+  max-height: 10vh;
+}
+
 .tw-min-h-\[500px\] {
   min-height: 500px;
 }
@@ -834,6 +842,10 @@ video {
 
 .tw-gap-2 {
   gap: 0.5rem;
+}
+
+.tw-overflow-hidden {
+  overflow: hidden;
 }
 
 .tw-overflow-visible {

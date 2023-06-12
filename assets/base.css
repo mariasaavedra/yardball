@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Sen:wght@700&display=swap');
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
   --alpha-link: 0.85;
   --alpha-badge-border: 0.1;
   --font-family-header: 'bobby_jones_softregular', sans-serif;
+  --font-family-sen: 'Sen', sans-serif'
 }
 
 @font-face {

@@ -1241,7 +1241,6 @@ button.shopify-payment-button__button--unbranded {
 .shopify-challenge__button,
 .customer button {
   border-radius: 48px;
-  height: 79px;
   font-family: var(--font-family-header);
   font-size: 36px;
   padding: 16px 24px;
@@ -3244,7 +3243,6 @@ details-disclosure > details {
 .button, .shopify-challenge__button, .customer button{
   border-radius: 48px;
   border: 0;
-  height: 79px;
   font-family: var(--font-family-header);
   font-size: 36px;
   padding: 16px 24px;

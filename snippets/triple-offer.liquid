@@ -1,0 +1,20 @@
+<div class="tw-rounded-[4px] tw-relative  md:tw-bg-cream tw-border-4 tw-py-0 tw-px-16 tw-border-brown">
+  <div class="tw-absolute  tw-left-0 tw-w-2/3 tw-mx-auto tw-right-0 tw-top-[-20px]  tw-overflow-visible tw-rounded-lg tw-p-2 tw-bg-brown">
+    <span class="tw-font-bold  tw-text-[14px]">MOST POPULAR</span>
+  </div>
+
+  {{ template.package }}
+
+  <h1 class="tw-my-4">1 Ball</h1>
+  {{
+    section.settings.offer_image_1
+    | image_url: width: 180
+    | image_tag: loading: 'lazy', sizes: '100', widths: '550, 720, 990, 1100, 1500, 2200, 3000'
+  }}
+  {% comment %} <img loading="lazy" width="auto" height="200" src="{{ section.settings.offer_image_1 | image_url }}"> {% endcomment %}
+  <h3 class="tw-text-5xl tw-my-4 tw-mt-0">$39.99</h3>
+  <h4 class="tw-uppercase tw-font-bold tw-font-heading tw-my-2">Per Ball</h4>
+  <div class="tw-absolute tw-left-0 tw-right-0 tw-bottom-0 tw-w-full  tw-z-50 tw-bg-brown">
+    <span class="tw-font-bold">FREE SHIPPING</span>
+  </div>
+</div>

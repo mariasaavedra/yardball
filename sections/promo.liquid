@@ -19,6 +19,12 @@
     .promo-container {
       background-image: url({{ "WoodBG.png" | asset_url }});
     }
+    .promo-header {
+      background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      backdrop-filter: blur(21px);
+      /* Note: backdrop-filter has minimal browser support */
+      border-radius: 25px;
+    }
 </style>
 
 <section class="tw-flex promo-container md:tw-px-16 md:tw-py-32 tw-container tw-mx-auto">
@@ -32,7 +38,7 @@
     id="box1"
     class="w-full tw-flex tw-flex-col tw-justify-center tw-mx-2 md:tw-w-1/2 tw-text-center tw-rounded-lg tw-bg-[#E99E69]"
   >
-    <h3 class="tw-font-body tw-p-8 tw-my-16 uppercase tw-font-thin tw-text-center tw-text-5xl">
+    <h3 class="promo-header tw-max-fit tw-mx-auto tw-font-body tw-p-8 tw-my-16 uppercase tw-font-thin tw-text-center tw-text-5xl">
       {{ section.settings.promo_title }}
     </h3>
     <button class="button tw-text-center tw-shadow-lg tw-mx-auto tw-max-w-[300px] tw-bg-scarlet">

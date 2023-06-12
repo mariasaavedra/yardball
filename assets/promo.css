@@ -1,3 +1,9 @@
 .promo-container {
-    
+}
+h3.promo-header {
+  background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, #ffffff 0%, rgba(255, 255, 255, 0) 100%)
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  backdrop-filter: blur(21px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 25px;
 }

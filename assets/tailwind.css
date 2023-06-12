@@ -984,6 +984,11 @@ video {
   padding-bottom: 45px;
 }
 
+.tw-py-32 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
 .tw-pr-0 {
   padding-right: 0px;
 }
@@ -1144,12 +1149,25 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:tw-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:tw-block {
     display: block;
   }
 
   .md\:tw-inline-block {
     display: inline-block;
+  }
+
+  .md\:tw-flex {
+    display: flex;
+  }
+
+  .md\:tw-min-h-\[50vh\] {
+    min-height: 50vh;
   }
 
   .md\:tw-w-1\/2 {
@@ -1165,8 +1183,20 @@ video {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
+  .md\:tw-flex-col {
+    flex-direction: column;
+  }
+
+  .md\:tw-justify-center {
+    justify-content: center;
+  }
+
   .md\:tw-gap-32 {
     gap: 8rem;
+  }
+
+  .md\:tw-gap-8 {
+    gap: 2rem;
   }
 
   .md\:tw-bg-cream {

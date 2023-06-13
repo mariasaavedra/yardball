@@ -1044,6 +1044,16 @@ video {
   font-size: 22px;
 }
 
+.tw-text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.tw-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .tw-font-bold {
   font-weight: 700;
 }
@@ -1184,5 +1194,15 @@ video {
   .md\:tw-text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:tw-text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:tw-text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }

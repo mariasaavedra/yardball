@@ -1095,6 +1095,11 @@ video {
   color: rgb(175 175 175 / var(--tw-text-opacity));
 }
 
+.tw-text-scarlet {
+  --tw-text-opacity: 1;
+  color: rgb(246 73 75 / var(--tw-text-opacity));
+}
+
 .tw-line-through {
   text-decoration-line: line-through;
 }

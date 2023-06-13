@@ -872,6 +872,10 @@ video {
   gap: 2rem;
 }
 
+.tw-overflow-hidden {
+  overflow: hidden;
+}
+
 .tw-overflow-visible {
   overflow: visible;
 }
@@ -1043,7 +1047,7 @@ video {
 }
 
 .tw-font-body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .tw-font-heading {
@@ -1080,6 +1084,16 @@ video {
 .tw-text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.tw-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.tw-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .tw-font-bold {
@@ -1165,6 +1179,10 @@ video {
 
   .md\:tw-inline-block {
     display: inline-block;
+  }
+
+  .md\:tw-hidden {
+    display: none;
   }
 
   .md\:tw-w-1\/2 {

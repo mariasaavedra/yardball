@@ -7,6 +7,7 @@
 
   .masonry-img {
     border-radius: 4px !important;
+    position: relative;
   }
   .masonry-img img {
     border-radius: 4px !important;
@@ -31,6 +32,7 @@
   <h1 class="tw-font-body tw-font-bold tw-text-5xl tw-my-8">{{ section.settings.masonry_title }}</h1>
   <div class="parent tw-gap-8">
     <div class="masonry-img  tw-shadow-lg div1">
+      {% render 'masonry-label', label: section.settings.masonry_image_title %}
       {{
         section.settings.masonry_image
         | image_url: width: 1100
@@ -38,6 +40,7 @@
       }}
     </div>
     <div class="masonry-img  tw-shadow-lg div2">
+      {% render 'masonry-label', label: section.settings.masonry_image_title_r1 %}
       {{
         section.settings.masonry_image_r1
         | image_url: width: 1100
@@ -47,6 +50,7 @@
       }}
     </div>
     <div class="masonry-img  tw-shadow-lg div3">
+      {% render 'masonry-label', label: section.settings.masonry_image_title_r2 %}
       {{
         section.settings.masonry_image_r2
         | image_url: width: 1100
@@ -56,6 +60,7 @@
       }}
     </div>
     <div class="masonry-img  tw-shadow-lg div4">
+      {% render 'masonry-label', label: section.settings.masonry_image_title_r3 %}
       {{
         section.settings.masonry_image_r3
         | image_url: width: 1100

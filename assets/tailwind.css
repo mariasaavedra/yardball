@@ -711,8 +711,20 @@ video {
   margin-bottom: 8rem;
 }
 
+.tw-mr-2 {
+  margin-right: 0.5rem;
+}
+
+.tw-mr-8 {
+  margin-right: 2rem;
+}
+
 .tw-block {
   display: block;
+}
+
+.tw-inline-block {
+  display: inline-block;
 }
 
 .tw-inline {
@@ -818,6 +830,14 @@ video {
 .tw-max-w-fit {
   max-width: -moz-fit-content;
   max-width: fit-content;
+}
+
+.tw-max-w-\[15px\] {
+  max-width: 15px;
+}
+
+.tw-max-w-\[32px\] {
+  max-width: 32px;
 }
 
 .tw-grid-cols-1 {
@@ -1010,6 +1030,10 @@ video {
   padding-bottom: 16rem;
 }
 
+.tw-pr-4 {
+  padding-right: 1rem;
+}
+
 .tw-text-left {
   text-align: left;
 }
@@ -1019,7 +1043,7 @@ video {
 }
 
 .tw-font-body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .tw-font-heading {

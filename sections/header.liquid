@@ -329,7 +329,7 @@
         {%- endcase -%}
       {%- endfor -%}
 
-      <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+      <a href="{{ routes.cart_url }}" class="tw-max-w-[32px] tw-mr-2 header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
           if cart == empty
             render 'icon-cart-empty'
@@ -348,7 +348,7 @@
         {%- endif -%}
       </a>
 
-      <a href="{{ routes.account }}" class="header__icon header__icon--account link focus-inset" id="icon-account">
+      <a href="{{ routes.account }}" class="tw-max-w-[32px]header__icon header__icon--account link focus-inset" id="icon-account">
         {%- liquid
             render 'icon-account'
         -%}

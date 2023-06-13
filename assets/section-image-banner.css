@@ -510,6 +510,15 @@ h2.banner__heading.inline-richtext.h1 {
   height: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  .banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in:after,
+  .banner__content.banner__content--bottom-left.page-width.scroll-trigger.animate--slide-in:after {
+    display: none !important;
+  }
+  
+}
+
+
 .banner__content.banner__content--middle-left.page-width {
   max-width:  1200px
 }

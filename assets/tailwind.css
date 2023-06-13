@@ -912,6 +912,14 @@ video {
   padding: 2rem;
 }
 
+.tw-p-32 {
+  padding: 8rem;
+}
+
+.tw-p-64 {
+  padding: 16rem;
+}
+
 .tw-px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -966,6 +974,10 @@ video {
 
 .tw-pt-8 {
   padding-top: 2rem;
+}
+
+.tw-pb-64 {
+  padding-bottom: 16rem;
 }
 
 .tw-text-left {

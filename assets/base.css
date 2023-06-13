@@ -1243,7 +1243,7 @@ button.shopify-payment-button__button--unbranded {
 .customer button {
   border-radius: 48px;
   font-family: var(--font-family-header);
-  font-size: 36px;
+  font-size: 34px;
   padding: 16px 24px;
   background: #F6494B !important;
   gap: 10px;

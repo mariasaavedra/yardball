@@ -32,7 +32,10 @@
   >
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
-        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+        <h2
+          style="margin-bottom: 65px;"
+          class=" tw-mb-[65px] title inline-richtext {{ section.settings.heading_size }}"
+        >
           {{ section.settings.title }}
         </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -122,20 +125,22 @@
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
                   <img
-                    class="tw-text-center tw-mx-auto"
+                    class="tw-text-center  tw-my-8 tw-mx-auto"
                     loading="lazy"
                     width="93"
                     height="16"
                     src="{{ 'stars.png' | asset_url }}"
                     alt="5 stars"
                   >
-                  <h3 class="inline-richtext ">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext tw-text-[20px]">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
+                  <div class="rte tw-text-[22px] tw-my-8 tw-font-body tw-font-thin">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.review_author != blank -%}
-                  <div class="rte">{{ block.settings.review_author }}</div>
+                  <div class="rte  tw-my-32  tw-mb-8 tw-font-bold tw-text-[#AFAFAF] ">
+                    {{ block.settings.review_author }}
+                  </div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a

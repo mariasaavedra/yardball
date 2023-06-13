@@ -23,9 +23,9 @@
   endif
 -%}
 
-<div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="multicolumn tw-px-8 color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
-    class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    class="section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}
@@ -135,7 +135,9 @@
                   <h3 class="inline-richtext tw-text-[20px]">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte tw-text-[22px] tw-my-8 tw-font-body tw-font-thin">{{ block.settings.text }}</div>
+                  <div class="rte tw-text-[22px]  tw-max-w-2xl tw-my-8 tw-mx-auto tw-font-body tw-font-thin">
+                    {{ block.settings.text }}
+                  </div>
                 {%- endif -%}
                 {%- if block.settings.review_author != blank -%}
                   <div class="rte  tw-my-32  tw-mb-8 tw-font-bold tw-text-[#AFAFAF] ">

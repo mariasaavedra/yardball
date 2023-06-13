@@ -103,8 +103,8 @@
             "text": "\"Received mine today, really great quality, heft is perfect yet soft enough to catch barehanded. Really impressed by this project!\"",
             "columns_desktop": 4,
             "columns_mobile": "1",
-            "review-rating": 4,
-            "review-author": ".Stephen B"
+            "review_rating": 5,
+            "review_author": "Stephen B."
           }
         },
         "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-1": {
@@ -114,8 +114,8 @@
             "text": "\"Got mine today, team! Really nice job on it! Good balance of weight and softness.”",
             "columns_desktop": 4,
             "columns_mobile": "1",
-            "review-rating": 5,
-            "review-author": "Chris H."
+            "review_rating": 5,
+            "review_author": "Stephen B."
           }
         },
         "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-2": {
@@ -125,8 +125,8 @@
             "text": "“Throwing it felt more like a baseball, yet when My kid got bonked in the face a couple times, it didn’t phase him. The stitching of the leather is top notch. Thank you for your efforts!\"",
             "columns_desktop": 4,
             "columns_mobile": "1",
-            "review-rating": 5,
-            "review-author": "Mike C."
+            "review_rating": 5,
+            "review_author": "Stephen B."
           }
         },
         "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-3": {
@@ -136,8 +136,8 @@
             "text": "Yardball is the perfect shape, weight, & size to toss around anywhere",
             "columns_desktop": 4,
             "columns_mobile": "1",
-            "review-rating": 5,
-            "review-author": "Michelle D."
+            "review_rating": 5,
+            "review_author": "Stephen B."
           }
         }
       },
@@ -159,8 +159,8 @@
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 84
+        "padding_top": 56,
+        "padding_bottom": 56
       }
     },
     "4af2dd9a-9832-4c7a-8408-1078dc639a4a": {

@@ -707,6 +707,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.tw-mb-32 {
+  margin-bottom: 8rem;
+}
+
 .tw-block {
   display: block;
 }

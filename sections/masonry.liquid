@@ -4,10 +4,14 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  .masonry-img,
+
+  .masonry-img {
+    border-radius: 4px !important;
+  }
   .masonry-img img {
     border-radius: 4px !important;
     overflow: hidden;
+    height: 100%;
   }
 
   .div1 {
@@ -26,14 +30,14 @@
 <section class="tw-p-8 tw-container tw-mx-auto">
   <h1 class="tw-font-body tw-font-bold tw-text-5xl tw-my-8">{{ section.settings.masonry_title }}</h1>
   <div class="parent tw-gap-8">
-    <div class="masonry-img div1">
+    <div class="masonry-img  tw-shadow-lg div1">
       {{
         section.settings.masonry_image
         | image_url: width: 1100
         | image_tag: class: 'tw-w-full tw-transition tw-duration-500 tw-group-hover:opacity-90"', loading: 'lazy'
       }}
     </div>
-    <div class="masonry-img div2">
+    <div class="masonry-img  tw-shadow-lg div2">
       {{
         section.settings.masonry_image_r1
         | image_url: width: 1100
@@ -42,7 +46,7 @@
           loading: 'lazy'
       }}
     </div>
-    <div class="masonry-img div3">
+    <div class="masonry-img  tw-shadow-lg div3">
       {{
         section.settings.masonry_image_r2
         | image_url: width: 1100
@@ -51,7 +55,7 @@
           loading: 'lazy'
       }}
     </div>
-    <div class="masonry-img div4">
+    <div class="masonry-img  tw-shadow-lg div4">
       {{
         section.settings.masonry_image_r3
         | image_url: width: 1100

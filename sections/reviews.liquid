@@ -134,8 +134,8 @@
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
-                {%- if block.settings.author != blank -%}
-                  <div class="rte">{{ block.settings.author }}</div>
+                {%- if block.settings.review_author != blank -%}
+                  <div class="rte">{{ block.settings.review_author }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
@@ -377,7 +377,7 @@
         },
         {
           "type": "range",
-          "id": "review-rating",
+          "id": "review_rating",
           "default": 5,
           "min": 1,
           "max": 5,
@@ -385,8 +385,9 @@
         },
         {
           "type": "text",
-          "id": "review-author",
-          "label": "Author"
+          "id": "review_author",
+          "label": "Author",
+          "default": "Stephen B."
         }
       ]
     }
@@ -400,8 +401,8 @@
           "settings": {
             "title": "We love our Yardball!",
             "text": "Received mine today, really great quality, heft is perfect yet soft enough to catch barehanded. Really impressed by this project!",
-            "review-rating": 5,
-            "review-author": "Author"
+            "review_rating": 5,
+            "review_author": "Author"
           }
         },
         {
@@ -409,8 +410,8 @@
           "settings": {
             "title": "Yardball is a fun way to bring the family together.",
             "text": "Received mine today, really great quality, heft is perfect yet soft enough to catch barehanded. Really impressed by this project!",
-            "review-rating": 5,
-            "review-author": "Author"
+            "review_rating": 5,
+            "review_author": "Author"
           }
         },
         {
@@ -418,8 +419,8 @@
           "settings": {
             "title": "All in all, the Yardball makes for an amazing throwing ball .",
             "text": "Got mine today, team! Really nice job on it! Good balance of weight and softness",
-            "review-rating": 5,
-            "review-author": "Author"
+            "review_rating": 5,
+            "review_author": "Author"
           }
         },
 
@@ -428,8 +429,8 @@
           "settings": {
             "title": "Perfect fit for the hand, and the weight is just right.",
             "text": "Yardball is the perfect shape, weight, & size to toss around anywhere",
-            "review-rating": 5,
-            "review-author": "Author"
+            "review_rating": 5,
+            "review_author": "Author"
           }
         }
       ]

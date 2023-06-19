@@ -936,6 +936,21 @@ video {
   line-height: 1.25rem;
 }
 
+.tw-text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.tw-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.tw-text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .tw-font-bold {
   font-weight: 700;
 }
@@ -977,8 +992,17 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.tw-text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
 .tw-line-through {
   text-decoration-line: line-through;
+}
+
+.tw-no-underline {
+  text-decoration-line: none;
 }
 
 .tw-shadow-lg {
@@ -1069,5 +1093,13 @@ video {
   .md\:tw-text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:tw-text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .md\:tw-text-\[28px\] {
+    font-size: 28px;
   }
 }

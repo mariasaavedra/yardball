@@ -729,6 +729,10 @@ video {
   max-width: 36rem;
 }
 
+.tw-max-w-3xl {
+  max-width: 48rem;
+}
+
 .tw-grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -759,6 +763,10 @@ video {
 
 .tw-gap-8 {
   gap: 2rem;
+}
+
+.tw-overflow-hidden {
+  overflow: hidden;
 }
 
 .tw-overflow-visible {

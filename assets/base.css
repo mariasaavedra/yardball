@@ -1541,7 +1541,6 @@ details[open] > .share-button__fallback {
   left: var(--inputs-border-width);
   border: 0.1rem solid transparent;
   border-radius: var(--inputs-radius);
-  box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
 }
@@ -1692,7 +1691,6 @@ details[open] > .share-button__fallback {
 
 .field__button {
   align-items: center;
-  background-color: transparent;
   border: 0;
   color: currentColor;
   cursor: pointer;
@@ -1704,7 +1702,25 @@ details[open] > .share-button__fallback {
   position: absolute;
   right: 0;
   top: 0;
-  width: 4.4rem;
+  width: fit-content;
+}
+
+.field__button1 {
+color: white;
+  align-items: center;
+  border: 0;
+  color: currentColor;
+  cursor: pointer;
+  display: flex;
+  height: 4.4rem;
+  justify-content: center;
+  overflow: hidden;
+  font-weight: 600;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: fit-content;
 }
 
 .field__button > svg {

@@ -45,14 +45,14 @@
       {%- if section.settings.newsletter_enable -%}
         <div class="footer-block__newsletter">
           {%- if section.settings.newsletter_heading != blank -%}
-            <h2 class="tw-font-body tw-max-w-lg tw-mx-auto tw-leading-normal md:tw-text-[20px] tw-text-sm tw-font-bold footer-block__heading inline-richtext">
+            <h2 class="tw-font-body tw-uppercase tw-max-w-xl tw-mx-auto tw-leading-normal md:tw-text-[20px] tw-text-sm tw-font-bold footer-block__heading inline-richtext">
               {{ section.settings.newsletter_heading }}
             </h2>
           {%- endif -%}
           {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
             <input type="hidden" name="contact[tags]" value="newsletter">
             <div class="newsletter-form__field-wrapper">
-              <div class="field">
+              <div class="field tw-rounded-full">
                 <input
                   id="NewsletterForm--{{ section.id }}"
                   type="email"
@@ -70,20 +70,18 @@
                   {% elsif form.posted_successfully? %}
                     aria-describedby="ContactFooter-success"
                   {% endif %}
-                  placeholder="{{ 'newsletter.label' | t }}"
+                  placeholder="Enter email here..."
                   required
                 >
-                <label class="field__label" for="NewsletterForm--{{ section.id }}">
-                  {{ 'newsletter.label' | t }}
-                </label>
+                <label class="field__label" for="NewsletterForm--{{ section.id }}"> Enter email here </label>
                 <button
                   type="submit"
-                  class="newsletter-form__button field__button"
+                  class=" field__button1 tw-px-8 tx-min-w-[50px] tw-bg-scarlet"
                   name="commit"
                   id="Subscribe"
                   aria-label="{{ 'newsletter.button_label' | t }}"
                 >
-                  {% render 'icon-arrow' %}
+                  Sign Up
                 </button>
               </div>
               {%- if form.errors -%}

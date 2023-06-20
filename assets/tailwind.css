@@ -703,6 +703,10 @@ video {
   max-height: 200px;
 }
 
+.tw-max-h-\[250px\] {
+  max-height: 250px;
+}
+
 .tw-min-h-\[500px\] {
   min-height: 500px;
 }
@@ -1045,6 +1049,10 @@ video {
 
 .tw-pb-\[8\.9rem\] {
   padding-bottom: 8.9rem;
+}
+
+.tw-pt-16 {
+  padding-top: 4rem;
 }
 
 .tw-text-left {

@@ -745,6 +745,10 @@ video {
   justify-content: space-between;
 }
 
+.tw-justify-evenly {
+  justify-content: space-evenly;
+}
+
 .tw-justify-items-center {
   justify-items: center;
 }
@@ -945,6 +949,16 @@ video {
   line-height: 1.75rem;
 }
 
+.tw-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.tw-text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
 .tw-font-bold {
   font-weight: 700;
 }
@@ -1041,6 +1055,10 @@ video {
     min-height: 826px;
   }
 
+  .md\:tw-min-h-\[420px\] {
+    min-height: 420px;
+  }
+
   .md\:tw-w-1\/2 {
     width: 50%;
   }
@@ -1106,5 +1124,25 @@ video {
 
   .md\:tw-text-\[28px\] {
     font-size: 28px;
+  }
+
+  .md\:tw-text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:tw-text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .md\:tw-text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .md\:tw-text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }

@@ -1063,6 +1063,21 @@ video {
   font-size: 28px;
 }
 
+.tw-text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.tw-text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.tw-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .tw-font-bold {
   font-weight: 700;
 }
@@ -1213,6 +1228,18 @@ video {
     padding: 2px;
   }
 
+  .md\:tw-p-0 {
+    padding: 0px;
+  }
+
+  .md\:tw-p-16 {
+    padding: 4rem;
+  }
+
+  .md\:tw-p-8 {
+    padding: 2rem;
+  }
+
   .md\:tw-px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1226,6 +1253,11 @@ video {
   .md\:tw-py-\[100px\] {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  .md\:tw-py-\[7rem\] {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .md\:tw-text-left {

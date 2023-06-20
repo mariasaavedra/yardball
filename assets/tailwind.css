@@ -1095,6 +1095,10 @@ video {
     min-height: 520px;
   }
 
+  .md\:tw-min-h-\[915px\] {
+    min-height: 915px;
+  }
+
   .md\:tw-w-1\/2 {
     width: 50%;
   }

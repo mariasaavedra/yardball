@@ -652,6 +652,10 @@ video {
   margin-top: 5px;
 }
 
+.tw-mb-16 {
+  margin-bottom: 4rem;
+}
+
 .tw-block {
   display: block;
 }
@@ -874,6 +878,11 @@ video {
 .tw-py-\[45px\] {
   padding-top: 45px;
   padding-bottom: 45px;
+}
+
+.tw-py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .tw-pb-16 {

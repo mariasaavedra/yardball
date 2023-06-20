@@ -968,7 +968,7 @@ video {
 
 .tw-text-black {
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(24 24 24 / var(--tw-text-opacity));
 }
 
 .tw-text-red-500 {
@@ -1025,24 +1025,20 @@ video {
     display: none;
   }
 
-  .md\:tw-min-h-\[662px\] {
-    min-height: 662px;
-  }
-
-  .md\:tw-min-h-\[800px\] {
-    min-height: 800px;
-  }
-
-  .md\:tw-min-h-\[826px\] {
-    min-height: 826px;
-  }
-
   .md\:tw-min-h-\[1000px\] {
     min-height: 1000px;
   }
 
+  .md\:tw-min-h-\[662px\] {
+    min-height: 662px;
+  }
+
   .md\:tw-min-h-\[792px\] {
     min-height: 792px;
+  }
+
+  .md\:tw-min-h-\[826px\] {
+    min-height: 826px;
   }
 
   .md\:tw-w-1\/2 {

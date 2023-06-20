@@ -3233,3 +3233,9 @@ header.header {
 .header {
   height: 116px !important;
 }
+
+.header__menu-item span {
+  font-weight: 900;
+  font-size: 32px;
+  font-family: theme(fontFamily.heading)
+}

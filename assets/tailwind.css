@@ -707,6 +707,10 @@ video {
   min-height: 50vh;
 }
 
+.tw-min-h-\[550px\] {
+  min-height: 550px;
+}
+
 .tw-w-\[300px\] {
   width: 300px;
 }
@@ -931,6 +935,46 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.tw-py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.tw-py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.tw-py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.tw-py-\[100px\] {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.tw-py-\[98px\] {
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
+
+.tw-py-\[5rem\] {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.tw-py-\[6rem\] {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.tw-py-\[7rem\] {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .tw-pb-16 {
   padding-bottom: 4rem;
 }
@@ -969,6 +1013,26 @@ video {
 
 .tw-pb-\[16px\] {
   padding-bottom: 16px;
+}
+
+.tw-pb-32 {
+  padding-bottom: 8rem;
+}
+
+.tw-pb-\[8\.5rem\] {
+  padding-bottom: 8.5rem;
+}
+
+.tw-pb-\[9rem\] {
+  padding-bottom: 9rem;
+}
+
+.tw-pb-\[8\.6rem\] {
+  padding-bottom: 8.6rem;
+}
+
+.tw-pb-\[8\.9rem\] {
+  padding-bottom: 8.9rem;
 }
 
 .tw-text-left {

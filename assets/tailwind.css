@@ -1055,6 +1055,10 @@ video {
   line-height: 1.75rem;
 }
 
+.tw-text-\[28px\] {
+  font-size: 28px;
+}
+
 .tw-font-bold {
   font-weight: 700;
 }
@@ -1135,6 +1139,18 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:tw-ml-8 {
+    margin-left: 2rem;
+  }
+
+  .md\:tw-ml-16 {
+    margin-left: 4rem;
+  }
+
+  .md\:tw-ml-32 {
+    margin-left: 8rem;
+  }
+
   .md\:tw-block {
     display: block;
   }

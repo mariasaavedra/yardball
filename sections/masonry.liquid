@@ -1,23 +1,23 @@
 <style>
   .parent {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 32px;
     grid-row-gap: 32px;
-    min-height: 650px;
   }
+
   .div1 {
-    grid-area: 1 / 1 / 6 / 4;
+    grid-area: 1 / 1 / 7 / 5;
   }
   .div2 {
-    grid-area: 1 / 4 / 3 / 6;
+    grid-area: 1 / 5 / 4 / 9;
   }
   .div3 {
-    grid-area: 3 / 4 / 6 / 5;
+    grid-area: 4 / 5 / 7 / 7;
   }
   .div4 {
-    grid-area: 3 / 5 / 6 / 6;
+    grid-area: 4 / 7 / 7 / 9;
   }
   .masonry-img {
     border-radius: 4px !important;
@@ -27,11 +27,12 @@
     border-radius: 4px !important;
     overflow: hidden;
     height: 100%;
+    object-fit: cover;
   }
 </style>
-<section class="tw-p-8 tw-container tw-mx-auto md:tw-min-h-[826px]">
-  <h1 class="tw-font-body tw-font-bold tw-text-5xl tw-my-8">{{ section.settings.masonry_title }}</h1>
-  <div class="parent tw-gap-8">
+<section class=" tw-container tw-mx-auto md:tw-min-h-[826px]">
+  <h1 class="tw-font-body tw-font-bold tw-text-5xl tw-my-16">{{ section.settings.masonry_title }}</h1>
+  <div class="parent  md:tw-min-h-[700px] tw-gap-8">
     <div class="masonry-img  tw-shadow-lg div1">
       {% render 'masonry-label', label: section.settings.masonry_image_title %}
       {{

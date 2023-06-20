@@ -749,6 +749,10 @@ video {
   align-content: center;
 }
 
+.tw-items-center {
+  align-items: center;
+}
+
 .tw-justify-center {
   justify-content: center;
 }
@@ -1079,6 +1083,18 @@ video {
     min-height: 826px;
   }
 
+  .md\:tw-min-h-\[200px\] {
+    min-height: 200px;
+  }
+
+  .md\:tw-min-h-\[20px\] {
+    min-height: 20px;
+  }
+
+  .md\:tw-min-h-\[520px\] {
+    min-height: 520px;
+  }
+
   .md\:tw-w-1\/2 {
     width: 50%;
   }
@@ -1117,6 +1133,16 @@ video {
   .md\:tw-py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .md\:tw-py-64 {
+    padding-top: 16rem;
+    padding-bottom: 16rem;
+  }
+
+  .md\:tw-py-48 {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
 
   .md\:tw-text-left {

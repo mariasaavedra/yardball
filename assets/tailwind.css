@@ -929,6 +929,10 @@ video {
   padding: 1rem;
 }
 
+.tw-p-2 {
+  padding: 0.5rem;
+}
+
 .tw-px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1262,6 +1266,20 @@ video {
   .md\:tw-py-\[7rem\] {
     padding-top: 7rem;
     padding-bottom: 7rem;
+  }
+
+  .md\:tw-py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .md\:tw-px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .md\:tw-pb-16 {
+    padding-bottom: 4rem;
   }
 
   .md\:tw-text-left {

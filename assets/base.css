@@ -3240,3 +3240,8 @@ header.header {
   font-size: 24px;
   font-family: var(--font-family-header);
 }
+
+
+div#Banner-template--18972124250397__image_banner {
+  min-height: 525px;
+}

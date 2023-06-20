@@ -159,8 +159,8 @@
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 56,
-        "padding_bottom": 56
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "4af2dd9a-9832-4c7a-8408-1078dc639a4a": {

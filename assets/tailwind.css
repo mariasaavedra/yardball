@@ -1081,6 +1081,10 @@ video {
     display: none;
   }
 
+  .md\:tw-max-h-\[590px\] {
+    max-height: 590px;
+  }
+
   .md\:tw-min-h-\[1000px\] {
     min-height: 1000px;
   }

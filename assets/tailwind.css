@@ -911,6 +911,11 @@ video {
   padding-right: 0.5rem;
 }
 
+.tw-py-64 {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
 .tw-pb-16 {
   padding-bottom: 4rem;
 }

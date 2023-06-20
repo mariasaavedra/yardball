@@ -10,11 +10,13 @@
     background-image: url({{ section.settings.promo_img_1 | image_url }});
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     }
     #box2 {
     background-image: url({{ section.settings.promo_img_2 | image_url }});
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
   }
     .promo-container {
       background-image: url({{ "WoodBG.png" | asset_url }});
@@ -27,10 +29,10 @@
 </style>
 
 <section class="md:tw-block tw-hidden promo-container tw-items-center md:tw-min-h-[792px]">
-  <div class="tw-container tw-flex  tw-gap-8  md:tw-px-16 md:tw-py-48 tw-mx-auto">
+  <div class="tw-container tw-flex  tw-gap-8  md:tw-px-0 md:tw-py-48 tw-mx-auto">
     <div
       id="box2"
-      class="md:tw-w-1/2 w-full tw-min-h-[50vh] md:tw-min-h-[520px] tw-rounded-lg tw-p-4"
+      class="md:tw-w-1/2 w-full tw-min-h-[50vh] md:tw-min-h-[520px] tw-rounded-lg tw-p-0"
     >
       <div></div>
     </div>
@@ -41,7 +43,7 @@
       <h3 class="promo-header tw-max-fit tw-mx-auto tw-font-body tw-p-8 tw-my-16 uppercase tw-font-thin tw-text-center tw-text-5xl">
         {{ section.settings.promo_title }}
       </h3>
-      <button class="button tw-text-center tw-shadow-lg tw-mx-auto tw-max-w-[300px] tw-bg-scarlet">
+      <button class="button tw-text-center tw-shadow-lg tw-mx-auto tw-max-w-[300px] tw-px-4 tw-bg-scarlet">
         <span class="tw-text-md"> {{ section.settings.promo_btn_title }}</span>
       </button>
     </div>

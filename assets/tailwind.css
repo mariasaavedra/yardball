@@ -1023,6 +1023,10 @@ video {
   padding-bottom: 4rem;
 }
 
+.tw-pb-\[10rem\] {
+  padding-bottom: 10rem;
+}
+
 .tw-text-left {
   text-align: left;
 }

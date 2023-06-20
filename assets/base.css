@@ -3228,3 +3228,8 @@ header.header {
 .rtl {
   direction: rtl !important;
 }
+
+/* Overrride Styling */
+.header {
+  height: 116px !important;
+}

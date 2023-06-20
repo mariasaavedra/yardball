@@ -77,7 +77,7 @@
   }
 
   .banner--large:not(.banner--adapt) {
-    min-height: 55rem;
+    min-height: 708px;
   }
 
   .banner__content.banner__content--top-left {
@@ -521,4 +521,12 @@ h2.banner__heading.inline-richtext.h1 {
 
 .banner__content.banner__content--middle-left.page-width {
   max-width:  1200px
+}
+
+
+@media (min-width: theme(screens.md)) {
+  .banner--large {
+    height: 708px !important;
+    min-height: 708px !important;
+  }
 }

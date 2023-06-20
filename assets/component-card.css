@@ -465,3 +465,11 @@
   cursor: pointer;
   
 }
+
+.card__media img  {
+   max-width: 80% !important;
+   object-fit: contain !important;
+   height: auto;
+   left: 0;
+   right: 0;
+}

@@ -699,6 +699,10 @@ video {
   display: none;
 }
 
+.tw-max-h-\[200px\] {
+  max-height: 200px;
+}
+
 .tw-min-h-\[500px\] {
   min-height: 500px;
 }
@@ -754,6 +758,14 @@ video {
 .tw-max-w-fit {
   max-width: -moz-fit-content;
   max-width: fit-content;
+}
+
+.tw-max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.tw-max-w-\[100px\] {
+  max-width: 100px;
 }
 
 .tw-grid-cols-1 {

@@ -741,6 +741,10 @@ video {
   flex-direction: column;
 }
 
+.tw-content-center {
+  align-content: center;
+}
+
 .tw-justify-center {
   justify-content: center;
 }
@@ -1088,6 +1092,10 @@ video {
 
   .md\:tw-min-h-\[700px\] {
     min-height: 700px;
+  }
+
+  .md\:tw-min-h-\[535px\] {
+    min-height: 535px;
   }
 
   .md\:tw-w-1\/2 {

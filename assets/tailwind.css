@@ -880,9 +880,9 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.tw-py-\[45px\] {
-  padding-top: 45px;
-  padding-bottom: 45px;
+.tw-py-\[38px\] {
+  padding-top: 38px;
+  padding-bottom: 38px;
 }
 
 .tw-pb-16 {
@@ -933,10 +933,6 @@ video {
 
 .tw-text-\[22px\] {
   font-size: 22px;
-}
-
-.tw-text-\[39px\] {
-  font-size: 39px;
 }
 
 .tw-text-sm {
@@ -1099,6 +1095,10 @@ video {
     padding: 0.5rem;
   }
 
+  .md\:tw-p-\[2px\] {
+    padding: 2px;
+  }
+
   .md\:tw-px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -1121,11 +1121,6 @@ video {
   .md\:tw-text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .md\:tw-text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .md\:tw-text-7xl {

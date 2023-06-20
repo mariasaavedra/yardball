@@ -647,6 +647,38 @@ video {
   margin-top: 5px;
 }
 
+.tw-mb-12 {
+  margin-bottom: 3rem;
+}
+
+.tw-mb-16 {
+  margin-bottom: 4rem;
+}
+
+.tw-mb-14 {
+  margin-bottom: 3.5rem;
+}
+
+.tw-mb-\[12px\] {
+  margin-bottom: 12px;
+}
+
+.tw-mb-\[16px\] {
+  margin-bottom: 16px;
+}
+
+.tw-mb-\[18px\] {
+  margin-bottom: 18px;
+}
+
+.tw-mb-\[24px\] {
+  margin-bottom: 24px;
+}
+
+.tw-mb-\[0px\] {
+  margin-bottom: 0px;
+}
+
 .tw-block {
   display: block;
 }
@@ -758,6 +790,10 @@ video {
 
 .tw-gap-8 {
   gap: 2rem;
+}
+
+.tw-gap-0 {
+  gap: 0px;
 }
 
 .tw-overflow-hidden {
@@ -885,6 +921,16 @@ video {
   padding-bottom: 38px;
 }
 
+.tw-py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.tw-py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .tw-pb-16 {
   padding-bottom: 4rem;
 }
@@ -899,6 +945,30 @@ video {
 
 .tw-pt-8 {
   padding-top: 2rem;
+}
+
+.tw-pb-12 {
+  padding-bottom: 3rem;
+}
+
+.tw-pt-4 {
+  padding-top: 1rem;
+}
+
+.tw-pt-6 {
+  padding-top: 1.5rem;
+}
+
+.tw-pb-14 {
+  padding-bottom: 3.5rem;
+}
+
+.tw-pt-\[38px\] {
+  padding-top: 38px;
+}
+
+.tw-pb-\[16px\] {
+  padding-bottom: 16px;
 }
 
 .tw-text-left {
@@ -943,6 +1013,11 @@ video {
 .tw-text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.tw-text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .tw-font-bold {
@@ -1065,6 +1140,26 @@ video {
     min-height: 915px;
   }
 
+  .md\:tw-min-h-\[660px\] {
+    min-height: 660px;
+  }
+
+  .md\:tw-min-h-\[650px\] {
+    min-height: 650px;
+  }
+
+  .md\:tw-min-h-\[640px\] {
+    min-height: 640px;
+  }
+
+  .md\:tw-min-h-\[630px\] {
+    min-height: 630px;
+  }
+
+  .md\:tw-min-h-\[625px\] {
+    min-height: 625px;
+  }
+
   .md\:tw-w-1\/2 {
     width: 50%;
   }
@@ -1084,6 +1179,14 @@ video {
 
   .md\:tw-gap-8 {
     gap: 2rem;
+  }
+
+  .md\:tw-gap-6 {
+    gap: 1.5rem;
+  }
+
+  .md\:tw-gap-4 {
+    gap: 1rem;
   }
 
   .md\:tw-bg-cream {
@@ -1107,6 +1210,11 @@ video {
   .md\:tw-py-48 {
     padding-top: 12rem;
     padding-bottom: 12rem;
+  }
+
+  .md\:tw-py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .md\:tw-text-left {
@@ -1134,5 +1242,15 @@ video {
 
   .md\:tw-text-\[28px\] {
     font-size: 28px;
+  }
+
+  .md\:tw-text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:tw-text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }

@@ -862,6 +862,10 @@ video {
   padding: 0px;
 }
 
+.tw-p-2 {
+  padding: 0.5rem;
+}
+
 .tw-px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -978,6 +982,18 @@ video {
 .tw-text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.tw-text-\[40px\] {
+  font-size: 40px;
+}
+
+.tw-text-\[35px\] {
+  font-size: 35px;
+}
+
+.tw-text-\[30px\] {
+  font-size: 30px;
 }
 
 .tw-font-bold {

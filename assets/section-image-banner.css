@@ -76,9 +76,6 @@
     min-height: 48rem;
   }
 
-  .banner--large:not(.banner--adapt) {
-    min-height: 708px;
-  }
 
   .banner__content.banner__content--top-left {
     align-items: flex-start;
@@ -523,10 +520,3 @@ h2.banner__heading.inline-richtext.h1 {
   max-width:  1200px
 }
 
-
-@media (min-width: theme(screens.md)) {
-  .banner--large {
-    height: 708px !important;
-    min-height: 708px !important;
-  }
-}

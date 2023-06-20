@@ -3231,11 +3231,12 @@ header.header {
 
 /* Overrride Styling */
 .header {
-  height: 116px !important;
+  height: 77px;
+  overflow: hidden;
 }
 
 .header__menu-item span {
   font-weight: 900;
-  font-size: 32px;
-  font-family: theme(fontFamily.heading)
+  font-size: 24px;
+  font-family: var(--font-family-header);
 }

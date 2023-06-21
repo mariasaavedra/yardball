@@ -967,6 +967,10 @@ video {
   padding-top: 4rem;
 }
 
+.tw-pt-8 {
+  padding-top: 2rem;
+}
+
 .tw-text-left {
   text-align: left;
 }

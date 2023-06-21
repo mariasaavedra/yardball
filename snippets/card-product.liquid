@@ -58,7 +58,7 @@
         class="card__inner  gradient {% if card_product.featured_media or settings.card_style == 'standard' %} ratio{% endif %}"
         style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
       >
-        <h3 class="tw-mx-auto">"{{ card_product.title }}"</h3>
+        <h3 class="tw-mx-auto tw-hidden md:tw-block">"{{ card_product.title }}"</h3>
         {%- if card_product.featured_media -%}
           <div class="card__media{% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} gradient{% endif %}">
             <div class="media media--transparent media--hover-effect">
@@ -110,14 +110,15 @@
           </div>
         {%- endif -%}
       </div>
-      {% render 'price', product: card_product, price_class: '' %}
+      <h3 class="tw-mx-auto md:tw-hidden tw-text-5xl md:tw-text-3xl tw-block">"{{ card_product.title }}"</h3>
       <img
         width="92"
         height="15"
         loading="lazy"
-        class="stars"
+        class="stars tw-pt-8 md:tw-pt-0"
         src="https://cdn.shopify.com/s/files/1/0756/7432/1181/files/stars.png"
       >
+      {% render 'price', product: card_product, price_class: '' %}
 
       <div class="card__content">
         <div class="card__information">

@@ -1199,6 +1199,19 @@ video {
     padding-bottom: 7rem;
   }
 
+  .md\:tw-py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .md\:tw-pt-32 {
+    padding-top: 8rem;
+  }
+
+  .md\:tw-pt-0 {
+    padding-top: 0px;
+  }
+
   .md\:tw-text-left {
     text-align: left;
   }

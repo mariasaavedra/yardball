@@ -48,7 +48,7 @@
   endif
 -%}
 
-<div class="tw-py-32 tw-pt-32 color-{{ section.settings.color_scheme }} isolate gradient">
+<div class="tw-py-32 tw-pt-32 md:tw-bg-white tw-bg-[#DBD9CA]  tw-min-h-[735px] color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
     <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
       {%- if section.settings.title != blank -%}
@@ -115,7 +115,7 @@
         <div class="slider-buttons no-js-hidden">
           <button
             type="button"
-            class="slider-button slider-button--prev"
+            class="slider-button slider-button--prev tw-bg-scarlet tw-color-white"
             name="previous"
             aria-label="{{ 'general.slider.previous_slide' | t }}"
             aria-controls="Slider-{{ section.id }}"
@@ -130,7 +130,7 @@
           </div>
           <button
             type="button"
-            class="slider-button slider-button--next"
+            class="slider-button slider-button--next tw-bg-scarlet tw-color-white"
             name="next"
             aria-label="{{ 'general.slider.next_slide' | t }}"
             aria-controls="Slider-{{ section.id }}"

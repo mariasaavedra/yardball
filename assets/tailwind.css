@@ -584,6 +584,34 @@ video {
   top: -20px;
 }
 
+.tw-top-10 {
+  top: 2.5rem;
+}
+
+.tw-top-\[300px\] {
+  top: 300px;
+}
+
+.tw-top-\[150px\] {
+  top: 150px;
+}
+
+.tw-top-\[50px\] {
+  top: 50px;
+}
+
+.tw-top-\[80px\] {
+  top: 80px;
+}
+
+.tw-left-10 {
+  left: 2.5rem;
+}
+
+.tw-top-\[100px\] {
+  top: 100px;
+}
+
 .tw-z-50 {
   z-index: 50;
 }
@@ -1102,6 +1130,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:tw-relative {
+    position: relative;
+  }
+
   .md\:tw-ml-32 {
     margin-left: 8rem;
   }

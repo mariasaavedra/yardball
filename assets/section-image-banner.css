@@ -490,12 +490,12 @@ h2.banner__heading.inline-richtext.h1 {
   position: absolute;
   right: 7rem;
   top: -35px;
-  background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/Group_228_6ffeb1d4-a07a-47c0-9ae6-8fa1693c21a8.png');
+  background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/hero-red.png?v=1687401907');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
   width: 65%;
-  max-width: 640px;
+  max-width: 600px;
   height: 100%;
 }
 
@@ -509,12 +509,12 @@ h2.banner__heading.inline-richtext.h1 {
     position: absolute;
     right: 7rem;
     top: -35px;
-    background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/hero-hover.png?v=1687270173');
+    background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/hero-orange.png?v=1687401907');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
     width: 65%;
-    max-width: 640px;
+    max-width: 600;
     height: 100%;
   }
   

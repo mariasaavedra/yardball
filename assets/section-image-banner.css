@@ -527,13 +527,12 @@ h2.banner__heading.inline-richtext.h1 {
     content: '';
     position: absolute;
     right: -30px;
-    top: -125px;
+    top: -160px;
     background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/hero-mobile.png?v=1687402570') !important;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
     width: 65%;
-    max-width: 640px;
     height: 100%;
   }
   

@@ -502,8 +502,8 @@ h2.banner__heading.inline-richtext.h1 {
 
 
 @media screen and (min-width: 600px) {
-  .banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in:after,
-  .banner__content.banner__content--bottom-left.page-width.scroll-trigger.animate--slide-in:after {
+  .banner__content.banner__content--middle-left.page-width.scroll-trigger.animate--slide-in:hover:after,
+  .banner__content.banner__content--bottom-left.page-width.scroll-trigger.animate--slide-in:hover:after {
     display: block;
     content: '';
     position: absolute;

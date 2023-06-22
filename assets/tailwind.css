@@ -592,10 +592,6 @@ video {
   top: 100px;
 }
 
-.tw-top-\[0px\] {
-  top: 0px;
-}
-
 .tw-z-50 {
   z-index: 50;
 }
@@ -1087,12 +1083,12 @@ video {
     position: relative;
   }
 
-  .md\:tw-top-0 {
-    top: 0px;
-  }
-
   .md\:tw-left-0 {
     left: 0px;
+  }
+
+  .md\:tw-top-0 {
+    top: 0px;
   }
 
   .md\:tw-ml-32 {

@@ -526,7 +526,7 @@ h2.banner__heading.inline-richtext.h1 {
     display: block;
     content: '';
     position: absolute;
-    right: -100px;
+    right: -60px;
     top: -125px;
     background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/banner-secondary.png?v=1687375559') !important;
     background-size: contain;

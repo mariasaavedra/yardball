@@ -703,6 +703,15 @@ video {
   width: 100%;
 }
 
+.tw-w-\[100\%\] {
+  width: 100%;
+}
+
+.tw-w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .tw-min-w-\[300px\] {
   min-width: 300px;
 }

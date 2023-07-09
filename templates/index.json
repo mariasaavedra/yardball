@@ -85,9 +85,9 @@
       "type": "triple-offer",
       "settings": {
         "offer_title": "SHOP \"GLOVE TAN\"",
-        "offer_image_1": "shopify:\/\/shop_images\/bb1.png",
-        "offer_image_2": "shopify:\/\/shop_images\/bb2.png",
-        "offer_image_3": "shopify:\/\/shop_images\/bb3.png",
+        "offer_image_1": "shopify:\/\/shop_images\/YARDBALL_1.png",
+        "offer_image_2": "shopify:\/\/shop_images\/YARDBALL_2.png",
+        "offer_image_3": "shopify:\/\/shop_images\/YARDBALL_3.png",
         "offer_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "offer_button": "Buy now",
         "offer_url": "#"

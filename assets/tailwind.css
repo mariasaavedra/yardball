@@ -696,6 +696,22 @@ video {
   max-height: 250px;
 }
 
+.tw-max-h-\[50px\] {
+  max-height: 50px;
+}
+
+.tw-max-h-\[20px\] {
+  max-height: 20px;
+}
+
+.tw-max-h-\[70px\] {
+  max-height: 70px;
+}
+
+.tw-max-h-\[10px\] {
+  max-height: 10px;
+}
+
 .tw-min-h-\[500px\] {
   min-height: 500px;
 }

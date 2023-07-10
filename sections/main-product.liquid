@@ -475,6 +475,7 @@
   {% render 'recommended-items' %}
   {% render 'warranty' %}
 
+
   {% assign popups = section.blocks | where: 'type', 'popup' %}
   {%- for block in popups -%}
     <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
@@ -593,6 +594,7 @@
     }
   </script>
 </section>
+{% render 'product-details' %}
 
 {% schema %}
 {

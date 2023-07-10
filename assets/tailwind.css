@@ -596,6 +596,11 @@ video {
   z-index: 50;
 }
 
+.tw-mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .tw-mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -696,22 +701,6 @@ video {
   max-height: 250px;
 }
 
-.tw-max-h-\[50px\] {
-  max-height: 50px;
-}
-
-.tw-max-h-\[20px\] {
-  max-height: 20px;
-}
-
-.tw-max-h-\[70px\] {
-  max-height: 70px;
-}
-
-.tw-max-h-\[10px\] {
-  max-height: 10px;
-}
-
 .tw-min-h-\[500px\] {
   min-height: 500px;
 }
@@ -773,6 +762,42 @@ video {
   max-width: fit-content;
 }
 
+.tw-max-w-5xl {
+  max-width: 64rem;
+}
+
+.tw-max-w-6xl {
+  max-width: 72rem;
+}
+
+.tw-max-w-7xl {
+  max-width: 80rem;
+}
+
+.tw-max-w-\[750px\] {
+  max-width: 750px;
+}
+
+.tw-max-w-\[950px\] {
+  max-width: 950px;
+}
+
+.tw-max-w-\[970px\] {
+  max-width: 970px;
+}
+
+.tw-max-w-xl {
+  max-width: 36rem;
+}
+
+.tw-max-w-\[1100px\] {
+  max-width: 1100px;
+}
+
+.tw-grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .tw-grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -811,6 +836,10 @@ video {
 
 .tw-gap-2 {
   gap: 0.5rem;
+}
+
+.tw-gap-4 {
+  gap: 1rem;
 }
 
 .tw-gap-8 {
@@ -920,6 +949,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.tw-bg-\[\#365181\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 81 129 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#F2EEE8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 238 232 / var(--tw-bg-opacity));
+}
+
 .tw-object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -939,6 +978,10 @@ video {
 
 .tw-p-8 {
   padding: 2rem;
+}
+
+.tw-p-16 {
+  padding: 4rem;
 }
 
 .tw-px-4 {
@@ -1006,6 +1049,10 @@ video {
   padding-top: 38px;
 }
 
+.tw-pr-8 {
+  padding-right: 2rem;
+}
+
 .tw-text-left {
   text-align: left;
 }
@@ -1055,6 +1102,14 @@ video {
   line-height: 1.75rem;
 }
 
+.tw-text-\[14px\] {
+  font-size: 14px;
+}
+
+.tw-text-\[12px\] {
+  font-size: 12px;
+}
+
 .tw-font-bold {
   font-weight: 700;
 }
@@ -1069,6 +1124,10 @@ video {
 
 .tw-uppercase {
   text-transform: uppercase;
+}
+
+.tw-capitalize {
+  text-transform: capitalize;
 }
 
 .tw-leading-\[2\.5\] {

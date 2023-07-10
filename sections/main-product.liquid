@@ -12,6 +12,10 @@
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
   {%- style -%}
+  img[alt="icons"] {
+    max-width: 350px;
+    margin: 0 auto;
+  }
   .shopify-section {
     background: #fff;
   }
@@ -30,7 +34,10 @@
   .spr-icon-star:before {
     color: #CC6328;
 }
-
+.spr-starrating {
+  display: block;
+  margin: 0 auto;
+}
 
   #shopify-product-reviews,
   .spr-container {

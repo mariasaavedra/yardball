@@ -673,6 +673,10 @@ video {
   margin-top: 5px;
 }
 
+.tw-mt-4 {
+  margin-top: 1rem;
+}
+
 .tw-block {
   display: block;
 }
@@ -804,6 +808,10 @@ video {
 
 .tw-grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.tw-grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .tw-grid-rows-1 {
@@ -1244,6 +1252,10 @@ video {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
+  .md\:tw-grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:tw-gap-4 {
     gap: 1rem;
   }
@@ -1307,6 +1319,11 @@ video {
   .md\:tw-py-\[7rem\] {
     padding-top: 7rem;
     padding-bottom: 7rem;
+  }
+
+  .md\:tw-py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .md\:tw-pt-0 {

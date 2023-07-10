@@ -123,7 +123,7 @@
         "ba77f125-38cf-4814-aa15-0289acb49072"
       ],
       "settings": {
-        "include_margins": false
+        "include_margins": true
       }
     }
   },

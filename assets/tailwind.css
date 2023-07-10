@@ -882,6 +882,14 @@ video {
   border-radius: 17px;
 }
 
+.tw-rounded-\[8px\] {
+  border-radius: 8px;
+}
+
+.tw-rounded-\[20px\] {
+  border-radius: 20px;
+}
+
 .tw-rounded-bl-\[8px\] {
   border-bottom-left-radius: 8px;
 }
@@ -965,6 +973,16 @@ video {
 .tw-bg-\[\#F2EEE8\] {
   --tw-bg-opacity: 1;
   background-color: rgb(242 238 232 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#F4F0EB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 240 235 / var(--tw-bg-opacity));
+}
+
+.\!tw-bg-\[\#F4F0EB\] {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(244 240 235 / var(--tw-bg-opacity)) !important;
 }
 
 .tw-object-cover {

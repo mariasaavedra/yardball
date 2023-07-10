@@ -631,6 +631,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.tw-my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .tw-mb-32 {
   margin-bottom: 8rem;
 }
@@ -655,6 +660,10 @@ video {
   margin-top: 0px;
 }
 
+.tw-mt-2 {
+  margin-top: 0.5rem;
+}
+
 .tw-mt-\[5px\] {
   margin-top: 5px;
 }
@@ -673,6 +682,10 @@ video {
 
 .tw-flex {
   display: flex;
+}
+
+.tw-inline-flex {
+  display: inline-flex;
 }
 
 .tw-grid {
@@ -715,6 +728,10 @@ video {
   max-width: 42rem;
 }
 
+.tw-max-w-3xl {
+  max-width: 48rem;
+}
+
 .tw-max-w-\[1200px\] {
   max-width: 1200px;
 }
@@ -742,6 +759,18 @@ video {
 
 .tw-grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.tw-grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.tw-grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.tw-grid-rows-1 {
+  grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
 .tw-flex-col {
@@ -776,6 +805,10 @@ video {
   gap: 2rem;
 }
 
+.tw-gap-16 {
+  gap: 4rem;
+}
+
 .tw-overflow-hidden {
   overflow: hidden;
 }
@@ -792,16 +825,16 @@ video {
   white-space: nowrap;
 }
 
+.tw-rounded-\[100\%\] {
+  border-radius: 100%;
+}
+
 .tw-rounded-\[4px\] {
   border-radius: 4px;
 }
 
 .tw-rounded-lg {
   border-radius: 17px;
-}
-
-.tw-rounded-\[100\%\] {
-  border-radius: 100%;
 }
 
 .tw-rounded-bl-\[8px\] {
@@ -1014,8 +1047,16 @@ video {
   font-weight: 700;
 }
 
+.tw-font-semibold {
+  font-weight: 600;
+}
+
 .tw-font-thin {
   font-weight: 100;
+}
+
+.tw-font-medium {
+  font-weight: 500;
 }
 
 .tw-uppercase {

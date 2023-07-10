@@ -663,6 +663,10 @@ video {
   display: block;
 }
 
+.tw-inline-block {
+  display: inline-block;
+}
+
 .tw-inline {
   display: inline;
 }
@@ -794,6 +798,10 @@ video {
 
 .tw-rounded-lg {
   border-radius: 17px;
+}
+
+.tw-rounded-\[100\%\] {
+  border-radius: 100%;
 }
 
 .tw-rounded-bl-\[8px\] {

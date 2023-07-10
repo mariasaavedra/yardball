@@ -1,14 +1,40 @@
-<section class="tw-mx-auto tw-mt-2 tw-mb-32 tw-text-center">
-  <img
-    width="80"
-    height="80"
-    class="tw-my-4  tw-rounded-[100%] tw-inline-block tw-rounded-2xl"
-    alt="Icon of a Yardball"
-    loading="lazy"
-    src="https://cdn.shopify.com/s/files/1/0756/7432/1181/files/SquatchFoot_svg.png?v=1688954229"
-  >
-  <h3 class="tw-uppercase tw-font-body tw-my-4 tw-font-thin">Satisfaction Guaranteed</h3>
-  <p class="tw-font-body tw-max-w-xl tw-text-center tw-mx-auto">
-    If you aren't 100% satisfied with your order, don't worry, Yardball will cover the cost!
-  </p>
+{%- style -%}
+  #warranty-section {
+    position: relative;
+  }
+  .warranty-section--wrapper {
+    max-width: fit-content;
+    margin: 0 auto;
+    background: #fff;
+    z-index: 100;
+    position: relative;
+  }
+  #warranty-section::before {
+    display: block;
+    content: '';
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #e5d0bb;
+    top: 50%;
+    z-index: 1;
+  }
+{%- endstyle -%}
+<section id="warranty-section" class="tw-mx-auto tw-mt-2 tw-mb-32 tw-text-center">
+  <div class="warranty-section--wrapper">
+    <img
+      width="80"
+      height="80"
+      class="tw-my-4  tw-rounded-[100%] tw-inline-block tw-rounded-2xl"
+      alt="Icon of a Yardball"
+      loading="lazy"
+      src="https://cdn.shopify.com/s/files/1/0756/7432/1181/files/SquatchFoot_svg.png?v=1688954229"
+    >
+    <h3 class="tw-uppercase tw-font-body tw-my-4 tw-font-thin">Satisfaction Guaranteed</h3>
+    <p class="tw-font-body tw-max-w-xl tw-text-center tw-mx-auto">
+      If you aren't 100% satisfied with your order, don't worry, Yardball will cover the cost!
+    </p>
+  </div>
 </section>

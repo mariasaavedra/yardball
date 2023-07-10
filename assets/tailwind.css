@@ -611,6 +611,11 @@ video {
   margin-bottom: 0px;
 }
 
+.tw-my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .tw-my-16 {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -629,11 +634,6 @@ video {
 .tw-my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.tw-my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 
 .tw-mb-32 {
@@ -684,10 +684,6 @@ video {
   display: flex;
 }
 
-.tw-inline-flex {
-  display: inline-flex;
-}
-
 .tw-grid {
   display: grid;
 }
@@ -710,6 +706,10 @@ video {
 
 .tw-min-h-\[735px\] {
   min-height: 735px;
+}
+
+.tw-w-\[100\%\] {
+  width: 100%;
 }
 
 .tw-w-\[300px\] {
@@ -761,10 +761,6 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.tw-grid-cols-12 {
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-}
-
 .tw-grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -803,10 +799,6 @@ video {
 
 .tw-gap-8 {
   gap: 2rem;
-}
-
-.tw-gap-16 {
-  gap: 4rem;
 }
 
 .tw-overflow-hidden {
@@ -1029,6 +1021,10 @@ video {
   line-height: 1;
 }
 
+.tw-text-\[24px\] {
+  font-size: 24px;
+}
+
 .tw-text-\[28px\] {
   font-size: 28px;
 }
@@ -1053,10 +1049,6 @@ video {
 
 .tw-font-thin {
   font-weight: 100;
-}
-
-.tw-font-medium {
-  font-weight: 500;
 }
 
 .tw-uppercase {

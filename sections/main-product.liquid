@@ -27,6 +27,11 @@
     font-weight: 700;
     line-height: normal;
   }
+  .spr-icon-star:before {
+    color: #CC6328;
+}
+
+
   #shopify-product-reviews,
   .spr-container {
     background: #fff;
@@ -36,6 +41,9 @@
   }
   .spr-stars svg {
     display: inline-block;
+  }
+  .spr-stars svg > path{
+    fill: #FBC800;
   }
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;

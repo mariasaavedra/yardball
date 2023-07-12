@@ -91,6 +91,15 @@
         "padding_bottom": 12
       }
     },
+    "55b776f4-0ad0-459b-a02f-833e7cbada7d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'review-header' %}",
+        "color_scheme": "background-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -129,6 +138,7 @@
   },
   "order": [
     "main",
+    "55b776f4-0ad0-459b-a02f-833e7cbada7d",
     "related-products",
     "1688946017c2db4e3c"
   ]

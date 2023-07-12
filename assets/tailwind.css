@@ -669,12 +669,12 @@ video {
   margin-top: 0.5rem;
 }
 
-.tw-mt-\[5px\] {
-  margin-top: 5px;
-}
-
 .tw-mt-4 {
   margin-top: 1rem;
+}
+
+.tw-mt-\[5px\] {
+  margin-top: 5px;
 }
 
 .tw-block {
@@ -737,8 +737,8 @@ video {
   max-width: 42rem;
 }
 
-.tw-max-w-3xl {
-  max-width: 48rem;
+.tw-max-w-\[1100px\] {
+  max-width: 1100px;
 }
 
 .tw-max-w-\[1200px\] {
@@ -766,40 +766,12 @@ video {
   max-width: fit-content;
 }
 
-.tw-max-w-5xl {
-  max-width: 64rem;
-}
-
-.tw-max-w-6xl {
-  max-width: 72rem;
-}
-
-.tw-max-w-7xl {
-  max-width: 80rem;
-}
-
-.tw-max-w-\[750px\] {
-  max-width: 750px;
-}
-
-.tw-max-w-\[950px\] {
-  max-width: 950px;
-}
-
-.tw-max-w-\[970px\] {
-  max-width: 970px;
-}
-
 .tw-max-w-xl {
   max-width: 36rem;
 }
 
-.tw-max-w-\[1100px\] {
-  max-width: 1100px;
-}
-
-.tw-grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.tw-grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .tw-grid-cols-3 {
@@ -808,10 +780,6 @@ video {
 
 .tw-grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.tw-grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .tw-grid-rows-1 {
@@ -840,6 +808,10 @@ video {
 
 .tw-justify-items-center {
   justify-items: center;
+}
+
+.tw-gap-16 {
+  gap: 4rem;
 }
 
 .tw-gap-2 {
@@ -874,20 +846,16 @@ video {
   border-radius: 100%;
 }
 
+.tw-rounded-\[20px\] {
+  border-radius: 20px;
+}
+
 .tw-rounded-\[4px\] {
   border-radius: 4px;
 }
 
 .tw-rounded-lg {
   border-radius: 17px;
-}
-
-.tw-rounded-\[8px\] {
-  border-radius: 8px;
-}
-
-.tw-rounded-\[20px\] {
-  border-radius: 20px;
 }
 
 .tw-rounded-bl-\[8px\] {
@@ -920,6 +888,11 @@ video {
   background-color: rgb(51 51 51 / var(--tw-bg-opacity));
 }
 
+.tw-bg-\[\#365181\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 81 129 / var(--tw-bg-opacity));
+}
+
 .tw-bg-\[\#454446\] {
   --tw-bg-opacity: 1;
   background-color: rgb(69 68 70 / var(--tw-bg-opacity));
@@ -933,6 +906,16 @@ video {
 .tw-bg-\[\#E99E69\] {
   --tw-bg-opacity: 1;
   background-color: rgb(233 158 105 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#F2EEE8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 238 232 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#F4F0EB\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 240 235 / var(--tw-bg-opacity));
 }
 
 .tw-bg-black {
@@ -965,26 +948,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.tw-bg-\[\#365181\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(54 81 129 / var(--tw-bg-opacity));
-}
-
-.tw-bg-\[\#F2EEE8\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(242 238 232 / var(--tw-bg-opacity));
-}
-
-.tw-bg-\[\#F4F0EB\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 240 235 / var(--tw-bg-opacity));
-}
-
-.\!tw-bg-\[\#F4F0EB\] {
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(244 240 235 / var(--tw-bg-opacity)) !important;
-}
-
 .tw-object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1004,14 +967,6 @@ video {
 
 .tw-p-8 {
   padding: 2rem;
-}
-
-.tw-p-16 {
-  padding: 4rem;
-}
-
-.tw-p-32 {
-  padding: 8rem;
 }
 
 .tw-px-4 {
@@ -1064,6 +1019,10 @@ video {
   padding-right: 0px;
 }
 
+.tw-pr-8 {
+  padding-right: 2rem;
+}
+
 .tw-pt-12 {
   padding-top: 3rem;
 }
@@ -1082,10 +1041,6 @@ video {
 
 .tw-pt-\[38px\] {
   padding-top: 38px;
-}
-
-.tw-pr-8 {
-  padding-right: 2rem;
 }
 
 .tw-text-left {
@@ -1119,6 +1074,10 @@ video {
   line-height: 1;
 }
 
+.tw-text-\[12px\] {
+  font-size: 12px;
+}
+
 .tw-text-\[24px\] {
   font-size: 24px;
 }
@@ -1135,14 +1094,6 @@ video {
 .tw-text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.tw-text-\[14px\] {
-  font-size: 14px;
-}
-
-.tw-text-\[12px\] {
-  font-size: 12px;
 }
 
 .tw-font-bold {
@@ -1328,6 +1279,11 @@ video {
     padding-bottom: 0px;
   }
 
+  .md\:tw-py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .md\:tw-py-32 {
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -1346,11 +1302,6 @@ video {
   .md\:tw-py-\[7rem\] {
     padding-top: 7rem;
     padding-bottom: 7rem;
-  }
-
-  .md\:tw-py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
   }
 
   .md\:tw-pt-0 {

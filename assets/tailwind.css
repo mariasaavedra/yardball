@@ -822,6 +822,10 @@ video {
   max-width: 32rem;
 }
 
+.tw-max-w-\[7px\] {
+  max-width: 7px;
+}
+
 .tw-grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1158,6 +1162,10 @@ video {
 
 .tw-pr-8 {
   padding-right: 2rem;
+}
+
+.tw-pr-4 {
+  padding-right: 1rem;
 }
 
 .tw-text-left {

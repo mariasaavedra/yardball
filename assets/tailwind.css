@@ -725,6 +725,10 @@ video {
   margin-top: 5px;
 }
 
+.tw-mt-8 {
+  margin-top: 2rem;
+}
+
 .tw-block {
   display: block;
 }

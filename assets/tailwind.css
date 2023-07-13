@@ -1156,6 +1156,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.tw-pr-8 {
+  padding-right: 2rem;
+}
+
 .tw-text-left {
   text-align: left;
 }

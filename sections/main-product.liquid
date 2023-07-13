@@ -78,7 +78,15 @@
     <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
 
-  <p class="tw-px-8 tw-pb-8"><a href="/">Home</a> > <a href="http://localhost:9292/collections/all">Yardballs</a>  > {{ product.title }} </p>
+  <p class="tw-px-8 tw-pb-8">
+    <a class="tw-pr-8" href="/">Home</a> 
+    {% render 'icon-arrow-breadcrumb' %} 
+    <a class="tw-px-8" href="/collections/all">Yardballs</a>  
+    {% render 'icon-arrow-breadcrumb' %} 
+    <span class="tw-px-8">{{ product.title }} </span> 
+  </p>
+
+
   {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
   {%- if first_3d_model -%}
     {{ 'component-product-model.css' | asset_url | stylesheet_tag }}

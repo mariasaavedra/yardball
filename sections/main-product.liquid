@@ -78,6 +78,7 @@
     <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
 
+  <p class="tw-px-8 tw-pb-8"><a href="/">Home</a> > <a href="http://localhost:9292/collections/all">Yardballs</a>  > {{ product.title }} </p>
   {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
   {%- if first_3d_model -%}
     {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
@@ -100,9 +101,12 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
-    <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
+
+<div class="tw-relative grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       {% render 'product-media-gallery', variant_images: variant_images %}
+      <div class="tw-absolute tw-z-10 tw-top-4 tw-right-14 tw-bg-white tw-rounded-[7px] tw-text-[14px] tw-px-4 tw-py-3 tw-border-[1px] tw-text-gray-500 tw-border-gray-500">Free Shipping over $55</div> 
     </div>
+   
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <product-info
         id="ProductInfo-{{ section.id }}"

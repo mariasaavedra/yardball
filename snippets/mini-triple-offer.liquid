@@ -7,7 +7,7 @@
       {% if variant == product.variants[0] %}
         {% assign selected = 'tw-bg-cream' %}
         {% if product.variants[0].selected == true %}
-          {% assign selected = 'tw-bg-black tw-text-white selected' %}
+          {% assign selected = 'tw-bg-[#450a0a] tw-text-white selected' %}
         {% endif %}
         <a
           href="{{ product.variants[0].url }}"
@@ -32,7 +32,7 @@
       {% if variant == product.variants[1] %}
         {% assign selected = 'tw-bg-cream' %}
         {% if product.variants[1].selected == true %}
-          {% assign selected = 'tw-bg-black tw-text-white selected' %}
+          {% assign selected = 'tw-bg-[#450a0a] tw-text-white selected' %}
         {% endif %}
         <a
           href="{{ product.variants[1].url }}"
@@ -63,7 +63,7 @@
       {% if variant == product.variants[2] %}
         {% assign selected = 'tw-bg-cream' %}
         {% if product.variants[2].selected == true %}
-          {% assign selected = 'tw-bg-black tw-text-white selected' %}
+          {% assign selected = 'tw-bg-[#450a0a] tw-text-white selected' %}
         {% endif %}
         <a
           href="{{ product.variants[2].url }}"

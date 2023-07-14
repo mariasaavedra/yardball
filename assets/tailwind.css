@@ -995,6 +995,50 @@ video {
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
+.tw-bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.tw-bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.tw-bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.tw-bg-slate-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#42A1B0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(66 161 176 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#D35\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 51 85 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#D35C5C\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(211 92 92 / var(--tw-bg-opacity));
+}
+
+.tw-bg-\[\#\#450a0a\] {
+  background-color: ##450a0a;
+}
+
+.tw-bg-\[\#450a0a\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(69 10 10 / var(--tw-bg-opacity));
+}
+
 .tw-object-cover {
   -o-object-fit: cover;
      object-fit: cover;

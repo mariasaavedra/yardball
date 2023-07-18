@@ -2,12 +2,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "0671484c-df33-475c-bfc8-fc71e0c8bde9": {
-      "type": "animated-marquee",
-      "settings": {
-        "color_scheme": ""
-      }
-    },
     "header": {
       "type": "header",
       "custom_css": [
@@ -30,7 +24,6 @@
     }
   },
   "order": [
-    "0671484c-df33-475c-bfc8-fc71e0c8bde9",
     "header"
   ]
 }

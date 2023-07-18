@@ -111,6 +111,8 @@
         {%- endif -%}
       </div>
       <h3 class="tw-mx-auto md:tw-hidden tw-text-5xl md:tw-text-3xl tw-block">"{{ card_product.title }}"</h3>
+      {% render 'price', product: card_product, price_class: '' %}
+
       <img
         width="92"
         height="15"
@@ -118,7 +120,6 @@
         class="stars tw-pt-8 md:tw-pt-0"
         src="https://cdn.shopify.com/s/files/1/0756/7432/1181/files/stars.png"
       >
-      {% render 'price', product: card_product, price_class: '' %}
 
       <div class="card__content">
         {% comment %}  write {% endcomment %}

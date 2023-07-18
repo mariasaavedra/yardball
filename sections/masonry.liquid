@@ -33,15 +33,15 @@
 <section class=" tw-container tw-mx-auto tw-p-8 tw-pb-16">
   <h1 class="tw-font-body tw-font-bold tw-text-5xl tw-my-8">{{ section.settings.masonry_title }}</h1>
   <div class="parent  tw-gap-8">
-    <div class="masonry-img  tw-shadow-lg div1">
+    <a href="/products/glove" class="masonry-img  tw-shadow-lg div1">
       {% render 'masonry-label', label: section.settings.masonry_image_title %}
       {{
         section.settings.masonry_image
         | image_url: width: 1100
         | image_tag: class: 'tw-w-full tw-transition tw-duration-500 tw-group-hover:opacity-90"', loading: 'lazy'
       }}
-    </div>
-    <div class="masonry-img  tw-shadow-lg div2">
+    </a>
+    <a href="/products/glove" class="masonry-img  tw-shadow-lg div2">
       {% render 'masonry-label', label: section.settings.masonry_image_title_r1 %}
       {{
         section.settings.masonry_image_r1
@@ -50,8 +50,8 @@
           class: 'tw-object-cover tw-w-full tw-transition tw-duration-500 tw-group-hover:opacity-90"',
           loading: 'lazy'
       }}
-    </div>
-    <div class="masonry-img  tw-shadow-lg div3">
+    </a>
+    <a href="/products/glove" class="masonry-img  tw-shadow-lg div3">
       {% render 'masonry-label', label: section.settings.masonry_image_title_r2 %}
       {{
         section.settings.masonry_image_r2
@@ -60,8 +60,8 @@
           class: 'tw-object-cover tw-w-full tw-transition tw-duration-500 tw-group-hover:opacity-90"',
           loading: 'lazy'
       }}
-    </div>
-    <div class="masonry-img  tw-shadow-lg div4">
+    </a>
+    <a href="/products/glove" class="masonry-img  tw-shadow-lg div4">
       {% render 'masonry-label', label: section.settings.masonry_image_title_r3 %}
       {{
         section.settings.masonry_image_r3

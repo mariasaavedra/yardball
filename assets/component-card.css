@@ -448,7 +448,18 @@
   cursor: pointer;
   color: #fff;
   text-align: center;
-}
+
+} 
+
+@media (max-width: 970px) { 
+  .card--standard > .card__content .card__information,
+  .card__information {
+    background: #F6494B;
+    transition: all 0.25s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  } 
+ }
+
+
 .card--standard:hover > .card__content .card__information,
 .card--standard > .card__content .card__information:hover,
 .card__information:hover {

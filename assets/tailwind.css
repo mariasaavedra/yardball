@@ -658,6 +658,11 @@ video {
   margin-bottom: 8rem;
 }
 
+.tw-my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
 .tw-mb-32 {
   margin-bottom: 8rem;
 }
@@ -793,6 +798,46 @@ video {
 
 .tw-max-w-lg {
   max-width: 32rem;
+}
+
+.tw-max-w-\[1100px\] {
+  max-width: 1100px;
+}
+
+.tw-max-w-\[1000px\] {
+  max-width: 1000px;
+}
+
+.tw-max-w-\[1090px\] {
+  max-width: 1090px;
+}
+
+.tw-max-w-\[1050px\] {
+  max-width: 1050px;
+}
+
+.tw-max-w-\[110px\] {
+  max-width: 110px;
+}
+
+.tw-max-w-\[1400px\] {
+  max-width: 1400px;
+}
+
+.tw-max-w-\[13050px\] {
+  max-width: 13050px;
+}
+
+.tw-max-w-\[1350px\] {
+  max-width: 1350px;
+}
+
+.tw-max-w-md {
+  max-width: 28rem;
+}
+
+.tw-max-w-\[315px\] {
+  max-width: 315px;
 }
 
 .tw-grid-cols-1 {
@@ -1313,6 +1358,10 @@ video {
     min-height: 400px;
   }
 
+  .md\:tw-min-h-\[520px\] {
+    min-height: 520px;
+  }
+
   .md\:tw-w-1\/2 {
     width: 50%;
   }
@@ -1340,6 +1389,10 @@ video {
 
   .md\:tw-gap-8 {
     gap: 2rem;
+  }
+
+  .md\:tw-gap-0 {
+    gap: 0px;
   }
 
   .md\:tw-bg-cream {
@@ -1456,5 +1509,63 @@ video {
   .md\:tw-text-black {
     --tw-text-opacity: 1;
     color: rgb(24 24 24 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:tw-my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .lg\:tw-min-h-\[520px\] {
+    min-height: 520px;
+  }
+
+  .lg\:tw-min-h-\[500px\] {
+    min-height: 500px;
+  }
+
+  .lg\:tw-min-h-\[4500px\] {
+    min-height: 4500px;
+  }
+
+  .lg\:tw-min-h-\[450px\] {
+    min-height: 450px;
+  }
+
+  .lg\:tw-min-h-\[350px\] {
+    min-height: 350px;
+  }
+
+  .lg\:tw-max-w-\[1200px\] {
+    max-width: 1200px;
+  }
+
+  .lg\:tw-max-w-\[1100px\] {
+    max-width: 1100px;
+  }
+
+  .lg\:tw-max-w-\[1340px\] {
+    max-width: 1340px;
+  }
+
+  .lg\:tw-max-w-\[1350px\] {
+    max-width: 1350px;
+  }
+
+  .lg\:tw-text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .lg\:tw-text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:tw-text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }

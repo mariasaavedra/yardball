@@ -653,11 +653,6 @@ video {
   margin-bottom: 2rem;
 }
 
-.tw-my-32 {
-  margin-top: 8rem;
-  margin-bottom: 8rem;
-}
-
 .tw-mb-32 {
   margin-bottom: 8rem;
 }
@@ -760,10 +755,6 @@ video {
 
 .tw-max-w-\[1200px\] {
   max-width: 1200px;
-}
-
-.tw-max-w-\[1300px\] {
-  max-width: 1300px;
 }
 
 .tw-max-w-\[190px\] {
@@ -1073,10 +1064,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.tw-pb-\[16px\] {
-  padding-bottom: 16px;
-}
-
 .tw-pb-\[9rem\] {
   padding-bottom: 9rem;
 }
@@ -1107,10 +1094,6 @@ video {
 
 .tw-pt-8 {
   padding-top: 2rem;
-}
-
-.tw-pt-\[38px\] {
-  padding-top: 38px;
 }
 
 .tw-text-left {
@@ -1332,10 +1315,6 @@ video {
 
   .md\:tw-grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:tw-gap-4 {
-    gap: 1rem;
   }
 
   .md\:tw-gap-8 {

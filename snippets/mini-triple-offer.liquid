@@ -1,6 +1,8 @@
-<div class="tw-border-b-[1px] tw-pt-8 tw-block tw-w-full"><span></span></div>
+<div class="tw-hidden md:tw-block tw-border-b-[1px] tw-py-8 md:tw-pt-8  tw-w-full">
+  <span></span>
+</div>
 {% comment %}     - {{ variant.id }} {% endcomment %}
-<section class=" tw-text-center tw-grid-cols-3 tw-w-full tw-pt-2 tw-justify-items-center tw-gap-2 md:tw-gap-8  tw-grid ">
+<section class=" md:tw-mb-0  tw-mb-16  tw-text-center tw-grid-cols-3 tw-w-full tw-pt-2 tw-justify-items-center tw-gap-2 md:tw-gap-8  tw-grid ">
   {% if product.variants.size > 0 -%}
     {% for variant in product.variants -%}
       {% comment %} First {% endcomment %}

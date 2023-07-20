@@ -1,6 +1,6 @@
 <section
   id="MainProduct-{{ section.id }}"
-  class="tw-bg-white page-width section-{{ section.id }}-padding"
+  class="tw-bg-cream md:tw-bg-white page-width section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
@@ -78,7 +78,7 @@
     <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
   {%- endif -%}
 
-  <p class="tw-px-8 tw-pb-8">
+  <p class="tw-px-8 tw-pb-8 md:tw-block tw-hidden">
     <a class="tw-pr-4" href="/">Home</a> 
     {% render 'icon-arrow-breadcrumb' %} 
     <a class="tw-px-4" href="/products/glove">Yardballs</a>  

@@ -401,10 +401,6 @@
     transition: clip-path var(--duration-long) ease;
   }
 
-  .product-card-wrapper:hover .shape--round {
-    clip-path: ellipse(22% 34% at 50% 50%);
-  }
-
   .product-card-wrapper .shape--blob {
     transition: clip-path var(--duration-long) ease-in-out;
   }

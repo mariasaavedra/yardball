@@ -78,7 +78,7 @@
               disabled
             {% endif %}
           >
-            <span class="tw-text-center tw-font-semibold  tw-text-[24px] tw-mx-auto">
+            <span class="tw-text-center md:tw-capitalize tw-uppercase tw-font-regular md:tw-font-semibold  tw-text-2xl md:tw-text-[24px] tw-mx-auto">
               {%- if product.selected_or_first_available_variant.available == false or quantity_rule_soldout -%}
                 {{ 'products.product.sold_out' | t }}
               {%- else -%}

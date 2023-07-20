@@ -1182,6 +1182,16 @@ video {
   line-height: 1.75rem;
 }
 
+.tw-text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.tw-text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .tw-font-bold {
   font-weight: 700;
 }
@@ -1192,6 +1202,10 @@ video {
 
 .tw-font-thin {
   font-weight: 100;
+}
+
+.tw-font-light {
+  font-weight: 300;
 }
 
 .tw-uppercase {
@@ -1471,6 +1485,18 @@ video {
   .md\:tw-text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
+  }
+
+  .md\:tw-text-\[24px\] {
+    font-size: 24px;
+  }
+
+  .md\:tw-font-semibold {
+    font-weight: 600;
+  }
+
+  .md\:tw-capitalize {
+    text-transform: capitalize;
   }
 
   .md\:tw-text-black {

@@ -3036,7 +3036,7 @@ details-disclosure > details {
 }
 
 .shape--round {
-  clip-path: ellipse(45% 45% at 50% 50%);
+  clip-path: ellipse(22% 34% at 50% 50%);
 }
 
 /* Fixed background */

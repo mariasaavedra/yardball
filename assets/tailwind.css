@@ -836,6 +836,14 @@ video {
   max-width: 80rem;
 }
 
+.tw-max-w-\[1250px\] {
+  max-width: 1250px;
+}
+
+.tw-max-w-\[1050px\] {
+  max-width: 1050px;
+}
+
 .tw-grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }

@@ -402,7 +402,7 @@
   }
 
   .product-card-wrapper:hover .shape--round {
-    clip-path: ellipse(47% 47% at 50% 50%);
+    clip-path: ellipse(22% 34% at 50% 50%);
   }
 
   .product-card-wrapper .shape--blob {

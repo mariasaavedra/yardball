@@ -61,7 +61,6 @@
     },
     "7e66afec-905e-4dcb-83b2-eba7f5d4ceca": {
       "type": "announcement-bar",
-      "disabled": true,
       "blocks": {
         "template--18971860042013__7e66afec-905e-4dcb-83b2-eba7f5d4ceca-168456846466356ece-0": {
           "type": "announcement",
@@ -74,6 +73,7 @@
       "block_order": [
         "template--18971860042013__7e66afec-905e-4dcb-83b2-eba7f5d4ceca-168456846466356ece-0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "show_line_separator": true,
@@ -83,6 +83,7 @@
     },
     "d8b847d0-73e8-4067-811b-693642b48cd7": {
       "type": "triple-offer",
+      "disabled": true,
       "settings": {
         "offer_title": "SHOP \"GLOVE TAN\"",
         "offer_image_1": "shopify:\/\/shop_images\/YARDBALL_1.png",
@@ -91,6 +92,34 @@
         "offer_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "offer_button": "Buy now",
         "offer_url": "#"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SHOP THE AMERICAN MADE COLLECTION",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "uppercase",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-2",
+        "image_ratio": "adapt",
+        "image_shape": "round",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "cee87141-1f44-4c29-a66a-f1af0333d1e8": {
@@ -205,34 +234,6 @@
         "video5": "shopify:\/\/files\/videos\/sample-5s.mp4"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "SHOP THE “AMERICAN MADE” COLLECTION",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "uppercase",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-2",
-        "image_ratio": "adapt",
-        "image_shape": "round",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "a120c528-d443-47ba-b640-d01792931d3f": {
       "type": "promo",
       "settings": {
@@ -248,12 +249,12 @@
     "8a11d917-e2fd-4a06-aadc-4dc2fdcbf522",
     "7e66afec-905e-4dcb-83b2-eba7f5d4ceca",
     "d8b847d0-73e8-4067-811b-693642b48cd7",
+    "featured_collection",
     "cee87141-1f44-4c29-a66a-f1af0333d1e8",
     "4af2dd9a-9832-4c7a-8408-1078dc639a4a",
     "74308c5d-e1c6-4216-a259-116b462c689f",
     "cb498cdb-4607-45de-a2bf-33276f5bac2f",
     "447eb8bb-f5fa-4634-8fc4-96f94d3b76ff",
-    "featured_collection",
     "a120c528-d443-47ba-b640-d01792931d3f"
   ]
 }

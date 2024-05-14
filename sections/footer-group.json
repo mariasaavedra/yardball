@@ -19,27 +19,11 @@
             "heading": "HELP",
             "menu": "help-menu"
           }
-        },
-        "16e222c1-cfb3-4475-af8e-2fe622efb491": {
-          "type": "link_list",
-          "settings": {
-            "heading": "SHOP",
-            "menu": "shop-menu"
-          }
-        },
-        "acbc335a-f899-4655-8d98-2cc6b45a8c90": {
-          "type": "link_list",
-          "settings": {
-            "heading": "INFO",
-            "menu": "info-menu"
-          }
         }
       },
       "block_order": [
         "7dd5ad51-9b70-49bf-824d-f768e497a5ca",
-        "cba4c637-29e0-4539-b3e8-39ac9a7da9bf",
-        "16e222c1-cfb3-4475-af8e-2fe622efb491",
-        "acbc335a-f899-4655-8d98-2cc6b45a8c90"
+        "cba4c637-29e0-4539-b3e8-39ac9a7da9bf"
       ],
       "settings": {
         "color_scheme": "background-2",

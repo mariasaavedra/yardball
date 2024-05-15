@@ -203,7 +203,7 @@
         "masonry_image": "shopify:\/\/shop_images\/promo1.png",
         "masonry_image_r1": "shopify:\/\/shop_images\/promo2.png",
         "masonry_image_r2": "shopify:\/\/shop_images\/bar_soap.png",
-        "masonry_image_r3": "shopify:\/\/shop_images\/promo4.png",
+        "masonry_image_r3": "shopify:\/\/shop_images\/Yardball_Ad_-_Grass_Top_Down.jpg",
         "masonry_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "masonry_button": "Buy now",
         "masonry_url": "#"
@@ -236,6 +236,9 @@
     },
     "a120c528-d443-47ba-b640-d01792931d3f": {
       "type": "promo",
+      "custom_css": [
+
+      ],
       "settings": {
         "promo_img_1": "shopify:\/\/shop_images\/guypattern.png",
         "promo_img_2": "shopify:\/\/shop_images\/Frame_247.png",

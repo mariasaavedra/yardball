@@ -162,7 +162,7 @@
           "type": "column",
           "settings": {
             "title": "<strong>Great ball excellent construction<\/strong>",
-            "text": "My son and I have been playing catch with it since it arrived a couple of day ago. Throwing it back and forth during games has become our new favorite game.",
+            "text": "\"My son and I have been playing catch with it since it arrived a couple of day ago. Throwing it back and forth during games has become our new favorite game.\"",
             "columns_desktop": 4,
             "columns_mobile": "1",
             "review_rating": 5,
@@ -180,7 +180,7 @@
         ".title {text-align: center;}"
       ],
       "settings": {
-        "title": "100,000+ <br> Reviews From Yardballers",
+        "title": "100+ <br> Reviews From Yardballers",
         "heading_size": "h1",
         "columns_desktop": 4,
         "column_alignment": "center",

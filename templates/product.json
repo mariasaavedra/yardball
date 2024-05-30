@@ -24,18 +24,9 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "button"
-          }
-        },
-        "e424e370-8650-4d7d-bc45-8aa1eaa1f83c": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
           }
         },
         "5faf2789-af30-4ea4-93a0-4b128ea25d38": {
@@ -50,6 +41,13 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
+          }
+        },
+        "text_FncHF3": {
+          "type": "text",
+          "settings": {
+            "text": "Looking to make this a gift? If you want our keepsake box, you can add one on for $1.99.",
+            "text_style": "body"
           }
         },
         "9b630131-e6fa-4e2d-8f11-9ecaff364b4b": {
@@ -70,9 +68,9 @@
         "title",
         "caption",
         "variant_picker",
-        "e424e370-8650-4d7d-bc45-8aa1eaa1f83c",
         "5faf2789-af30-4ea4-93a0-4b128ea25d38",
         "buy_buttons",
+        "text_FncHF3",
         "9b630131-e6fa-4e2d-8f11-9ecaff364b4b",
         "844c4b2c-e008-4970-a3db-ef518cc85c04"
       ],
@@ -121,16 +119,6 @@
     },
     "1688946017c2db4e3c": {
       "type": "apps",
-      "blocks": {
-        "ba77f125-38cf-4814-aa15-0289acb49072": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "ba77f125-38cf-4814-aa15-0289acb49072"
-      ],
       "settings": {
         "include_margins": true
       }

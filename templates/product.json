@@ -36,18 +36,18 @@
             "text_style": "body"
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        },
         "text_FncHF3": {
           "type": "text",
           "settings": {
             "text": "Looking to make this a gift? If you want our keepsake box, you can add one on for $1.99.",
             "text_style": "body"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "9b630131-e6fa-4e2d-8f11-9ecaff364b4b": {
@@ -69,8 +69,8 @@
         "caption",
         "variant_picker",
         "5faf2789-af30-4ea4-93a0-4b128ea25d38",
-        "buy_buttons",
         "text_FncHF3",
+        "buy_buttons",
         "9b630131-e6fa-4e2d-8f11-9ecaff364b4b",
         "844c4b2c-e008-4970-a3db-ef518cc85c04"
       ],

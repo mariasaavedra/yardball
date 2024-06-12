@@ -39,7 +39,10 @@
       assign ratio = 1
     endif
   -%}
-  <div class="card-wrapper product-card-wrapper underline-links-hover">
+  <div
+    onclick="window.location.href='{{ card_product.url }}'"
+    class="card-wrapper product-card-wrapper underline-links-hover"
+  >
     <div
       class="
         card

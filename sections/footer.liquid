@@ -62,6 +62,7 @@
                   aria-required="true"
                   autocorrect="off"
                   autocapitalize="off"
+                  placeholder="Enter email here"
                   autocomplete="email"
                   {% if form.errors %}
                     autofocus
@@ -72,9 +73,9 @@
                   {% endif %}
                   required
                 >
-                <label class="field__label tw-font-bold tw-leading-[2.5]" for="NewsletterForm--{{ section.id }}">
+                {% comment %} <label class="field__label tw-font-bold tw-leading-[2.5]" for="NewsletterForm--{{ section.id }}">
                   Enter email here
-                </label>
+                </label> {% endcomment %}
                 <button
                   type="submit"
                   class="tw-bg-scarlet tw-p-8   tw-rounded-br-[8px]  tw-rounded-tr-[8px] "

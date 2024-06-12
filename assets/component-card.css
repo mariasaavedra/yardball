@@ -475,7 +475,7 @@
 
 .card__media img  {
    /* max-width: 90% !important; */
-   object-fit: cover !important;
+   object-fit: contain !important;
    height: auto;
    left: 0;
    right: 0;

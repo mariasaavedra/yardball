@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -101,7 +110,7 @@
         "heading_size": "h2",
         "description": "",
         "show_description": false,
-        "use_sandlot_url": true,
+        "use_sandlot_url": false,
         "description_style": "uppercase",
         "collection": "all",
         "products_to_show": 8,

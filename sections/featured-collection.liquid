@@ -86,10 +86,6 @@
               style="--animation-order: {{ forloop.index }};"
             {% endif %}
           >
-            {% assign product_url = product.url %}
-            {% if section.settings.use_sandlot_url %}
-              {% assign product_url = product.sandlot_url %}
-            {% endif %}
             {% render 'card-product',
               card_product: product,
               media_aspect_ratio: section.settings.image_ratio,
@@ -98,8 +94,7 @@
               show_vendor: section.settings.show_vendor,
               show_rating: section.settings.show_rating,
               show_quick_add: section.settings.enable_quick_add,
-              section_id: section.id,
-              product_url: product_url
+              section_id: section.id
             %}
           </li>
         {%- else -%}
@@ -145,7 +140,6 @@
         </div>
       {%- endif -%}
     </slider-component>
-    
 
     {%- if section.settings.show_view_all and more_in_collection -%}
       <div class="center collection__view-all{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -213,7 +207,7 @@
     {
       "type": "checkbox",
       "id": "use_sandlot_url",
-      "label": "Link to the product on the Sandlot Website",
+      "label": "Link to the product in the Sandlot Website",
       "default": false
     },
     {

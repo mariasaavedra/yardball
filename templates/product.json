@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -53,7 +62,7 @@
         "9b630131-e6fa-4e2d-8f11-9ecaff364b4b": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href='https://www.youtube.com/watch?v=INCPDjSP83o'><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0756\/7432\/1181\/files\/icons.png?v=1688770777\" alt=\"icons\"\/></a>"
+            "custom_liquid": "<a href=\"https:\/\/www.youtube.com\/watch?v=INCPDjSP83o\" data-fancybox>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0756\/7432\/1181\/files\/icons.png?v=1688770777\" alt=\"icons\"\/>\n<\/a>"
           }
         },
         "844c4b2c-e008-4970-a3db-ef518cc85c04": {

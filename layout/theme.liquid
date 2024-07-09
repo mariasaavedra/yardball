@@ -323,5 +323,19 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
     <script src="{{ 'fancybox.esm.js' | asset_url }}" defer="defer"></script>
+    <script>
+      $(document).ready(function() {
+        $('[data-fancybox]').fancybox({
+          youtube: {
+            controls: 1,
+            showinfo: 0
+          },
+          vimeo: {
+            color: 'f00'
+          }
+        });
+      });
+    </script>
+
   </body>
 </html>

@@ -74,13 +74,22 @@
         "template--18971860042013__7e66afec-905e-4dcb-83b2-eba7f5d4ceca-168456846466356ece-0": {
           "type": "announcement",
           "settings": {
-            "text": "BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚      BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚      BUY 2 (BUY ONE FOR A FRIEND) AND GET FREE SHIPPING 🚚",
+            "text": "FAST SHIPPING AND FAST RETURNS",
+            "link": ""
+          }
+        },
+        "announcement_Qwk467": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Welcome to our store",
             "link": ""
           }
         }
       },
       "block_order": [
-        "template--18971860042013__7e66afec-905e-4dcb-83b2-eba7f5d4ceca-168456846466356ece-0"
+        "template--18971860042013__7e66afec-905e-4dcb-83b2-eba7f5d4ceca-168456846466356ece-0",
+        "announcement_Qwk467"
       ],
       "disabled": true,
       "settings": {

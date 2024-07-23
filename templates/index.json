@@ -121,7 +121,7 @@
         "show_description": false,
         "use_sandlot_url": false,
         "description_style": "uppercase",
-        "collection": "all",
+        "collection": "american-made-collection",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,

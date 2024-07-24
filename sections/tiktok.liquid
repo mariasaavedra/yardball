@@ -1,67 +1,92 @@
 <style>
-  .video-cover {
+  .video-cover-link > .video-cover {
+    background-image: url({{'iPhone_8_1.png'|file_url}});
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     cursor: pointer;
   }
-
-  .video-cover:hover {
+  .video-cover-link::hover > .video-cover {
     background-size: 150%;
   }
 
-  .video-cover:nth-child(1) {
-    background-image: url('iPhone_8_1.png');
+  .video-cover-link:nth-child(1) > .video-cover {
+    background-image: url({{'iPhone_8_1.png'|file_url}});
+    background-size: cover;
+    &::hover {
+      background-size: 350%;
+    }
   }
-
-  .video-cover:nth-child(2) {
+  .video-cover-link:nth-child(2) > .video-cover {
     background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/iPhone_8_-_2.png');
+    background-size: cover;
   }
-
-  .video-cover:nth-child(3) {
-    background-image: url('iPhone_8_-_5.png');
+  .video-cover-link:nth-child(3) > .video-cover {
+    background-image: url({{'iPhone_8_-_5.png'|file_url}});
+    background-size: cover;
   }
-
-  .video-cover:nth-child(4) {
-    background-image: url('iPhone_8_-_4.png');
+  .video-cover-link:nth-child(4) > .video-cover {
+    background-image: url({{'iPhone_8_-_4.png'|file_url}});
+    background-size: cover;
   }
-
-  .video-cover:nth-child(5) {
-    background-image: url('iPhone_8_-_3.png');
+  .video-cover-link:nth-child(5) > .video-cover {
+    background-image: url({{'iPhone_8_-_3.png'|file_url}});
+    background-size: cover;
   }
-
-  .video-cover:nth-child(6) {
+  .video-cover-link:nth-child(6) > .video-cover {
     background-image: url('https://cdn.shopify.com/s/files/1/0756/7432/1181/files/iPhone_8_-_2.png');
+    background-size: cover;
   }
-
-  .video-cover:nth-child(7) {
-    background-image: url('iPhone_8_-_3.png');
+  .video-cover-link:nth-child(7) > .video-cover {
+    background-image: url({{'iPhone_8_-_3.png'|file_url}});
+    background-size: cover;
   }
 </style>
+
 <section class="tw-container tw-mx-auto tw-text-left tw-p-8 md:tw-p-16 tw-pb-[9rem] tw-pr-0]">
   <p class="tw-mx-auto tw-text-left tw-font-body tw-font-bold  tw-my-8 tw-text-5xl tw-text-black">SEE IT IN ACTION!</p>
   <div class="tw-whitespace-nowrap tw-flex tw-gap-8 tw-overflow-x-scroll">
-    <a href="https://cdn.shopify.com/videos/c/o/v/84edd78b84f842d7aefc2789a1df8192.mp4" data-fancybox="video-gallery">
+    <a
+      class="video-cover-link"
+      href="https://cdn.shopify.com/videos/c/o/v/84edd78b84f842d7aefc2789a1df8192.mp4"
+      data-fancybox="video-gallery"
+    >
       <div class="video-cover tw-shadow-lg tw-rounded-lg tw-min-h-[550px] tw-min-w-[300px] tw-flex">
         <div></div>
       </div>
     </a>
-    <a href="https://cdn.shopify.com/videos/c/o/v/5ae7570d08c54482948a38e857d5487d.mp4" data-fancybox="video-gallery">
+    <a
+      class="video-cover-link"
+      href="https://cdn.shopify.com/videos/c/o/v/5ae7570d08c54482948a38e857d5487d.mp4"
+      data-fancybox="video-gallery"
+    >
       <div class="video-cover tw-shadow-lg tw-rounded-lg tw-min-h-[550px] tw-min-w-[300px] tw-flex">
         <div></div>
       </div>
     </a>
-    <a href="https://cdn.shopify.com/videos/c/o/v/f1315ed8821d4c399e54dcbd3e21103c.mp4" data-fancybox="video-gallery">
+    <a
+      class="video-cover-link"
+      href="https://cdn.shopify.com/videos/c/o/v/f1315ed8821d4c399e54dcbd3e21103c.mp4"
+      data-fancybox="video-gallery"
+    >
       <div class="video-cover tw-shadow-lg tw-rounded-lg tw-min-h-[550px] tw-min-w-[300px] tw-flex">
         <div></div>
       </div>
     </a>
-    <a href="https://cdn.shopify.com/videos/c/o/v/353be3f10fe14f5fa8b3487313e79ff3.mp4" data-fancybox="video-gallery">
+    <a
+      class="video-cover-link"
+      href="https://cdn.shopify.com/videos/c/o/v/353be3f10fe14f5fa8b3487313e79ff3.mp4"
+      data-fancybox="video-gallery"
+    >
       <div class="video-cover tw-shadow-lg tw-rounded-lg tw-min-h-[550px] tw-min-w-[300px] tw-flex">
         <div></div>
       </div>
     </a>
-    <a href="https://cdn.shopify.com/videos/c/o/v/807992d128d34a2ba492f2a150ef0b13.mp4" data-fancybox="video-gallery">
+    <a
+      class="video-cover-link"
+      href="https://cdn.shopify.com/videos/c/o/v/807992d128d34a2ba492f2a150ef0b13.mp4"
+      data-fancybox="video-gallery"
+    >
       <div class="video-cover tw-shadow-lg tw-rounded-lg tw-min-h-[550px] tw-min-w-[300px] tw-flex">
         <div></div>
       </div>

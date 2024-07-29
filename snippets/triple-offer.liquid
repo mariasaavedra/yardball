@@ -10,87 +10,72 @@
     max-width: 175px;
   }
 </style>
-{% if package == 1 %}
-  {% assign packageCss = ' n md:tw-block bb-1' %}
-{% elsif package == 2 %}
-  {% assign packageCss = ' tw-hidden md:tw-block bb-2' %}
-{% elsif package == 3 %}
-  {% assign packageCss = ' tw-hidden md:tw-block bb-3' %}
-{% endif %}
 
-{% comment %} set hasFreeShipping flag if package = 2 or 3 {% endcomment %}
-{% assign hasFreeShipping = false %}
-{% if package == 2 or package == 3 %}
-  {% assign hasFreeShipping = true %}
-{% endif %}
+{% assign product = all_products['glove'] %}
 
-{% comment %} set isPopular flag if package = 2 {% endcomment %}
-{% assign isPopular = false %}
-{% if package == 2 %}
-  {% assign isPopular = true %}
-{% endif %}
-
-{% comment %}  set bestValue flag if package = 3 {% endcomment %}
-{% assign isBestValue = false %}
-{% if package == 3 %}
-  {% assign isBestValue = true %}
-{% endif %}
-
-<div class="tw-rounded-[4px]   tw-justify-evenly tw-w-full tw-max-w-[310px] tw-flex tw-flex-col tw-relative  md:tw-bg-cream tw-border-4 tw-pt-6 tw-pb-14  tw-border-brown">
-  {% if isPopular %}
-    <div class="tw-absolute  tw-left-0 md:tw-w-2/3 tw-mx-auto tw-right-0 tw-top-[-20px]  tw-overflow-visible tw-rounded-lg md:tw-p-[2px] md:tw-py-0 tw-bg-brown">
-      <span class="tw-font-bold tw-text-black  tw-font-heading  md:tw-text-3xl tw-text-md">MOST POPULAR</span>
-    </div>
+{% for variant in product.variants %}
+  {% assign packageCss = '' %}
+  {% assign hasFreeShipping = false %}
+  {% assign isPopular = false %}
+  {% assign isBestValue = false %}
+  
+  {% if variant.option1 == 'Single' %}
+    {% assign package = 1 %}
+    {% assign packageCss = ' n md:tw-block bb-1' %}
+  {% elsif variant.option1 == 'Combo-Pack' %}
+    {% assign package = 2 %}
+    {% assign packageCss = ' tw-hidden md:tw-block bb-2' %}
+    {% assign hasFreeShipping = true %}
+    {% assign isPopular = true %}
+  {% elsif variant.option1 == 'Triple-Threat' %}
+    {% assign package = 3 %}
+    {% assign packageCss = ' tw-hidden md:tw-block bb-3' %}
+    {% assign hasFreeShipping = true %}
+    {% assign isBestValue = true %}
   {% endif %}
-
-  {% if isBestValue %}
-    <div class="tw-absolute  tw-left-0 md:tw-w-2/3 tw-mx-auto tw-right-0 tw-top-[-20px]  tw-overflow-visible tw-rounded-lg md:tw-p-[2px] md:tw-py-0 tw-bg-brown">
-      <span class="tw-font-bold  tw-text-black  tw-font-heading md:tw-text-3xl  tw-text-md">BEST VALUE</span>
-    </div>
-  {% endif %}
-
-  <h1 class="tw-my-0 md:tw-text-6xl ">{{ package }} Ball</h1>
-  {{
-    image
-    | image_url: width: 250
-    | image_tag: loading: 'lazy', class: packageCss, sizes: '100', widths: '550, 720, 990, 1100, 1500, 2200, 3000'
-  }}
-  {% comment %} <img loading="lazy" width="auto" height="200" src="{{ section.settings.offer_image_1 | image_url }}"> {% endcomment %}
-
-  {% if package == 1 %}
-    <h3 class="tw-text-5xl   tw-my-2 tw-mt-0">$39.99</h3>
-    <h4 class="tw-uppercase md:tw-text-4xl tw-font-bold tw-font-heading tw-my-2 tw-text-black ">Per Ball</h4>
-  {% endif %}
-
-  {% if package == 2 %}
-    <div class="md:tw-text-left md:tw-translate-x-1/3">
-      <div class="tw-bg-cyan md:tw-hidden tw-my-8 tw-mx-auto tw-font-heading tw-rounded-full tw-text-3xl md:tw-text-3xl tw-font-bold tw-max-w-fit tw-text-black tw-py-2 tw-px-4 tw-uppercase">
-        SAVE 7%
+  
+  <div class="tw-rounded-[4px] tw-justify-evenly tw-w-full tw-max-w-[310px] tw-flex tw-flex-col tw-relative md:tw-bg-cream tw-border-4 tw-pt-6 tw-pb-14 tw-border-brown">
+    {% if isPopular %}
+      <div class="tw-absolute tw-left-0 md:tw-w-2/3 tw-mx-auto tw-right-0 tw-top-[-20px] tw-overflow-visible tw-rounded-lg md:tw-p-[2px] md:tw-py-0 tw-bg-brown">
+        <span class="tw-font-bold tw-text-black tw-font-heading md:tw-text-3xl tw-text-md">MOST POPULAR</span>
       </div>
-      <h3 class="tw-text-5xl tw-line-through tw-text-red-500 tw-my-2 tw-mt-0">$79.99</h3>
-      <h3 class="tw-text-5xl tw-my-2 tw-inline tw-mt-0">$36.97</h3>
-      <span class="tw-uppercase tw-font-bold  tw-block md:tw-inline-block  tw-font-heading tw-my-2 tw-text-black "
-        >Per Ball</span
-      >
-    </div>
-  {% endif %}
-
-  {% if package == 3 %}
-    <div class="md:tw-text-left md:tw-translate-x-1/3">
-      <div class="tw-bg-cyan  md:tw-hidden tw-my-8  tw-mx-auto tw-font-heading tw-rounded-full tw-text-3xl md:tw-text-3xl tw-font-bold tw-max-w-fit tw-text-black tw-py-2 tw-px-4 tw-uppercase">
-        SAVE 17%
+    {% endif %}
+  
+    {% if isBestValue %}
+      <div class="tw-absolute tw-left-0 md:tw-w-2/3 tw-mx-auto tw-right-0 tw-top-[-20px] tw-overflow-visible tw-rounded-lg md:tw-p-[2px] md:tw-py-0 tw-bg-brown">
+        <span class="tw-font-bold tw-text-black tw-font-heading md:tw-text-3xl tw-text-md">BEST VALUE</span>
       </div>
-      <h3 class="tw-text-5xl tw-line-through tw-text-red-500 tw-my-2 tw-mt-0">$118.99</h3>
-      <h3 class="tw-text-5xl  tw-inline tw-my-2 tw-mt-0">$33.29</h3>
-      <span class="tw-uppercase tw-block md:tw-inline-block  tw-font-bold tw-font-heading tw-my-2 tw-text-black "
-        >Per Ball</span
-      >
-    </div>
-  {% endif %}
-
-  {% if hasFreeShipping %}
-    <div class="tw-absolute tw-left-0 tw-right-0  md:tw-p-2 tw-bottom-0 tw-w-full  tw-z-10 tw-text-black  tw-bg-brown">
-      <span class="tw-font-bold tw-font-heading md:tw-text-5xl ">+ FREE SHIPPING</span>
-    </div>
-  {% endif %}
-</div>
+    {% endif %}
+  
+    <h1 class="tw-my-0 md:tw-text-6xl ">{{ package }} dsfsdfsdf</h1>
+    <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}" class="{{ packageCss }}" sizes="100">
+    {% if package == 1 %}
+      <h3 class="tw-text-5xl tw-my-2 tw-mt-0">{{ variant.price | money }}</h3>
+      <h4 class="tw-uppercase md:tw-text-4xl tw-font-bold tw-font-heading tw-my-2 tw-text-black">Per Ball</h4>
+    {% elsif package == 2 %}
+      <div classhttp://localhost:9292/products/natural="md:tw-text-left md:tw-translate-x-1/3">
+        <div class="tw-bg-cyan md:tw-hidden tw-my-8 tw-mx-auto tw-font-heading tw-rounded-full tw-text-3xl md:tw-text-3xl tw-font-bold tw-max-w-fit tw-text-black tw-py-2 tw-px-4 tw-uppercase">
+          SAVE 7%
+        </div>
+        <h3 class="tw-text-5xl tw-line-through tw-text-red-500 tw-my-2 tw-mt-0">{{ variant.compare_at_price | money }}</h3>
+        <h3 class="tw-text-5xl tw-my-2 tw-inline tw-mt-0">{{ variant.price | money }}</h3>
+        <span class="tw-uppercase tw-font-bold tw-block md:tw-inline-block tw-font-heading tw-my-2 tw-text-black">Per Ball</span>
+      </div>
+    {% elsif package == 3 %}
+      <div class="md:tw-text-left md:tw-translate-x-1/3">
+        <div class="tw-bg-cyan md:tw-hidden tw-my-8 tw-mx-auto tw-font-heading tw-rounded-full tw-text-3xl md:tw-text-3xl tw-font-bold tw-max-w-fit tw-text-black tw-py-2 tw-px-4 tw-uppercase">
+          SAVE 17%
+        </div>
+        <h3 class="tw-text-5xl tw-line-through tw-text-red-500 tw-my-2 tw-mt-0">{{ variant.compare_at_price | money }}</h3>
+        <h3 class="tw-text-5xl tw-inline tw-my-2 tw-mt-0">{{ variant.price | money }}</h3>
+        <span class="tw-uppercase tw-block md:tw-inline-block tw-font-bold tw-font-heading tw-my-2 tw-text-black">Per Ball</span>
+      </div>
+    {% endif %}
+  
+    {% if hasFreeShipping %}
+      <div class="tw-absolute tw-left-0 tw-right-0 md:tw-p-2 tw-bottom-0 tw-w-full tw-z-10 tw-text-black tw-bg-brown">
+        <span class="tw-font-bold tw-font-heading md:tw-text-5xl">+ !!!!FREE SHIPPING</span>
+      </div>
+    {% endif %}
+  </div>
+{% endfor %}

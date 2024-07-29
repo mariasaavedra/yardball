@@ -3,81 +3,65 @@
     margin: 0 auto;
   }
 </style>
-<section class="tw-max-w-[1100px] md:tw-mx-auto tw-mx-4 tw-py-16  md:tw-py-0 lg:tw-my-16">
-  <h1 class=" tw-text-center tw-mx-auto tw-text-5xl tw-mb-[24px]">{{ section.settings.offer_title }}</h1>
-  <section class="lg:tw-min-h-[350px] tw-text-center tw-grid-cols-3 tw-w-full tw-pt-2 tw-justify-items-center tw-gap-2 md:tw-gap-  tw-grid ">
-    <a
-      href="/products/glove"
-      class="hover:tw-shadow-lg tw-transition-all tw-rounded-[4px] tw-justify-evenly tw-w-full tw-max-w-[310px] tw-flex tw-flex-col tw-relative tw-border-4 tw-pt-6 tw-pb-14  tw-border-brown"
-    >
-      <h1 class="tw-my-0 lg:tw-text-7xl md:tw-text-5xl tw-text-black ">1 Ball</h1>
-      <img
-        src="//yard-ball.myshopify.com/cdn/shop/files/YARDBALL_1.png?v=1688943246&amp;width=250"
-        alt=""
-        width="200"
-        height="227"
-        loading="lazy"
-        class=" tw-mx-auto tw-block bb-1"
-        sizes="100"
-      >
+<section class="tw-max-w-[1100px] md:tw-mx-auto tw-mx-4 tw-py-16 md:tw-py-0 lg:tw-my-16">
+  <h1 class="tw-text-center tw-mx-auto tw-text-5xl tw-mb-[24px]">{{ section.settings.offer_title }} TEST</h1>
+  <section class="lg:tw-min-h-[350px] tw-text-center tw-grid-cols-3 tw-w-full tw-pt-2 tw-justify-items-center tw-gap-2 md:tw-gap- tw-grid">
+    {% assign products = all_products.glove %}
 
-      <h3 class="tw-text-3xl lg:tw-text-5xl tw-text-black tw-mt-0">$39.99</h3>
-      <h4 class="tw-uppercase md:tw-text-4xl tw-font-bold tw-font-heading  tw-text-black ">Per Ball</h4>
-    </a>
-
-    <a
-      href="/products/glove"
-      class="hover:tw-shadow-lg tw-transition-all  tw-rounded-[4px] tw-justify-evenly tw-w-full tw-max-w-[310px] tw-flex tw-flex-col tw-relative tw-border-4 tw-pt-6 tw-pb-14  tw-border-brown"
-    >
-      <div class="tw-absolute  tw-left-0 md:tw-w-2/3 tw-mx-auto tw-right-0 md:tw-py-2 tw-top-[-20px]  tw-overflow-visible tw-rounded-lg md:tw-p-[2px] md:tw-py-0 tw-bg-brown">
-        <span class="tw-font-bold tw-text-black  tw-font-heading md:tw-text-4xl">MOST POPULAR</span>
-      </div>
-      <h1 class="tw-my-0 lg:tw-text-7xl md:tw-text-5xl tw-text-black">2 Ball</h1>
-      <img
-        src="//yard-ball.myshopify.com/cdn/shop/files/YARDBALL_2.png?v=1688943246&amp;width=250"
-        alt=""
-        width="200"
-        height="227"
-        loading="lazy"
-        class="tw-mx-auto tw-block bb-1"
-        sizes="100"
+    {% for product_handle in products %}
+      {% assign product = all_products[product_handle] %}
+      <a
+        href="{{ product.url }}"
+        class="hover:tw-shadow-lg tw-transition-all tw-rounded-[4px] tw-justify-evenly tw-w-full tw-max-w-[310px] tw-flex tw-flex-col tw-relative tw-border-4 tw-pt-6 tw-pb-14 tw-border-brown"
       >
-      <h3 class="tw-text-3xl lg:tw-text-5xl tw-line-through tw-text-red-500  tw-mt-0">$79.99</h3>
-      <h3 class="tw-text-3xl lg:tw-text-5xl tw-text-black   tw-mt-0">$36.97</h3>
-      <h4 class="tw-uppercase md:tw-text-4xl tw-font-bold tw-font-heading  tw-text-black ">Per Ball</h4>
-      <div class="tw-absolute tw-left-0 tw-right-0  tw-bottom-0 tw-w-full  md:py-4 tw-z-10 tw-text-black  tw-bg-brown">
-        <span class="tw-font-bold tw-font-heading md:tw-text-4xl  ">+ FREE SHIPPING</span>
-      </div>
-    </a>
+        {% if forloop.index == 1 %}
+          <h1 class="tw-my-0 lg:tw-text-7xl md:tw-text-5xl tw-text-black">1 Ball</h1>
+        {% elsif forloop.index == 2 %}
+          <div class="tw-absolute tw-left-0 md:tw-w-2/3 tw-mx-auto tw-right-0 md:tw-py-2 tw-top-[-20px] tw-overflow-visible tw-rounded-lg md:tw-p-[2px] md:tw-py-0 tw-bg-brown">
+            <span class="tw-font-bold tw-text-black tw-font-heading md:tw-text-4xl">MOST POPULAR</span>
+          </div>
+          <h1 class="tw-my-0 lg:tw-text-7xl md:tw-text-5xl tw-text-black">2 Ball</h1>
+        {% else %}
+          <h1 class="tw-my-0 lg:tw-text-7xl md:tw-text-5xl tw-text-black">3 Ball</h1>
+        {% endif %}
 
-    <a
-      href="/products/glove"
-      class="hover:tw-shadow-lg tw-transition-all  tw-rounded-[4px] tw-justify-evenly tw-w-full tw-max-w-[310px] tw-flex tw-flex-col tw-relative tw-border-4 tw-pt-6 tw-pb-14  tw-border-brown"
-    >
-      <h1 class="tw-my-0 lg:tw-text-7xl md:tw-text-5xl tw-text-black">3 Ball</h1>
-      <img
-        src="//yard-ball.myshopify.com/cdn/shop/files/YARDBALL_3.png?v=1688943246&amp;width=250"
-        alt=""
-        width="200"
-        height="227"
-        loading="lazy"
-        class=" tw-mx-auto tw-block bb-1"
-        sizes="100"
-      >
-      <h3 class="tw-text-3xl lg:tw-text-5xl tw-line-through tw-text-red-500  tw-mt-0">$118.99</h3>
-      <h3 class="tw-text-3xl lg:tw-text-5xl tw-text-black   tw-mt-0">$33.29</h3>
-      <h4 class="tw-uppercase md:tw-text-4xl tw-font-bold tw-font-heading  tw-text-black ">Per Ball</h4>
-      <div class="tw-absolute tw-left-0 tw-right-0  tw-bottom-0 tw-w-full  md:py-4 tw-z-10 tw-text-black  tw-bg-brown">
-        <span class="tw-font-bold tw-font-heading md:tw-text-4xl  ">+ FREE SHIPPING</span>
-      </div>
-    </a>
+        <img
+          src="{{ product.featured_image | img_url: 'medium' }}"
+          alt="{{ product.title }}"
+          width="200"
+          height="227"
+          loading="lazy"
+          class="tw-mx-auto tw-block bb-1"
+          sizes="100"
+        >
+
+        {% if forloop.index == 2 %}
+          <h3 class="tw-text-3xl lg:tw-text-5xl tw-line-through tw-text-red-500 tw-mt-0">
+            {{ product.price | money }}
+          </h3>
+          <h3 class="tw-text-3xl lg:tw-text-5xl tw-text-black tw-mt-0">$36.97!!!</h3>
+        {% elsif forloop.index == 3 %}
+          <h3 class="tw-text-3xl lg:tw-text-5xl tw-line-through tw-text-red-500 tw-mt-0">$118.99</h3>
+          <h3 class="tw-text-3xl lg:tw-text-5xl tw-text-black tw-mt-0">$33.29</h3>
+        {% else %}
+          <h3 class="tw-text-3xl lg:tw-text-5xl tw-text-black tw-mt-0">{{ product.price | money }}</h3>
+        {% endif %}
+        <h4 class="tw-uppercase md:tw-text-4xl tw-font-bold tw-font-heading tw-text-black">Per Ball</h4>
+
+        {% if forloop.index == 2 or forloop.index == 3 %}
+          <div class="tw-absolute tw-left-0 tw-right-0 tw-bottom-0 tw-w-full md:py-4 tw-z-10 tw-text-black tw-bg-brown">
+            <span class="tw-font-bold tw-font-heading md:tw-text-4xl">+ FREE SHIPPING!!!!</span>
+          </div>
+        {% endif %}
+      </a>
+    {% endfor %}
   </section>
   <div class="tw-text-center tw-max-w-[1050px] tw-mx-auto tw-my-4">
     <a
-      href="/products/glove"
-      class="tw-bg-cyan tw-w-full tw-block tw-font-heading tw-hover:bg-blue-700 tw-text-5xl tw-p-8 tw-py-5 tw-mt-[5px] tw-text-white tw-font-bold  tw-rounded-lg tw-shadow-lg "
+      href="{{ product.url }}"
+      class="tw-bg-cyan tw-w-full tw-block tw-font-heading tw-hover:bg-blue-700 tw-text-5xl tw-p-8 tw-py-5 tw-mt-[5px] tw-text-white tw-font-bold tw-rounded-lg tw-shadow-lg"
     >
-      BUY NOW
+      {{ section.settings.offer_button }}
     </a>
   </div>
 </section>
@@ -99,27 +83,6 @@
       "default": "SHOP GLOVE TAN"
     },
     {
-      "type": "image_picker",
-      "id": "offer_image_1",
-      "label": "Offer 1 Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "offer_image_2",
-      "label": "Offer 2 Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "offer_image_3",
-      "label": "Offer 3 Image"
-    },
-    {
-      "type": "text",
-      "id": "offer_description",
-      "label": "Description",
-      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
       "type": "text",
       "id": "offer_button",
       "label": "Button",
@@ -129,7 +92,7 @@
       "type": "text",
       "id": "offer_url",
       "label": "URL",
-      "default": "#"
+      "default": "/products/glove"
     }
   ]
 }

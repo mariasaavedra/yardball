@@ -1,95 +1,49 @@
-<div class="tw-hidden md:tw-block tw-border-b-[1px] tw-py-8 md:tw-pt-8  tw-w-full">
+<div class="tw-hidden md:tw-block tw-border-b-[1px] tw-py-8 md:tw-pt-8 tw-w-full">
   <span></span>
 </div>
-{% comment %}     - {{ variant.id }} {% endcomment %}
-<section class=" md:tw-mb-0  tw-mb-16  tw-text-center tw-grid-cols-3 tw-w-full tw-pt-2 tw-justify-items-center tw-gap-2 md:tw-gap-8  tw-grid ">
+{% comment %} - {{ variant.id }} {% endcomment %}
+<section class="md:tw-mb-0 tw-mb-16 tw-text-center tw-grid-cols-3 tw-w-full tw-pt-2 tw-justify-items-center tw-gap-2 md:tw-gap-8 tw-grid">
   {% if product.variants.size > 0 -%}
+    {% assign base_price = product.variants.first.price %}
     {% for variant in product.variants -%}
-      {% comment %} First {% endcomment %}
-      {% if variant == product.variants[0] %}
-        {% assign selected = 'tw-bg-cream' %}
-        {% if product.variants[0].selected == true %}
-          {% assign selected = 'tw-bg-[#450a0a] tw-text-white selected' %}
-        {% endif %}
-        <a
-          href="{{ product.variants[0].url }}"
-          class="hover:tw-shadow-lg tw-transition-all tw-rounded-[4px] tw-justify-evenly tw-w-full tw-max-w-[310px] tw-flex tw-flex-col tw-relative  {{ selected  }} tw-border-4 tw-pt-6 tw-pb-14  tw-border-brown"
-        >
-          <h1 class="tw-my-0 md:tw-text-5xl tw-text-inherit ">1 Ball</h1>
-          <img
-            src="//yard-ball.myshopify.com/cdn/shop/files/YARDBALL_1.png?v=1688943246&amp;width=250"
-            alt=""
-            width="80"
-            height="227"
-            loading="lazy"
-            class=" tw-mx-auto tw-block bb-1"
-            sizes="100"
-          >
-
-          <h3 class="tw-text-3xl tw-text-inherit tw-mt-0">$34.99</h3>
-          <!-- <h4 class="tw-uppercase md:tw-text-4xl tw-font-bold tw-font-heading  tw-text-inherit ">Per Ball</h4> -->
-        </a>
+      {% assign selected = 'tw-bg-cream' %}
+      {% if variant.selected %}
+        {% assign selected = 'tw-bg-[#450a0a] tw-text-white selected' %}
       {% endif %}
-
-      {% if variant == product.variants[1] %}
-        {% assign selected = 'tw-bg-cream' %}
-        {% if product.variants[1].selected == true %}
-          {% assign selected = 'tw-bg-[#450a0a] tw-text-white selected' %}
+      
+      {% assign package_amount = variant.title | split: ' ' %}
+      {% assign package_amount = package_amount[0] | plus: 0 %}
+      {% assign original_price = base_price | times: forloop.index %}
+      
+      <a
+        href="{{ variant.url }}"
+        class="hover:tw-shadow-lg tw-transition-all tw-rounded-[4px] tw-justify-evenly tw-w-full tw-max-w-[310px] tw-flex tw-flex-col tw-relative {{ selected }} tw-border-4 tw-pt-6 tw-pb-14 tw-border-brown"
+      >
+        {% if forloop.index == 2 %}
+          <div class="tw-absolute tw-left-0 md:tw-w-2/3 tw-mx-auto tw-right-0 tw-top-[-20px] tw-overflow-visible tw-rounded-lg md:tw-p-[2px] md:tw-py-0 tw-bg-brown">
+            <span style="font-size: 11px;" class="tw-font-bold tw-text-black tw-font-heading tw-text-[10px]">MOST POPULAR</span>
+          </div>
         {% endif %}
-        <a
-          href="{{ product.variants[1].url }}"
-          class="hover:tw-shadow-lg tw-transition-all  tw-rounded-[4px] tw-justify-evenly tw-w-full tw-max-w-[310px] tw-flex tw-flex-col tw-relative  {{ selected  }} tw-border-4 tw-pt-6 tw-pb-14  tw-border-brown"
+        
+        <h1 class="tw-my-0 md:tw-text-5xl tw-text-inherit">{{ forloop.index }} Ball</h1>
+        <img
+          src="//yard-ball.myshopify.com/cdn/shop/files/YARDBALL_1.png?v=1688943246&amp;width=250"
+          alt=""
+          width="80"
+          height="227"
+          loading="lazy"
+          class="tw-mx-auto tw-block bb-1"
+          sizes="100"
         >
-          <div class="tw-absolute  tw-left-0 md:tw-w-2/3 tw-mx-auto tw-right-0 tw-top-[-20px]  tw-overflow-visible tw-rounded-lg md:tw-p-[2px] md:tw-py-0 tw-bg-brown">
-            <span class="tw-font-bold tw-text-black  tw-font-heading tw-text-[14px]">MOST POPULAR</span>
-          </div>
-          <h1 class="tw-my-0 md:tw-text-5xl tw-text-inherit">2 Ball</h1>
-          <img
-            src="//yard-ball.myshopify.com/cdn/shop/files/YARDBALL_2.png?v=1688943246&amp;width=250"
-            alt=""
-            width="80"
-            height="227"
-            loading="lazy"
-            class="tw-mx-auto tw-block bb-1"
-            sizes="100"
-          >
-          <h3 class="tw-text-3xl tw-line-through tw-text-red-500  tw-mt-0">$69.98</h3>
-          <h3 class="tw-text-3xl tw-text-inherit   tw-mt-0">$59.99</h3>
-          <!-- <h4 class="tw-uppercase md:tw-text-4xl tw-font-bold tw-font-heading  tw-text-inherit ">Per Ball</h4> -->
-          <div class="tw-absolute tw-left-0 tw-right-0  tw-bottom-0 tw-w-full  tw-z-50 tw-text-black  tw-bg-brown">
-            <span class="tw-font-bold tw-font-heading ">+ FREE SHIPPING</span>
-          </div>
-        </a>
-      {% endif %}
-      {% comment %} Second {% endcomment %}
-      {% if variant == product.variants[2] %}
-        {% assign selected = 'tw-bg-cream' %}
-        {% if product.variants[2].selected == true %}
-          {% assign selected = 'tw-bg-[#450a0a] tw-text-white selected' %}
-        {% endif %}
-        <a
-          href="{{ product.variants[2].url }}"
-          class="hover:tw-shadow-lg tw-transition-all  tw-rounded-[4px] tw-justify-evenly tw-w-full tw-max-w-[310px] tw-flex tw-flex-col tw-relative  {{ selected  }} tw-border-4 tw-pt-6 tw-pb-14  tw-border-brown"
-        >
-          <h1 class="tw-my-0 md:tw-text-5xl tw-text-inherit">3 Ball</h1>
-          <img
-            src="//yard-ball.myshopify.com/cdn/shop/files/YARDBALL_3.png?v=1688943246&amp;width=250"
-            alt=""
-            width="80"
-            height="227"
-            loading="lazy"
-            class=" tw-mx-auto tw-block bb-1"
-            sizes="100"
-          >
-          <h3 class="tw-text-3xl tw-line-through tw-text-red-500  tw-mt-0">$104.97</h3>
-          <h3 class="tw-text-3xl tw-text-inherit   tw-mt-0">$79.99</h3>
-          <!-- <h4 class="tw-uppercase md:tw-text-4xl tw-font-bold tw-font-heading  tw-text-inherit ">Per Ball</h4> -->
-          <div class="tw-absolute tw-left-0 tw-right-0  tw-bottom-0 tw-w-full  tw-z-50 tw-text-black  tw-bg-brown">
-            <span class="tw-font-bold tw-font-heading ">+ FREE SHIPPING</span>
-          </div>
-        </a>
-      {% endif %}
-      {% comment %} Third {% endcomment %}
-    {%- endfor %}
-  {%- endif %}
+        {% unless forloop.index == 1%}
+          <h3 class="tw-text-3xl tw-line-through tw-text-red-500 tw-mt-0">{{ product.price | times: forloop.index  | money }}<h3>
+        {% endunless %}
+        <h3 class="tw-text-3xl tw-text-inherit tw-mt-0">{{ variant.price | money }}</h3>
+        <!-- <h4 class="tw-uppercase md:tw-text-4xl tw-font-bold tw-font-heading tw-text-inherit">Per Ball</h4> -->
+        <div class="tw-absolute tw-left-0 tw-right-0 tw-bottom-0 tw-w-full tw-z-50 tw-text-black tw-bg-brown">
+          <span class="tw-font-bold tw-font-heading">+ FREE SHIPPING</span>
+        </div>
+      </a>
+    {% endfor %}
+  {% endif %}
 </section>

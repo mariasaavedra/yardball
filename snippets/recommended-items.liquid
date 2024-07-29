@@ -1,65 +1,27 @@
+{% comment %}
+  This section template will dynamically pull product data using Liquid.
+{% endcomment %}
 <section class="tw-container tw-pt-4 md:tw-pt-16 tw-mx-auto">
   <h3 class="tw-mx-auto tw-text-center tw-uppercase tw-my-12 tw-font-body tw-font-semibold">You may also like</h3>
-  <div class="tw-mx-auto tw-grid tw-grid-cols-4 tw-grid-rows-1 tw-gap-8 ">
-    <a href="/products/midnight">
-      <figure class="tw-flex tw-flex-col">
-        <img
-          class="tw-rounded-lg"
-          alt=""
-          loading="lazy"
-          src="https://cdn.shopify.com/s/files/1/0756/7432/1181/files/midnight-thumb.png?v=1688954229"
-        >
-        <figcaption class="tw-my-8">
-          <p class="tw-font-bold">YARDBALL</p>
-          <p class="tw-font-heading tw-text-[14px] tw-mt-4">Midnight</p>
-          <p>$39.99</p>
-        </figcaption>
-      </figure>
-    </a>
-    <a href="/products/burgundy">
-      <figure class="tw-flex tw-flex-col">
-        <img
-          class="tw-rounded-lg"
-          alt=""
-          loading="lazy"
-          src="https://cdn.shopify.com/s/files/1/0756/7432/1181/files/burgundy-thumb.png?v=1688954229"
-        >
-        <figcaption class="tw-my-8">
-          <p class="tw-font-bold">YARDBALL</p>
-          <p class="tw-font-heading tw-text-[14px] tw-mt-4">Burgundy</p>
-          <p>$39.99</p>
-        </figcaption>
-      </figure>
-    </a>
-    <a href="/products/natural">
-      <figure class="tw-flex tw-flex-col">
-        <img
-          class="tw-rounded-lg"
-          alt=""
-          loading="lazy"
-          src="https://cdn.shopify.com/s/files/1/0756/7432/1181/files/nat-thumb.png?v=1688954229"
-        >
-        <figcaption class="tw-my-8">
-          <p class="tw-font-bold">YARDBALL</p>
-          <p class="tw-font-heading tw-text-[14px] tw-mt-4">Natural</p>
-          <p>$39.99</p>
-        </figcaption>
-      </figure>
-    </a>
-    <a href="/products/glove">
-      <figure class="tw-flex tw-flex-col">
-        <img
-          class="tw-rounded-lg"
-          alt=""
-          loading="lazy"
-          src="https://cdn.shopify.com/s/files/1/0756/7432/1181/files/glove-ball.png?v=1689263489"
-        >
-        <figcaption class="tw-my-8">
-          <p class="tw-font-bold">YARDBALL</p>
-          <p class="tw-font-heading tw-text-[14px] tw-mt-4">Glove</p>
-          <p>$39.99</p>
-        </figcaption>
-      </figure>
-    </a>
+  <div class="tw-mx-auto tw-grid tw-grid-cols-4 tw-grid-rows-1 tw-gap-8">
+    {% assign product_handles = 'midnight,burgundy,natural,glove' | split: ',' %}
+    {% for product_handle in product_handles %}
+      {% assign product = all_products[product_handle] %}
+      <a href="{{ product.url }}">
+        <figure class="tw-flex tw-flex-col">
+          <img
+            class="tw-rounded-lg"
+            alt="{{ product.title }}"
+            loading="lazy"
+            src="{{ product.featured_image | image_url: width: 240, height: 240 }}"
+          >
+          <figcaption class="tw-my-8">
+            <p class="tw-font-bold">YARDBALL</p>
+            <p class="tw-font-heading tw-text-[14px] tw-mt-4">{{ product.title }}</p>
+            <p>{{ product.price | money }}</p>
+          </figcaption>
+        </figure>
+      </a>
+    {% endfor %}
   </div>
 </section>

@@ -3249,9 +3249,4 @@ div#Banner-template--18972124250397__image_banner {
   transform: translateZ(0);
 }
 
-.card.card--standard.card--media.card--shape:hover,
-.card__information:hover {
-  transition: all 0.25s cubic-bezier(.17, .67, .83, .67);
-}
-
 

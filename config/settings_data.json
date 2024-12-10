@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/logo-small.png",
+    "logo": "shopify://shop_images/red.png",
     "logo_width": 120,
     "type_header_font": "quicksand_n4",
     "heading_scale": 100,
@@ -135,9 +135,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",

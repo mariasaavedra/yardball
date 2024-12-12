@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -21,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "SHOP THE CLASSIC",
-            "button_link_1": "shopify:\/\/products\/glove",
+            "button_link_1": "shopify://products/glove",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -40,7 +49,7 @@
         ".subtitle {max-width: 355px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/hero-bg_608c799f-a9ca-4cce-9262-58fd7f486fb7.png",
+        "image": "shopify://shop_images/hero-bg_608c799f-a9ca-4cce-9262-58fd7f486fb7.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-left",
@@ -95,10 +104,6 @@
       "disabled": true,
       "settings": {
         "offer_title": "SHOP \"GLOVE TAN\"",
-        "offer_image_1": "shopify:\/\/shop_images\/YARDBALL_1.png",
-        "offer_image_2": "shopify:\/\/shop_images\/YARDBALL_2.png",
-        "offer_image_3": "shopify:\/\/shop_images\/YARDBALL_3.png",
-        "offer_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "offer_button": "Buy now",
         "offer_url": "#"
       }
@@ -106,7 +111,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "SHOP THE AMERICAN MADE COLLECTION",
+        "title": "OR SHOP THE AMERICAN MADE COLLECTION",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -138,7 +143,7 @@
         "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-0": {
           "type": "column",
           "settings": {
-            "title": "<strong>Great service. Great product.<\/strong>",
+            "title": "<strong>Great service. Great product.</strong>",
             "text": "\"Great product. Thoughtfully made. Reminds me of the paper balls we would make as kids. This is the adult version. Feels great in your hand. My son and I can’t put it down!\"",
             "columns_desktop": 4,
             "columns_mobile": "1",
@@ -171,7 +176,7 @@
         "template--18971860042013__cee87141-1f44-4c29-a66a-f1af0333d1e8-168457235257da63cc-3": {
           "type": "column",
           "settings": {
-            "title": "<strong>Great ball excellent construction<\/strong>",
+            "title": "<strong>Great ball excellent construction</strong>",
             "text": "\"My son and I have been playing catch with it since it arrived a couple of day ago. Throwing it back and forth during games has become our new favorite game.\"",
             "columns_desktop": 4,
             "columns_mobile": "1",
@@ -210,10 +215,10 @@
         "masonry_image_title_r1": "Goes where you go",
         "masonry_image_title_r2": "SPONTANEOUS FUN",
         "masonry_image_title_r3": "The Perfect Size",
-        "masonry_image": "shopify:\/\/shop_images\/promo1.png",
-        "masonry_image_r1": "shopify:\/\/shop_images\/promo2.png",
-        "masonry_image_r2": "shopify:\/\/shop_images\/bar_soap.png",
-        "masonry_image_r3": "shopify:\/\/shop_images\/Yardball_Ad_-_Grass_Top_Down.jpg",
+        "masonry_image": "shopify://shop_images/promo1.png",
+        "masonry_image_r1": "shopify://shop_images/promo2.png",
+        "masonry_image_r2": "shopify://shop_images/bar_soap.png",
+        "masonry_image_r3": "shopify://shop_images/Yardball_Ad_-_Grass_Top_Down.jpg",
         "masonry_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "masonry_button": "Buy now",
         "masonry_url": "#"
@@ -237,21 +242,19 @@
       "settings": {
         "title": "Video Slider",
         "description": "",
-        "video1": "shopify:\/\/files\/videos\/sample-5s.mp4",
-        "video2": "shopify:\/\/files\/videos\/sample-5s.mp4",
-        "video3": "shopify:\/\/files\/videos\/sample-5s.mp4",
-        "video4": "shopify:\/\/files\/videos\/sample-5s.mp4",
-        "video5": "shopify:\/\/files\/videos\/sample-5s.mp4"
+        "video1": "shopify://files/videos/sample-5s.mp4",
+        "video2": "shopify://files/videos/sample-5s.mp4",
+        "video3": "shopify://files/videos/sample-5s.mp4",
+        "video4": "shopify://files/videos/sample-5s.mp4",
+        "video5": "shopify://files/videos/sample-5s.mp4"
       }
     },
     "a120c528-d443-47ba-b640-d01792931d3f": {
       "type": "promo",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "promo_img_1": "shopify:\/\/shop_images\/guypattern.png",
-        "promo_img_2": "shopify:\/\/shop_images\/Frame_247.png",
+        "promo_img_1": "shopify://shop_images/guypattern.png",
+        "promo_img_2": "shopify://shop_images/Frame_247.png",
         "promo_title": "Hand sewn, hand thrown!",
         "promo_btn_title": "Shop Now"
       }

@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -62,19 +61,25 @@
         "9b630131-e6fa-4e2d-8f11-9ecaff364b4b": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/www.youtube.com\/watch?v=INCPDjSP83o\" data-fancybox>\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0756\/7432\/1181\/t\/3\/assets\/product-details-icon.png?v=1720638407\"\/>\n<\/a>"
+            "custom_liquid": "<a href=\"https://www.youtube.com/watch?v=INCPDjSP83o\" data-fancybox>\n  <img src=\"https://cdn.shopify.com/s/files/1/0756/7432/1181/t/3/assets/product-details-icon.png?v=1720638407\"/>\n</a>"
           }
         },
         "844c4b2c-e008-4970-a3db-ef518cc85c04": {
           "type": "rating",
           "disabled": true,
+          "settings": {}
+        },
+        "9537030b-b005-4274-99a9-6d1081884add": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
+            "product": "{{product}}"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "9537030b-b005-4274-99a9-6d1081884add",
         "caption",
         "variant_picker",
         "5faf2789-af30-4ea4-93a0-4b128ea25d38",
@@ -131,10 +136,28 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "fbea34cefa017ea9fe9b": {
+      "type": "apps",
+      "blocks": {
+        "52de7069-c1ad-4c60-969f-02a04a3b2913": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "52de7069-c1ad-4c60-969f-02a04a3b2913"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
+    "fbea34cefa017ea9fe9b",
     "55b776f4-0ad0-459b-a02f-833e7cbada7d",
     "related-products",
     "1688946017c2db4e3c"
